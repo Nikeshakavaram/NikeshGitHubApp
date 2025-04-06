@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>sla_service_tower</name>
+        <scoped_name>x_attm_mysla_sla_service_tower</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-07-17 10:31:21</sys_created_on>
+        <sys_id>93b4ac0c1b727b407a3542edee4bcb69</sys_id>
+        <sys_mod_count>171</sys_mod_count>
+        <sys_name>sla_service_tower</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_macro_93b4ac0c1b727b407a3542edee4bcb69</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-10-01 11:48:44</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	 
+	<style>
+		.centerthis{
+		text-align:center;
+		}
+	</style>
+	 
+	
+	
+				<!--Fetching objects to poopulate all the selectboxes-->
+				 <g:evaluate var="jvar_serviceTower" object="true" jelly="true">
+				var serviceTower = new GlideRecord("x_attm_mysla_scoped_products");
+				serviceTower.addQuery('type','Service-Tower');
+				serviceTower.query();			
+				serviceTower;
+				</g:evaluate>
+				
+				<!--Fetching object for Products-->
+				 <g:evaluate var="jvar_products" object="true" jelly="true">
+				var products = new GlideRecord("x_attm_mysla_scoped_products");
+				products.addQuery('type','Product');
+				products.query();			
+				products;
+				</g:evaluate>
+			
+				
+					<!--Fetching object for Component Type-->
+				 <g:evaluate var="jvar_componentType" object="true" jelly="true">
+				var componentType = new GlideRecord("x_attm_mysla_scoped_products");
+				componentType.addQuery('type','Component Type');
+				componentType.query();			
+				componentType;
+				</g:evaluate>
+				
+				
+				<!--Fetching object for Software-->
+				 <g:evaluate var="jvar_software" object="true" jelly="true">
+				var software = new GlideRecord("x_attm_mysla_scoped_products");
+				software.addQuery('type','Software');
+				software.query();			
+				software;
+				</g:evaluate>
+				
+				
+				<!--Fetching object for Vendor-->
+				 <g:evaluate var="jvar_vendor" object="true" jelly="true">
+				var vendor = new GlideRecord("x_attm_mysla_scoped_products");
+				vendor.addQuery('type','Vendor');
+				vendor.query();			
+				vendor;
+				</g:evaluate>
+	
+	
+
+	<button id="saveTowerDetailsButton" type="button" class="btn btn-info" onclick="saveTowerDetails()"><b>Save</b></button>
+    <table class="table table-hover" id="servicetower" >
+        <thead>
+            <tr>
+                <th bgcolor="#ADD8E6" colspan="5"></th>
+				<th bgcolor="#ADD8E6" class="centerthis" colspan="7">Component Counts</th>
+				<th bgcolor="#ADD8E6"></th>
+            </tr>
+			
+            <tr>
+                <th bgcolor="#ADD8E6" class="centerthis">Service/Tower</th>
+                <th bgcolor="#ADD8E6" class="centerthis">Product</th>
+                <th bgcolor="#ADD8E6" class="centerthis">Component Type</th>
+                <th bgcolor="#ADD8E6" class="centerthis">Software</th>
+                <th bgcolor="#ADD8E6" class="centerthis">Vendor</th>
+
+                 <th bgcolor="#ADD8E6">AP</th>
+				 <th bgcolor="#ADD8E6">CALA</th>
+				 <th bgcolor="#ADD8E6">Canada</th>
+				 <th bgcolor="#ADD8E6">EMEA</th>
+				 <th bgcolor="#ADD8E6">Japan</th>
+				 <th bgcolor="#ADD8E6">USA</th>
+              
+                <th bgcolor="#ADD8E6" class="centerthis">Total</th>
+				<th bgcolor="#ADD8E6"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <select class="tower form-control" onchange="updateAdditionalDetails(this)" readonly="readonly">
+						
+				<option value='None'>None</option>
+                <j:while test="${jvar_serviceTower.next()}">
+                    <option value="${jvar_serviceTower.getValue('value')}">
+						${jvar_serviceTower.getValue('value')}
+					</option>
+                </j:while>
+						
+                    </select>
+                </td>
+                <td>
+                    <select class="product form-control" onchange="updateAdditionalDetails(this)" readonly="readonly">
+						
+						<option value='None'>None</option>
+                       <j:while test="${jvar_products.next()}">
+                    <option value="${jvar_products.getValue('value')}">
+						${jvar_products.getValue('value')}
+					</option>
+					</j:while>
+						
+                    </select>
+                </td>
+                <td>
+                    <select class="componenttype form-control" onchange="updateAdditionalDetails(this)" readonly="readonly">
+                        
+						<option value='None'>None</option>
+						 <j:while test="${jvar_componentType.next()}">
+                    <option value="${jvar_componentType.getValue('value')}">
+						${jvar_componentType.getValue('value')}
+					</option>
+                </j:while>
+						
+						
+                    </select>
+                </td>
+                <td>
+                    <select class="software form-control" onchange="updateAdditionalDetails(this)" readonly="readonly">
+                       
+						<option value='None'>None</option>
+						 <j:while test="${jvar_software.next()}">
+                    <option value="${jvar_software.getValue('value')}">
+						${jvar_software.getValue('value')}
+					</option>
+                </j:while>
+						
+						
+                    </select>
+                </td>
+                <td>
+                    <select class="vendor form-control" onchange="updateAdditionalDetails(this)" readonly="readonly">
+                       
+						<option value='None'>None</option>
+						 <j:while test="${jvar_vendor.next()}">
+                    <option value="${jvar_vendor.getValue('value')}">
+						${jvar_vendor.getValue('value')}
+					</option>
+                </j:while>
+						
+						
+                    </select>
+                </td>
+                
+               
+				
+				
+                 <td><input class="AP_component form-control" style="width:52px; line-height: 12px;" type="text" onchange="updateAdditionalDetails(this)"/></td>
+				 <td><input class="CALA_component form-control" style="width:52px; line-height: 12px;" type="text" onchange="updateAdditionalDetails(this)"/></td>
+				 <td><input class="Canada_component form-control" style="width:52px; line-height: 12px;" type="text" onchange="updateAdditionalDetails(this)"/></td>
+                 <td><input class="EMEA_component form-control" style="width:52px; line-height: 12px;" type="text" onchange="updateAdditionalDetails(this)"/></td>
+				 <td><input class="Japan_component form-control" style="width:52px; line-height: 12px;" type="text" onchange="updateAdditionalDetails(this)"/></td>
+				 <td><input class="USA_component form-control" style="width:52px; line-height: 12px;" type="text" onchange="updateAdditionalDetails(this)"/></td>
+				
+				
+                <td>
+                    <input class="total_component form-control" type="text" readonly="readonly" />
+                </td>
+				<td>
+                   <!--<a><span class="icon-trash " style="color: red;" onclick="deleteRow(this)"></span></a>-->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+		var regionsArr = ['AP', 'CALA', 'Canada', 'EMEA', 'Japan', 'USA'];
+		var opConSysid = [];
+		
+		//populating table details
+		$j( document ).ready(function() {
+		
+		var ajaxCall = new GlideAjax('SLARequest_utils');
+		ajaxCall.addParam('sysparm_name','slaServiceTower_getDetails');
+		ajaxCall.addParam('sysparm_customReqID', g_form.getUniqueValue());
+		ajaxCall.getXML(getServiceTowerDetails);
+
+});
+		
+		
+		
+		
+		
+		function getServiceTowerDetails(response)
+		{
+			var result = response.responseXML.getElementsByTagName("result");
+			var serviceTableBody = result[0].getAttribute("serviceTableBody");
+			opConSysid = result[0].getAttribute("opConSysid");
+		
+		
+		//var additionalRowDetails = g_form.getValue('additional_row_scoped_products');
+		var additionalRowDetails = serviceTableBody;
+		
+		//Adding dummy rows to table
+		if(additionalRowDetails != '')
+		{
+		var additionalRowDetailsArr = additionalRowDetails.split('---');
+			for(var k = 0; k!= additionalRowDetailsArr.length-1; k++)
+			{
+				var clonedRow = $j("#servicetower > tbody tr:first").clone(true);
+				$j("#servicetower > tbody:last").append(clonedRow);
+			}
+		}
+
+		//Setting Id's to all inout elements
+		setIdsToInputs();
+		
+		
+		//Setting values back to the table
+		if(additionalRowDetails != '')
+		{
+			var tableColumns = ['tower' , 'product' , 'component' , 'software' , 'vendor' , 'AP_component' , 'CALA_component' , 'Canada_component' , 'EMEA_component' , 'Japan_component' , 'USA_component'];
+
+			for(var i = 0 ; i != additionalRowDetailsArr.length; i++ )
+			{
+					var cellValues = additionalRowDetailsArr[i].split('~');
+					for(var j = 0 ; j != tableColumns.length; j++ )
+					{
+						$j('#' + tableColumns[j] + i).val(cellValues[j]);
+					}
+
+			}
+		}
+		
+		
+		updateImpactedCircuits();
+		setTotalComponents();
+		
+		};
+		
+		
+		
+		
+		
+		
+		
+		//Save everything
+		function saveTowerDetails(){
+		$j('#saveTowerDetailsButton').text('Please Wait...')
+		var ajaxCall = new GlideAjax('SLARequest_utils');
+		ajaxCall.addParam('sysparm_name','slaServiceTower_updateDetails');
+		ajaxCall.addParam('sysparm_tableDetails', g_form.getValue('additional_row_scoped_products'));
+		ajaxCall.addParam('sysparm_recordSysId', opConSysid);
+		ajaxCall.getXML(informAfterSave);
+		}
+		
+		
+		function informAfterSave(response)
+		{
+			var informUser = response.responseXML.documentElement.getAttribute("answer");
+			$j('#saveTowerDetailsButton').text('Save')
+		}
+		
+		
+		
+		
+		
+		//Update values in Additional Details field
+		function updateAdditionalDetails(obj)
+		{
+			var rowLength =  $j('#servicetower > tbody>tr').length;
+		
+			var additonalRowDetails = '';
+			var fieldsArr = ['tower' , 'product' , 'component' , 'software' , 'vendor' , 'AP_component' , 'CALA_component' , 'Canada_component' , 'EMEA_component' , 'Japan_component' , 'USA_component' ];
+
+		for(var i = 0 ; i != rowLength; i++ )
+		{
+			for(var j = 0 ; j != fieldsArr.length; j++ )
+			{
+				//tower_0,product_0,component_0...
+				additonalRowDetails = additonalRowDetails + $j('#' + fieldsArr[j].toString() + i).val() + '~';
+			}
+		//Removing extra ~
+			additonalRowDetails = additonalRowDetails.substring(0 , additonalRowDetails.length-1) + '---';	
+		}
+		//Removing extra ---
+		additonalRowDetails = additonalRowDetails.substring(0 , additonalRowDetails.length-3)
+		
+			
+		g_form.setValue('additional_row_scoped_products', additonalRowDetails );
+		updateImpactedCircuits();
+		setTotalComponents()
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		//Setting ids to inputs in all rows
+		function setIdsToInputs()
+		{
+		var towerCount = 0;
+		$j( ".tower").map(function()
+				{
+				$j(this).attr('id','tower' + towerCount);
+		towerCount++;
+		  });
+
+		
+				var productCount = 0;
+		$j( ".product").map(function()
+				{		
+				$j(this).attr('id','product' + productCount);
+		productCount++;
+		  });
+		
+		var componentCount = 0;
+		$j( ".componenttype" ).map(function()
+				{		
+				$j(this).attr('id','component' + componentCount);
+		componentCount++;
+		  });
+		
+		var softwareCount = 0;
+		$j( ".software" ).map(function()
+				{		
+				$j(this).attr('id','software' + softwareCount);
+		softwareCount++;
+		  });
+		
+		
+		var vendorCount = 0;
+		$j( ".vendor" ).map(function()
+				{		
+			$j(this).attr('id','vendor' + vendorCount);
+		vendorCount++;
+  });
+		
+		var AP_componentCount = 0;
+		$j( ".AP_component" ).map(function()
+				{
+			$j(this).attr('id','AP_component' + AP_componentCount);
+		AP_componentCount++;
+  });
+		
+		var CALA_componentCount = 0;
+		$j( ".CALA_component" ).map(function()
+				{
+			$j(this).attr('id','CALA_component' + CALA_componentCount);
+		CALA_componentCount++;
+  });
+		
+		var Canada_componentCount = 0;
+		$j( ".Canada_component" ).map(function()
+				{
+			$j(this).attr('id','Canada_component' + Canada_componentCount);
+		Canada_componentCount++;
+  });
+		
+		var EMEA_componentCount = 0;
+		$j( ".EMEA_component" ).map(function()
+				{
+			$j(this).attr('id','EMEA_component' + EMEA_componentCount);
+		EMEA_componentCount++;
+  });
+		
+		var Japan_componentCount = 0;
+		$j( ".Japan_component" ).map(function()
+				{
+			$j(this).attr('id','Japan_component' + Japan_componentCount);
+		Japan_componentCount++;
+  });
+		
+		var USA_componentCount = 0;
+		$j( ".USA_component" ).map(function()
+				{
+			$j(this).attr('id','USA_component' + USA_componentCount);
+		USA_componentCount++;
+  });
+		
+		
+		var total_componentCount = 0;
+		$j( ".total_component" ).map(function()
+				{
+			$j(this).attr('id','total_component' + total_componentCount);
+		total_componentCount++;
+  });
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		//Update total value in Impacted Circuits according to geography (from scoped_products macro on SLA Request form)
+		function updateImpactedCircuits()
+		{
+		var AP_ImpactedCircuits = 0;
+		var AP_ImpactedDevices = 0;
+		$j( ".AP_component" ).map(function()
+				{
+				if( $j(this).parent().parent().find('.componenttype').val() == 'Circuit')
+					AP_ImpactedCircuits = AP_ImpactedCircuits + parseInt($j(this).val() || 0);
+				else
+					AP_ImpactedDevices = AP_ImpactedDevices + parseInt($j(this).val() || 0);
+		  });
+		$j('#AP_impactedCircuits').val(AP_ImpactedCircuits);
+		$j('#AP_impactedDevices').val(AP_ImpactedDevices);
+		
+		
+		var CALA_ImpactedCircuits = 0;
+		var CALA_ImpactedDevices = 0;
+		$j( ".CALA_component" ).map(function()
+				{
+				if( $j(this).parent().parent().find('.componenttype').val() == 'Circuit')
+					CALA_ImpactedCircuits = CALA_ImpactedCircuits + parseInt($j(this).val() || 0);
+				else
+					CALA_ImpactedDevices = CALA_ImpactedDevices + parseInt($j(this).val() || 0);
+		  });
+		$j('#CALA_impactedCircuits').val(CALA_ImpactedCircuits);
+		$j('#CALA_impactedDevices').val(CALA_ImpactedDevices);
+		
+		
+		var Canada_ImpactedCircuits = 0;
+		var Canada_ImpactedDevices = 0;
+		$j( ".Canada_component" ).map(function()
+				{
+				if( $j(this).parent().parent().find('.componenttype').val() == 'Circuit')
+					Canada_ImpactedCircuits = Canada_ImpactedCircuits + parseInt($j(this).val() || 0);
+				else
+					Canada_ImpactedDevices = Canada_ImpactedDevices + parseInt($j(this).val() || 0);
+		  });
+		$j('#Canada_impactedCircuits').val(Canada_ImpactedCircuits);
+		$j('#Canada_impactedDevices').val(Canada_ImpactedDevices);
+		
+		
+		var EMEA_ImpactedCircuits = 0;
+		var EMEA_ImpactedDevices = 0;
+		$j( ".EMEA_component" ).map(function()
+				{
+				if( $j(this).parent().parent().find('.componenttype').val() == 'Circuit')
+					EMEA_ImpactedCircuits = EMEA_ImpactedCircuits + parseInt($j(this).val() || 0);
+				else
+					EMEA_ImpactedDevices = EMEA_ImpactedDevices + parseInt($j(this).val() || 0);
+		  });
+		$j('#EMEA_impactedCircuits').val(EMEA_ImpactedCircuits);
+		$j('#EMEA_impactedDevices').val(EMEA_ImpactedDevices);
+		
+		
+		var Japan_ImpactedCircuits = 0;
+		var Japan_ImpactedDevices = 0;
+		$j( ".Japan_component" ).map(function()
+				{
+				if( $j(this).parent().parent().find('.componenttype').val() == 'Circuit')
+					Japan_ImpactedCircuits = Japan_ImpactedCircuits + parseInt($j(this).val() || 0);
+				else
+					Japan_ImpactedDevices = Japan_ImpactedDevices + parseInt($j(this).val() || 0);
+		  });
+		$j('#Japan_impactedCircuits').val(Japan_ImpactedCircuits);
+		$j('#Japan_impactedDevices').val(Japan_ImpactedDevices);
+		
+		
+		var USA_ImpactedCircuits = 0;
+		var USA_ImpactedDevices = 0;
+		$j( ".USA_component" ).map(function()
+				{
+				if( $j(this).parent().parent().find('.componenttype').val() == 'Circuit')
+					USA_ImpactedCircuits = USA_ImpactedCircuits + parseInt($j(this).val() || 0);
+				else
+					USA_ImpactedDevices = USA_ImpactedDevices + parseInt($j(this).val() || 0);
+		  });
+		$j('#USA_impactedCircuits').val(USA_ImpactedCircuits);
+		$j('#USA_impactedDevices').val(USA_ImpactedDevices);
+		
+		
+		
+		
+		var regionDetailsVal = '';
+		for(var i = 0 ; i != regionsArr.length; i++ )
+		{
+				var regionDetailsVal = regionDetailsVal + $j( "." +  regionsArr[i] ).map(function() 
+				{
+				var ap_Val = '';
+				if($j(this).attr('type') == 'checkbox')
+					ap_Val = $j(this).is(":checked");
+				else
+					ap_Val = $j(this).val();
+
+				return ap_Val;
+		  }).get().join('~') + '---';
+
+				}
+		var finalVal = regionDetailsVal.substring(0, regionDetailsVal.length-3);
+		g_form.setValue('region_details', finalVal);
+		
+		
+		
+		
+		
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		//Delete Rows from table
+	function deleteRow(trashIcon)
+		{
+		var rowLength =  $j('#servicetower > tbody>tr').length;
+		if(rowLength == 1)
+		{
+			alert('There needs to be atleast one row');
+			return false;
+		}
+		else
+		{
+			var confirmDelete = confirm('Are you sure you want to delete this entry');
+			if(confirmDelete == true)
+			{
+				$j(trashIcon).parent().parent().parent().remove();
+				setIdsToInputs();
+				updateAdditionalDetails();
+				updateImpactedCircuits();
+			}
+		}
+		}
+		
+		
+		
+		
+		
+		
+		
+		//Update 'total' fields(last cell in every row)
+		function setTotalComponents()
+		{
+			var rowLength =  $j('#servicetower > tbody>tr').length;
+		
+			//Setting total components for the current entry
+			var componentArr = ['AP_component' , 'CALA_component' , 'Canada_component' , 'EMEA_component' , 'Japan_component' , 'USA_component' ];
+
+			for(var m=0; m!= rowLength; m++)
+			{
+				var totalComponents = 0;
+				for(var n=0; n!= componentArr.length; n++)
+				{
+				totalComponents = totalComponents + parseInt($j('#' + componentArr[n] + m).val() || 0);
+				}
+			$j('#total_component' + m).val(totalComponents);
+			}
+		
+		
+		
+		
+		//Add Impacted Devices
+		var totalImpactedDevices = parseInt($j('#AP_impactedDevices').val() || 0) + parseInt($j('#CALA_impactedDevices').val() || 0) + parseInt($j('#Canada_impactedDevices').val() || 0) + parseInt($j('#EMEA_impactedDevices').val() || 0) + parseInt($j('#Japan_impactedDevices').val() || 0) + parseInt($j('#USA_impactedDevices').val() || 0);
+		$j('#totalImpactedDevices').text(totalImpactedDevices);
+		
+		//Add Impacted Circuits
+		var totalImpactedCircuits = parseInt($j('#AP_impactedCircuits').val() || 0) + parseInt($j('#CALA_impactedCircuits').val() || 0) + parseInt($j('#Canada_impactedCircuits').val() || 0) + parseInt($j('#EMEA_impactedCircuits').val() || 0) + parseInt($j('#Japan_impactedCircuits').val() || 0) + parseInt($j('#USA_impactedCircuits').val() || 0);
+		$j('#totalImpactedCircuits').text(totalImpactedCircuits);
+		
+		
+		}
+		
+		
+	</script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

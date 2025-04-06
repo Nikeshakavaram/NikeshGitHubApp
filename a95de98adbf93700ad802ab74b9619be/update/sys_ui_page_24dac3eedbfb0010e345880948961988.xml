@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var gdw = GlideDialogWindow.get();
+var recordID = gdw.getPreference('recordSysID');
+var ga = new GlideAjax('x_attm_mysla.userincidentdetails');
+ga.addParam('sysparm_name', 'inidentdetails');
+ga.addParam('sysparm_recordID', recordID);
+ga.getXML(userdetails);
+
+function userdetails(response)
+{
+	$j("#infoMessage").empty();
+	$j("#userdetailsheader").empty();
+	$j("#tableBody").empty();
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	var userindetails = JSON.parse(answer);
+	alert(userindetails);
+	var thead = '';
+	var row = '';
+	if(userindetails.details1.length >0)
+		
+		{
+			thead = '<tr><th scope="col">Number</th><th scope="col">State</th></tr>';
+		$j('#usertable > thead:last').append(thead);
+		
+			for(var i=0; i<userindetails.details1.length; i++)
+			{
+			row = row + '<tr  style=" background: chocolate"><td onclick="openrelatedrecord(this)" incid="'+ userindetails.details1[i].id + '">' + userindetails.details1[i].num + '</td><td >' + userindetails.details1[i].state  + '</td></tr>';
+		}
+		$j('#usertable > tbody:last').append(row);
+		}
+	else
+		$j('#infoMessage').html('<div ><b>There are no labor rates for this country</b></div>');
+		
+}
+
+function openrelatedrecord(inc)
+{
+	alert('you clicked on the incident with the sysid as follow' +$j(inc).attr('incid'));
+}
+	
+	
+	
+]]></client_script>
+        <description>This UI page has a good Significance of learning as the entire body will get constructed based from the Scritp include</description>
+        <direct>false</direct>
+        <endpoint>x_attm_mysla_Active_incidents_to_the_users (From script).do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div>
+	<div id="infoMessage">Please wait we are in process of finding the active tickets of the respective users...</div>
+	
+	<table class="table table-hover table-dark" id ="usertable">
+		<thead id = "userdetailsheader">
+			<tbody id="tableBody">
+			
+			<!-- here we will build the active incidents table based on the input from the script include --> 	
+				
+			
+				
+				</tbody>
+		</thead>
+		
+	</table>
+	</div>
+</j:jelly>]]></html>
+        <name>Active_incidents_to_the_users (From script)</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-30 06:13:12</sys_created_on>
+        <sys_id>24dac3eedbfb0010e345880948961988</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Active_incidents_to_the_users (From script)</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_page_24dac3eedbfb0010e345880948961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-24 10:03:29</sys_updated_on>
+    </sys_ui_page>
+</record_update>

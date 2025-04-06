@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_attm_mysla_mds_form</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLA - Populate fields on Load</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	var complexity = current.getValue('complexity');
+	var gr = new GlideRecord("x_attm_mysla_complexity_form");
+	if (gr.get(complexity)) {
+		g_scratchpad.deal = gr.getValue('deal').toString();
+		g_scratchpad.customer = gr.deal.u_customer_name.toString();
+		g_scratchpad.opportunity_id = gr.deal.u_rome_opportunity_id.toString();
+		g_scratchpad.short_description = gr.deal.short_description.toString();
+		g_scratchpad.products = gr.deal.u_product_names.toString();
+		g_scratchpad.srid = gr.deal.u_support_request.u_support_request_id.toString();
+		g_scratchpad.tov = gr.deal.u_tov.getDisplayValue();
+		g_scratchpad.probability = gr.deal.u_probability.toString();
+		g_scratchpad.u_product_names = gr.deal.u_product_names.toString();
+		g_scratchpad.attuid = gr.deal.attuid.toString();
+		g_scratchpad.rome_status = gr.deal.u_support_request.u_status.toString();
+		g_scratchpad.bet = gr.deal.bet.toString();
+		g_scratchpad.bet_comments = gr.deal.enter_the_reason.toString();
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-18 13:03:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1a3b7661b02b7004b8685507e4bcbf5</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>SLA - Populate fields on Load</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_b1a3b7661b02b7004b8685507e4bcbf5</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-10-09 07:53:12</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1a3b7661b02b7004b8685507e4bcbf5"/>
+</record_update>

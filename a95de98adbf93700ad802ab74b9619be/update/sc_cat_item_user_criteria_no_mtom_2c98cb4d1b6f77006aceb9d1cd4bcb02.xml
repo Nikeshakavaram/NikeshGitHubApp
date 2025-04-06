@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Complexity Form">7f6de5cadbf93700ad802ab74b961961</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>na571t@att.com</sys_created_by>
+        <sys_created_on>2019-08-27 07:37:18</sys_created_on>
+        <sys_id>2c98cb4d1b6f77006aceb9d1cd4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complexity Form.SNC External</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_2c98cb4d1b6f77006aceb9d1cd4bcb02</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-08-27 07:37:18</sys_updated_on>
+        <user_criteria display_value="">550c70bb1b2e7b8082c3217e6e4bcbf1</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

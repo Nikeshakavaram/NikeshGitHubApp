@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_labor_restrictions" table="x_attm_mysla_mds_form" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_labor_restrictions</element>
+            <name>x_attm_mysla_mds_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-18 11:26:17</sys_created_on>
+            <sys_id>bd65883687f6301048d0fea9cebb35c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_labor_restrictions</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_mds_form_type_of_labor_restrictions</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-18 11:26:17</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AP</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-18 11:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98bd5fe61b0e77004b8685507e4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-18 11:26:17</sys_updated_on>
+            <value>AP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CALA</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-18 11:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dcbd5fe61b0e77004b8685507e4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-18 11:26:17</sys_updated_on>
+            <value>CALA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-18 11:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10bd5fe61b0e77004b8685507e4bcbfa</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-08 16:06:53</sys_updated_on>
+            <value>Canada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMEA</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-18 11:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50bd5fe61b0e77004b8685507e4bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-18 11:26:17</sys_updated_on>
+            <value>EMEA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Japan</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-18 11:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90bd5fe61b0e77004b8685507e4bcbfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-18 11:26:17</sys_updated_on>
+            <value>Japan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-18 11:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58bd9b2a1b0e77004b8685507e4bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-18 11:26:17</sys_updated_on>
+            <value>USA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>None</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-23 19:17:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d191d0adb7a3380c2da62eb8a96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-23 19:17:03</sys_updated_on>
+            <value>none</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

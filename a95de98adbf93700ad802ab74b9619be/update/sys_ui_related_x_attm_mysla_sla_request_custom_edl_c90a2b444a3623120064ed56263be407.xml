@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="c90a2b444a3623120064ed56263be407" table="x_attm_mysla_sla_request" version="2" view="custom_edl">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Custom Request - Custom EDL" name="x_attm_mysla_sla_request" related_list="NULL" sys_domain="c90a2b444a3623120064ed56263be407" view="231aa7e31b144c506aceb9d1cd4bcb27">dd9aa7e71b144c506aceb9d1cd4bcbca</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:83c149821ba2ff007a3542edee4bcbbc</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:17:47</sys_created_on>
+            <sys_id>1d9aa7e71b144c506aceb9d1cd4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:17:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Custom Request - Custom EDL" name="x_attm_mysla_sla_request" related_list="NULL" sys_domain="c90a2b444a3623120064ed56263be407" view="231aa7e31b144c506aceb9d1cd4bcb27">dd9aa7e71b144c506aceb9d1cd4bcbca</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_attm_mysla_deal_team.request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:17:47</sys_created_on>
+            <sys_id>199aa7e71b144c506aceb9d1cd4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:17:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Custom Request - Custom EDL" name="x_attm_mysla_sla_request" related_list="NULL" sys_domain="c90a2b444a3623120064ed56263be407" view="231aa7e31b144c506aceb9d1cd4bcb27">dd9aa7e71b144c506aceb9d1cd4bcbca</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_attm_mydesign_attachments.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:17:47</sys_created_on>
+            <sys_id>9d9aa7e71b144c506aceb9d1cd4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:17:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Custom Request - Custom EDL" name="x_attm_mysla_sla_request" related_list="NULL" sys_domain="c90a2b444a3623120064ed56263be407" view="231aa7e31b144c506aceb9d1cd4bcb27">dd9aa7e71b144c506aceb9d1cd4bcbca</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:3cfd7e96db6ebf00c2da62eb8a961908</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:17:47</sys_created_on>
+            <sys_id>159aa7e71b144c506aceb9d1cd4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:17:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Custom Request - Custom EDL</calculated_name>
+            <filter/>
+            <name>x_attm_mysla_sla_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:17:47</sys_created_on>
+            <sys_domain>c90a2b444a3623120064ed56263be407</sys_domain>
+            <sys_domain_path/>
+            <sys_id>dd9aa7e71b144c506aceb9d1cd4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Custom Request - Custom EDL</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_related_x_attm_mysla_sla_request_custom_edl_dd9aa7e71b144c506aceb9d1cd4bcbca</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:17:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Custom EDL" name="custom_edl">231aa7e31b144c506aceb9d1cd4bcb27</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

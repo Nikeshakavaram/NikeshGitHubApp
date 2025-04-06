@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="WIP Custom Requests">66baa32edb5ef340779c62eb8a96193e</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>na571t@att.com</sys_created_by>
+        <sys_created_on>2019-09-09 10:52:04</sys_created_on>
+        <sys_id>e8d13e591bb337006aceb9d1cd4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>66baa32edb5ef340779c62eb8a96193e</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_report_users_groups_e8d13e591bb337006aceb9d1cd4bcb5a</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-09 10:52:04</sys_updated_on>
+        <user_id display_value="">94d49a5c1b2333006aceb9d1cd4bcbba</user_id>
+    </sys_report_users_groups>
+</record_update>

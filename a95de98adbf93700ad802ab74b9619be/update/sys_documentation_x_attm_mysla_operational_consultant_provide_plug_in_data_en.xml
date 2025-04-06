@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="provide_plug_in_data" label="Provide Plug-in Data (for manual SLA metrics)" language="en" table="x_attm_mysla_operational_consultant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>provide_plug_in_data</element>
+            <help/>
+            <hint/>
+            <label>Provide Plug-in Data (for manual SLA metrics)</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <plural>Provide Plug-in Data (for manual SLA metrics)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:19:29</sys_created_on>
+            <sys_id>b767ab64db973700c2da62eb8a9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Provide Plug-in Data (for manual SLA metrics)</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_operational_consultant_provide_plug_in_data_en</sys_update_name>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:19:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

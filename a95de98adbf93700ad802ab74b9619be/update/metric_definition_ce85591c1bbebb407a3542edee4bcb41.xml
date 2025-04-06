@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="metric_definition">
+    <metric_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <field>state</field>
+        <name>State Changes</name>
+        <number>MTRC0010004</number>
+        <order>100</order>
+        <script><![CDATA[if (current.state == 12)
+	{
+	answer=false;
+	mi.endDuration();
+	closeDurations(mi.current);
+}
+else
+	{
+	answer=true;
+}
+function closeDurations(current) {
+	var gr = new GlideRecord('metric_instance');
+	gr.addQuery('id', current.sys_id);
+	gr.addQuery('calculation_complete', false);
+	gr.addQuery('definition.type', 'field_value_duration');
+	gr.query();
+	while (gr.next()) {
+		var definition = new GlideRecord('metric_definition');
+		definition.get(gr.definition);
+		var mi = new MetricInstance(definition, current);
+		mi.endDuration();
+	}
+}
+]]></script>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-07-18 08:35:16</sys_created_on>
+        <sys_id>ce85591c1bbebb407a3542edee4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State Changes</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>metric_definition_ce85591c1bbebb407a3542edee4bcb41</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-07-18 08:35:16</sys_updated_on>
+        <table>x_attm_mysla_sla_request</table>
+        <timeline>false</timeline>
+        <type>field_value_duration</type>
+    </metric_definition>
+</record_update>

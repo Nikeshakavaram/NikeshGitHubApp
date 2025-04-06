@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_attm_mysla_complexity_form">pcs_performance=Yes^ORis_enhanced_report=Yes^ORis_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza=Yes^ORcustom_pcs=Yes^ORis_dxc_requested=Yes^ORis_custom=Yes^EQ<item display_value="Yes" endquery="false" field="pcs_performance" goto="false" newquery="false" operator="=" or="false" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="is_enhanced_report" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="custom_pcs" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="is_dxc_requested" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="is_custom" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>1000</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	var isValid = false;
+	var outputDocs = g_form.getValue('output_document_s_needed_to_satisfy_this_request');
+	var Opsdocs = g_scratchpad.reports_docs.split(',');
+	for(var i=0; i<Opsdocs.length; i++){
+		if(outputDocs.indexOf(Opsdocs[i]) > -1){
+			isValid = true;
+			break;
+		}
+	}
+	if(isValid == true){
+		g_form.setMandatory('custom_pcs',true);
+		g_form.setMandatory('is_custom',true);
+		g_form.setMandatory('is_dxc_requested',true);
+		g_form.setMandatory('is_enhanced_report',true);
+		g_form.setMandatory('is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza',true);
+		g_form.setMandatory('pcs_performance',true);
+	}
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setMandatory('custom_pcs',false);
+	g_form.setMandatory('is_custom',false);
+	g_form.setMandatory('is_dxc_requested',false);
+	g_form.setMandatory('is_enhanced_report',false);
+	g_form.setMandatory('is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza',false);
+	g_form.setMandatory('pcs_performance',false);
+	
+	g_form.setReadOnly('custom_pcs',true);
+	g_form.setReadOnly('is_custom',true);
+	g_form.setReadOnly('is_dxc_requested',true);
+	g_form.setReadOnly('is_enhanced_report',true);
+	g_form.setReadOnly('is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza',true);
+	g_form.setReadOnly('pcs_performance',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>SLA - Make Custom Operations Reports set 1 fields read only</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-14 11:09:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f633e95db0ab3845067e33648961925</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLA - Make Custom Operations Reports set 1 fields read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_1f633e95db0ab3845067e33648961925</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-14 11:44:50</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

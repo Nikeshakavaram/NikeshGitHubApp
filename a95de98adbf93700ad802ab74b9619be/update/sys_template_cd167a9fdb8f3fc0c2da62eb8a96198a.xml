@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Template 6</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Template 6 for creation of records in the indirect labour table</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-08-09 09:31:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cd167a9fdb8f3fc0c2da62eb8a96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Template 6</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_template_cd167a9fdb8f3fc0c2da62eb8a96198a</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-08-09 09:31:26</sys_updated_on>
+        <table>x_attm_mysla_indirect_labour</table>
+        <template>itil_classifications=Problem Management^indirect_support_role_s=Problem Manager or similar role required to manage Problem Management activities^data_source_s=Manual Tracking of Milestones/Tasks using Standard Project Management Template(s)^selected=false^suggested_fte=0^EQ</template>
+        <user display_value="">94d49a5c1b2333006aceb9d1cd4bcbba</user>
+        <view/>
+    </sys_template>
+</record_update>

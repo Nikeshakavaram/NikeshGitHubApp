@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>are_we_expected_to_include_access_in_the_sla_credit</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>SLA - Calculate process onSubmit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	//Type appropriate comment here, and begin script below
+	var process;
+	var customSLA1 = g_form.getValue('are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization');
+	var customSLA2 = g_form.getValue('does_this_sla_request_require_customization_of_tier_3_envelope_sla_s');
+	var customSLA3 = g_form.getValue('is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser');
+	var customSLA4 = g_form.getValue('are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio');
+	var customSLA5 = g_form.getValue('are_we_providing_enhanced_sla_plan_with_additional_customization');
+	var customSLA6 = g_form.getValue('are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization');
+	var customSLA7 = g_form.getValue('are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses');
+	var customSLA8 = g_form.getValue('does_the_sla_customization_include_network_integration_ni_vendors');
+	if(customSLA1 == 'Yes')
+		process = 'T3';
+	else if(customSLA5 == 'Yes')
+		process = 'Gold';
+	else if(customSLA3 == 'Yes' || customSLA4 == 'Yes')
+		process = 'Bronze';
+	else if(customSLA2 == 'Yes')
+		process = 'Silver';
+	else if(customSLA6 == 'Yes' || customSLA7 == 'Yes' || customSLA8 == 'Yes')
+		process = 'Platinum';
+	else{
+		var score1 = '0';
+		var score2 = '0';
+		var score3 = '0';
+		var score4 = '0';
+		var score5 = '0';
+		var score6 = '0';
+		var score7 = '0';
+		var score8 = '0';
+		var score9 = '0';
+		var score10 = '0';
+		var score11 = '0';
+		var score12 = '0';
+		if(g_form.getValue('has_the_requested_sla_customization_been_previously_approved_for_other_customers') != 'Unknown')
+			score1 = g_form.getValue('has_the_requested_sla_customization_been_previously_approved_for_other_customers');
+		if(g_form.getValue('does_the_sla_apply_to_product_s_that_we_frequently_customize') != 'Unknown')
+			score2 = g_form.getValue('does_the_sla_apply_to_product_s_that_we_frequently_customize');
+		if(g_form.getValue('does_the_sla_customization_apply_to_a_single_product') != 'Unknown')
+			score3 = g_form.getValue('does_the_sla_customization_apply_to_a_single_product');
+		if(g_form.getValue('does_the_requested_customization_apply_to_a_single_sla') != 'Unknown')
+			score4 = g_form.getValue('does_the_requested_customization_apply_to_a_single_sla');
+		if(g_form.getValue('are_we_expected_to_include_access_in_the_sla_credit') != 'Unknown')
+			score5 = g_form.getValue('are_we_expected_to_include_access_in_the_sla_credit');
+		if(g_form.getValue('does_the_customization_apply_to_continental_us_sites_only') != 'Unknown')
+			score6 = g_form.getValue('does_the_customization_apply_to_continental_us_sites_only');
+		if(g_form.getValue('sla_targets') != 'Unknown')
+			score7 = g_form.getValue('sla_targets');
+		if(g_form.getValue('sla_credits') != 'Unknown')
+			score8 = g_form.getValue('sla_credits');
+		if(g_form.getValue('sla_terms') != 'Unknown')
+			score9 = g_form.getValue('sla_terms');
+		if(g_form.getValue('does_the_sla_customization_require_integration_across_multiple_products') != 'Unknown')
+			score10 = g_form.getValue('does_the_sla_customization_require_integration_across_multiple_products');
+		if(g_form.getValue('does_the_sla_customization_include_proactive_site_to_site_performance_slas') != 'Unknown')
+			score11 = g_form.getValue('does_the_sla_customization_include_proactive_site_to_site_performance_slas');
+		if(g_form.getValue('does_the_sla_plan_require_100_compliance_with_no_deviation_from_customer_request') != 'Unknown')
+			score12 = g_form.getValue('does_the_sla_plan_require_100_compliance_with_no_deviation_from_customer_request');
+		var calculatedScore = parseInt(score1) + parseInt(score2) + parseInt(score3) + parseInt(score4) + parseInt(score5) + parseInt(score6) + parseInt(score7) + parseInt(score8) + parseInt(score9) + parseInt(score10) + parseInt(score11) + parseInt(score12);
+		g_form.setValue('score',calculatedScore);
+		if(calculatedScore >= 15)
+			process = 'Platinum';
+		else if(calculatedScore >= 10)
+			process = 'Gold';
+		else if(calculatedScore >= 5)
+			process = 'Silver';
+		else if(calculatedScore >= 0)
+			process = 'Bronze';
+	}
+	if(process){
+		g_form.setValue('process',process);
+		//	alert('Based on the answers provided to the questions this deal should follow ' + process + ' process');
+	}
+	//Calculating Reports Process
+	var reportProcess;
+	var customReport1 = g_form.getValue('pcs_performance');
+	var customReport2 = g_form.getValue('is_enhanced_report');
+	var customReport3 = g_form.getValue('is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza');
+	var customReport4 = g_form.getValue('custom_pcs');
+	var customReport5 = g_form.getValue('is_dxc_requested');
+	var customReport6 = g_form.getValue('is_custom');
+	if(customReport1 == 'Yes')
+		reportProcess = 'Bronze';
+	else if(customReport2 == 'Yes')
+		reportProcess = 'Silver';
+	else if(customReport3 == 'Yes' || customReport4 == 'Yes' || customReport5 == 'Yes')
+		reportProcess = 'Gold';
+	else if(customReport6 == 'Yes')
+		reportProcess = 'Platinum';
+	else{
+		var repScore1 = '0';
+		var repScore2 = '0';
+		var repScore3 = '0';
+		var repScore4 = '0';
+		var repScore5 = '0';
+		var repScore6 = '0';
+		var repScore7 = '0';
+		if(g_form.getValue('does_involve_ni') != 'Unknown')
+			repScore1 = g_form.getValue('does_involve_ni');
+		if(g_form.getValue('is_rpf_request') != 'Unknown')
+			repScore2 = g_form.getValue('is_rpf_request');
+		if(g_form.getValue('management_resource') != 'Unknown')
+			repScore3 = g_form.getValue('management_resource');
+		if(g_form.getValue('non_std_reporting') != 'Unknown')
+			repScore4 = g_form.getValue('non_std_reporting');
+		if(g_form.getValue('no_deviation_required') != 'Unknown')
+			repScore5 = g_form.getValue('no_deviation_required');
+		if(g_form.getValue('reports_customization') != 'Unknown')
+			repScore6 = g_form.getValue('reports_customization');
+		if(g_form.getValue('std_product') != 'Unknown')
+			repScore7 = g_form.getValue('std_product');
+		var calculatedReqScore = parseInt(repScore1) + parseInt(repScore2) + parseInt(repScore3) + parseInt(repScore4) + parseInt(repScore5) + parseInt(repScore6) + parseInt(repScore7);
+		g_form.setValue('reports_score',calculatedReqScore);
+		if(calculatedReqScore >= 15)
+			reportProcess = 'Platinum';
+		else if(calculatedReqScore >= 10)
+			reportProcess = 'Gold';
+		else if(calculatedReqScore >= 5)
+			reportProcess = 'Silver';
+		else if(calculatedReqScore >= 0)
+			reportProcess = 'Bronze';
+	}
+	if(reportProcess){
+		g_form.setValue('reports_process',reportProcess);
+		//	alert('Based on the answers provided to the questions this deal should follow ' + reportProcess + ' process');
+	}
+	if(g_form.getValue('process') == 'T3'){
+	       
+			g_navigation.openPopup('http://salesone.web.att.com/site/?appl=dpi');
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-13 09:52:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9f6154ddb8efb40ad802ab74b961943</sys_id>
+        <sys_mod_count>75</sys_mod_count>
+        <sys_name>SLA - Calculate process onSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_client_b9f6154ddb8efb40ad802ab74b961943</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-10-09 11:47:37</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

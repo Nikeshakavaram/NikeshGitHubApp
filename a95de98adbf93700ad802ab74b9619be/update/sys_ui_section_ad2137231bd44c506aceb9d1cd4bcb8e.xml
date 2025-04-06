@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Scoped - Products" section_id="ad2137231bd44c506aceb9d1cd4bcb8e" sys_domain="global" table="x_attm_mysla_sla_request" version="3" view="custom_edl">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_attm_mysla_scoped_products.xml</element>
+            <position>0</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:47:16</sys_created_on>
+            <sys_id>8551bb231bd44c506aceb9d1cd4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Scope-Products">5a1d236b1ba6f7407a3542edee4bcb2a</sys_ui_formatter>
+            <sys_ui_section caption="Scoped - Products" display_value="Scoped - Products" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">ad2137231bd44c506aceb9d1cd4bcb8e</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:47:16</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region_details</element>
+            <position>1</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:47:16</sys_created_on>
+            <sys_id>0151bb231bd44c506aceb9d1cd4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Scoped - Products" display_value="Scoped - Products" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">ad2137231bd44c506aceb9d1cd4bcb8e</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_attm_mysla_sla_service_tower.xml</element>
+            <position>2</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:47:16</sys_created_on>
+            <sys_id>0951bb231bd44c506aceb9d1cd4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Service/Tower">f914200c1b727b407a3542edee4bcbb9</sys_ui_formatter>
+            <sys_ui_section caption="Scoped - Products" display_value="Scoped - Products" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">ad2137231bd44c506aceb9d1cd4bcb8e</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:47:16</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_row_scoped_products</element>
+            <position>3</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:47:16</sys_created_on>
+            <sys_id>c151bb231bd44c506aceb9d1cd4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Scoped - Products" display_value="Scoped - Products" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">ad2137231bd44c506aceb9d1cd4bcb8e</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:47:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Scoped - Products</caption>
+            <header>false</header>
+            <name>x_attm_mysla_sla_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:46:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad2137231bd44c506aceb9d1cd4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_sla_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_ad2137231bd44c506aceb9d1cd4bcb8e</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:46:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom EDL" name="custom_edl">231aa7e31b144c506aceb9d1cd4bcb27</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

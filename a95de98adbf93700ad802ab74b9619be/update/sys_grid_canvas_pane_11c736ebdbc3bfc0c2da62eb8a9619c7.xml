@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">b9347f2adb9ef340779c62eb8a96199c</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2019-08-09 21:17:19">ddc736ebdbc3bfc0c2da62eb8a9619c3</portal_widget>
+        <posx>6</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>rr141k@att.com</sys_created_by>
+        <sys_created_on>2019-08-10 04:17:19</sys_created_on>
+        <sys_id>11c736ebdbc3bfc0c2da62eb8a9619c7</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>b9347f2adb9ef340779c62eb8a96199c</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_11c736ebdbc3bfc0c2da62eb8a9619c7</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-18 08:45:10</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

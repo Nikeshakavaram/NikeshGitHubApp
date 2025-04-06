@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-13 06:16:21</sys_created_on>
+        <sys_id>27c6e441db8afb40ad802ab74b961987</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_27c6e441db8afb40ad802ab74b961987</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-13 11:58:48</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <ui_policy display_value="SLA - Make Custom SLA fields read only">ebc6e801db8afb40ad802ab74b96196a</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

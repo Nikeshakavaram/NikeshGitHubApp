@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_attm_mysla_sla_request</collection>
+        <condition/>
+        <description>Set the accepted date/time field when state is set to "Accepted".</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_attm_mysla_sla_request">stateCHANGESTO1002^EQ<item display_value="Accepted" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="1002"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Hello World</p>]]></message>
+        <name>SLA - Set accepted date/time</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//alert("Hello World");
+	//current.u_glide_accepted_date_time = GlideDateTime().getDisplayValue();
+	current.u_glide_accepted_date_time = new GlideDateTime().getDisplayValue();
+})(current, previous);
+
+//current.state.changesTo('1010')]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>td908n@att.com</sys_created_by>
+        <sys_created_on>2019-09-04 20:41:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>470883b71baffb406aceb9d1cd4bcb45</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>SLA - Set accepted date/time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_470883b71baffb406aceb9d1cd4bcb45</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-05 12:44:18</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=470883b71baffb406aceb9d1cd4bcb45"/>
+</record_update>

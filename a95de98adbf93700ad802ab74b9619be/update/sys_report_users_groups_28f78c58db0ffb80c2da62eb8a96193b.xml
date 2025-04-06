@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="SLA Requests duration by states">ecf78c58db0ffb80c2da62eb8a96193a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-30 13:08:52</sys_created_on>
+        <sys_id>28f78c58db0ffb80c2da62eb8a96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ecf78c58db0ffb80c2da62eb8a96193a</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_report_users_groups_28f78c58db0ffb80c2da62eb8a96193b</sys_update_name>
+        <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-30 13:08:52</sys_updated_on>
+        <user_id display_value="">3654add7db22f340c2da62eb8a9619ea</user_id>
+    </sys_report_users_groups>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page/>
+        <name>PA New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+        <sys_created_on>2019-06-30 22:15:58</sys_created_on>
+        <sys_id>5275aba2db5ef340779c62eb8a9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_grid_canvas_5275aba2db5ef340779c62eb8a9619ff</sys_update_name>
+        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-06-30 22:15:58</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_attm_mysla.SLARequest_utils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SLARequest_utils</name>
+        <script><![CDATA[var SLARequest_utils = Class.create();
+SLARequest_utils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+	negotiatedDate_DueTomorrow: function(negotiated_date)
+	{
+		var negotiatedDateApproaching = false;
+		var gdt2 = new GlideDateTime(negotiated_date);
+		var currentDate = new GlideDateTime(new GlideDateTime().getDisplayValue()).getDate().getByFormat("YYYY-MM-dd");
+		var gdt1 = new GlideDateTime(currentDate);
+		
+		var duration = new GlideDuration();
+		duration = GlideDateTime.subtract(gdt1, gdt2); //the difference between gdt1 and gdt2
+		var difference = duration.getDayPart();
+		if(difference == 1 || difference == 0 ) //If days difference = 1 or 0
+			negotiatedDateApproaching = true;
+		
+		return negotiatedDateApproaching;
+	},
+	
+	negotiatedDate_DueNextWeek: function(negotiated_date)
+	{
+		var negotiatedDateApproaching = false;
+		var gdt2 = new GlideDateTime(negotiated_date);
+		var currentDate = new GlideDateTime(new GlideDateTime().getDisplayValue()).getDate().getByFormat("YYYY-MM-dd");
+		var gdt1 = new GlideDateTime(currentDate);
+		
+		var duration = new GlideDuration();
+		duration = GlideDateTime.subtract(gdt1, gdt2); //the difference between gdt1 and gdt2
+		var difference = duration.getDayPart();
+		if(difference <= 7 && difference >= 2) //If days difference = 2,3,4,5,6,7
+			negotiatedDateApproaching = true;
+		
+		return negotiatedDateApproaching;
+	},
+	
+	negotiatedDate_DueSoon: function(negotiated_date)
+	{
+		var negotiatedDateApproaching = false;
+		var gdt2 = new GlideDateTime(negotiated_date);
+		var currentDate = new GlideDateTime(new GlideDateTime().getDisplayValue()).getDate().getByFormat("YYYY-MM-dd");
+		var gdt1 = new GlideDateTime(currentDate);
+		
+		var duration = new GlideDuration();
+		duration = GlideDateTime.subtract(gdt1, gdt2); //the difference between gdt1 and gdt2
+		var difference = duration.getDayPart();
+		if(difference > 7) //If days difference > 7
+			negotiatedDateApproaching = true;
+		
+		return negotiatedDateApproaching;
+	},
+	
+	negotiatedDate_pastDue: function(negotiated_date)
+	{
+		var negotiatedDateApproaching = false;
+		var gdt2 = new GlideDateTime(negotiated_date);
+		var currentDate = new GlideDateTime(new GlideDateTime().getDisplayValue()).getDate().getByFormat("YYYY-MM-dd");
+		var gdt1 = new GlideDateTime(currentDate);
+		
+		var duration = new GlideDuration();
+		duration = GlideDateTime.subtract(gdt1, gdt2); //the difference between gdt1 and gdt2
+		var difference = duration.getDayPart();
+		if(difference < 0) //If negotiated date is in past
+			negotiatedDateApproaching = true;
+		
+		return negotiatedDateApproaching;
+	},
+	
+	
+	
+	//Below functions called from operational consultant ui macro
+	operationalConsultant_getTableDetails: function()
+	{
+		var customReqID = this.getParameter('sysparm_customReqID').toString();
+		var tableBody = '<tr><th><button type="button" class="btn btn-primary" onclick="saveAll()">Save</button></th>';
+		
+		var questions = gs.getProperty('x_attm_mysla.operational_consultant_questions');
+	
+		var questionJson = JSON.parse(questions);
+		var questionLength = questionJson.length;
+		var questionArr = [];
+		for(var n=0; n!=questionLength; n++)
+				{
+					questionArr.push(questionJson[n].name.toString());
+				}
+	
+		
+		var opCon = new GlideRecord("x_attm_mysla_operational_consultant");
+		opCon.addQuery("custom_request", customReqID.toString());
+		opCon.query();
+		var opConCount = opCon.getRowCount();
+
+		var recordDetails = [];
+		
+		if(opConCount != 0)
+			{
+				var counter1 = 1;
+				while(opCon.next())
+					{
+						tableBody = tableBody + '<td class="centerAlign" column="' + counter1 + '"><button type="button" sys_id="' + opCon.sys_id.toString() + '" class="btn btn-primary" onclick="deleteColumn(this)">Delete</button><button type="button" class="btn btn-primary" onclick="duplicateColumn(this)">Duplicate</button></td>';
+						counter1 = counter1 + 1;
+						
+						var json = {};
+						json.sys_id = opCon.sys_id.toString();
+						
+						
+						for(var k=0; k<questionArr.length; k++)
+							{
+								json[questionArr[k]] = opCon.getElement(questionArr[k]).toString() || 'None';
+							}
+						
+						
+						recordDetails.push(json);
+					}
+			}
+		//If no records, then show one column with a button at the top
+				else
+					{
+						tableBody = tableBody + '<td class="centerAlign" column="1"><button type="button" sys_id="" class="btn btn-primary" onclick="deleteColumn(this)">Delete</button><button type="button" class="btn btn-primary" onclick="duplicateColumn(this)">Duplicate</button></td>';
+						
+						var json2 = {};
+						json2.sys_id = '';
+						
+						for(var p=0; p<questionArr.length; p++)
+							{
+								json2[questionArr[p]] = 'None';
+							}
+						
+
+						recordDetails.push(json2);
+					}
+				
+			tableBody = tableBody + '</tr>';
+		//Up till here we have create the first row in the tbody(with delete and duplicate buttons)
+		
+		
+	
+		
+
+		
+				for(var i=0; i<questionLength; i++)
+				{
+					tableBody = tableBody + '<tr><th class="headingColor">' + questionJson[i].value + '</th>';
+					var counter2 = 1;
+					
+					for(var j=0; j<recordDetails.length; j++)
+						{
+							tableBody = tableBody + '<td column="' + counter2 + '">';
+							tableBody = tableBody + '<select class="form-control" onchange="setSelectedValue(this)">';
+							tableBody = tableBody + '<option>None</option>';
+							
+							var choice = new GlideRecord("sys_choice");
+							choice.addQuery("name", 'x_attm_mysla_operational_consultant');
+							choice.addQuery("element", questionJson[i].name.toString());
+							choice.orderBy('sequence');
+							choice.query();
+							while(choice.next())
+								{
+									if (choice.label.toString() != recordDetails[j][questionJson[i].name].toString())
+										tableBody = tableBody + '<option>' + choice.label + '</option>';
+									else
+										tableBody = tableBody + '<option selected="selected">' + choice.label + '</option>';
+								}
+							tableBody = tableBody + '</select></td>';
+							counter2 = counter2 + 1;
+						}
+					tableBody = tableBody + '</tr>';
+				}
+		
+	
+		return tableBody;
+	},
+	
+	
+	
+	
+	//Below functions called from operational consultant ui macro
+	operationalConsultant_deleteRecord: function()
+	{
+		var opConID = this.getParameter('sysparm_opConID').toString();
+		var columnNumber = this.getParameter('sysparm_columnNumber').toString();
+		
+		var opConDelete = new GlideRecord('x_attm_mysla_operational_consultant');
+		opConDelete.setLimit('1');
+		opConDelete.addQuery('sys_id', opConID.toString());
+		opConDelete.query();
+		if(opConDelete.next())
+			{
+				opConDelete.deleteRecord();
+			}
+		return columnNumber;
+	},
+	
+	
+	
+	
+	operationalConsultant_updateTable: function()
+	{
+		var tableDetails = this.getParameter('sysparm_tableDetails');
+		var customReqID = this.getParameter('sysparm_customReqID').toString();
+		
+
+		
+		var tableDetailsArr = JSON.parse(tableDetails);
+		var arrLen = tableDetailsArr.length;
+		var fieldNames = [];
+				
+		for(var key in tableDetailsArr[0])
+			{
+				if(key != 'sys_id')
+				fieldNames.push(key.toString());
+			}
+
+		var fieldNamesLen = fieldNames.length;
+	
+		for(var i=0; i<arrLen; i++)
+			{
+				var recordSysID = tableDetailsArr[i].sys_id;
+				if(recordSysID)
+					{	
+					var opConUpdate = new GlideRecord('x_attm_mysla_operational_consultant');
+					opConUpdate.setLimit('1');
+					opConUpdate.addQuery('sys_id', recordSysID.toString());
+					opConUpdate.query();
+					if(opConUpdate.next())
+						{
+							for(var j=0; j<fieldNamesLen; j++)
+								{
+								opConUpdate.setValue(fieldNames[j] , tableDetailsArr[i][fieldNames[j]]);
+								opConUpdate.update();
+								}
+						}
+					}
+				else
+					{
+						var opConCreate = new GlideRecord('x_attm_mysla_operational_consultant');
+						opConCreate.initialize();
+						opConCreate.custom_request = customReqID;
+						for(var k=0; k<fieldNamesLen; k++)
+								{
+								opConCreate.setValue(fieldNames[k] , tableDetailsArr[i][fieldNames[k]]);
+								}
+						opConCreate.insert();
+						
+					}
+			}
+		return 'Data saved';
+	},
+	
+	operationalConsultant_addOption : function()
+	{
+		var dictionary = new GlideRecord("sys_dictionary");
+		dictionary.setLimit(1);
+		dictionary.addQuery("name" , 'x_attm_mysla_operational_consultant');
+		dictionary.addQuery("column_label", this.getParameter('sysparm_selectBox').toString());
+		dictionary.query();
+		if (dictionary.next()) {
+			var gr = new GlideRecord("sys_choice");
+			gr.initialize();
+			gr.name = dictionary.name.toString();
+			gr.element = dictionary.element.toString();
+			gr.language = 'en';
+			gr.label = this.getParameter('sysparm_selectOption').toString();
+			gr.value = this.getParameter('sysparm_selectOption').toString();
+			gr.insert();
+		}
+		return 'Option added';
+
+	},
+	
+	
+	
+	
+	//Below function called from the UI macro - sla_service_tower
+	slaServiceTower_getDetails: function()
+	{
+		var result = this.newItem("result");
+		
+		var customReqID = this.getParameter('sysparm_customReqID').toString();
+		
+		var opConDetails = new GlideRecord('x_attm_mysla_operational_consultant');
+		opConDetails.addQuery('custom_request', customReqID.toString());
+		opConDetails.query();
+		var towerDetails = '';
+		var opConSysid = [];
+		while(opConDetails.next())
+			{
+				towerDetails = towerDetails + opConDetails.service_tower + '~' + opConDetails.at_t_product_ni + '~' + opConDetails.component_type + '~' + opConDetails.software + '~' + opConDetails.vendor + '~' + opConDetails.component_counts_ap + '~' + opConDetails.component_counts_cala + '~' + opConDetails.component_counts_canada + '~' + opConDetails.component_counts_emea + '~' + opConDetails.component_counts_japan + '~' + opConDetails.component_counts_usa + '---';
+				
+				opConSysid.push(opConDetails.sys_id.toString()); 
+			}
+		
+		towerDetails = towerDetails.substring(0, towerDetails.length - 3);
+		
+		   result.setAttribute("serviceTableBody", towerDetails);
+		result.setAttribute("opConSysid", opConSysid);
+		
+	},
+	
+	//Below function called from the UI macro - sla_service_tower
+	slaServiceTower_updateDetails: function()
+	{
+	
+		var tableDetails = this.getParameter('sysparm_tableDetails').toString();
+		var recordSysId = this.getParameter('sysparm_recordSysId').toString();
+		
+		recordSysId = recordSysId.split(',');
+		tableDetails = tableDetails.split('---');
+		
+		for(var i=0; i<recordSysId.length; i++)
+			{
+			var opConDetails = new GlideRecord('x_attm_mysla_operational_consultant');
+			opConDetails.setLimit(1);
+			opConDetails.addQuery('sys_id', recordSysId[i].toString());
+			opConDetails.query();
+
+			if(opConDetails.next())
+				{
+					var fieldVal = tableDetails[i].split('~');
+					
+					opConDetails.component_counts_ap = fieldVal[5];
+					opConDetails.component_counts_cala = fieldVal[6];
+					opConDetails.component_counts_canada = fieldVal[7];
+					opConDetails.component_counts_emea = fieldVal[8];
+					opConDetails.component_counts_japan = fieldVal[9];
+					opConDetails.component_counts_usa = fieldVal[10];
+					opConDetails.update();
+				}
+			}
+		return 'Data Saved';
+	}
+	
+	
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-30 04:02:08</sys_created_on>
+        <sys_id>4ff98284db4fbb80c2da62eb8a961946</sys_id>
+        <sys_mod_count>173</sys_mod_count>
+        <sys_name>SLARequest_utils</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_include_4ff98284db4fbb80c2da62eb8a961946</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-01 04:50:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

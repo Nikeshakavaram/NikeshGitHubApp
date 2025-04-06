@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Operational Architecture" section_id="182fadc21b0ff7c07a3542edee4bcb76" sys_domain="global" table="x_attm_mysla_sla_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_architecture_for</element>
+            <position>0</position>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-14 15:21:42</sys_created_on>
+            <sys_id>283679051b13b7007a3542edee4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operational Architecture" display_value="Operational Architecture" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">182fadc21b0ff7c07a3542edee4bcb76</sys_ui_section>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 15:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>summary</element>
+            <position>1</position>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-14 15:21:42</sys_created_on>
+            <sys_id>2036b1451b13b7007a3542edee4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operational Architecture" display_value="Operational Architecture" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">182fadc21b0ff7c07a3542edee4bcb76</sys_ui_section>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 15:21:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_attm_mysla_operational_consultant.xml</element>
+            <position>2</position>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-14 15:21:42</sys_created_on>
+            <sys_id>a436b1451b13b7007a3542edee4bcb1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="operational_consultant">5b113d461b0ff7c07a3542edee4bcbdd</sys_ui_formatter>
+            <sys_ui_section caption="Operational Architecture" display_value="Operational Architecture" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">182fadc21b0ff7c07a3542edee4bcb76</sys_ui_section>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 15:21:42</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Operational Architecture</caption>
+            <header>false</header>
+            <name>x_attm_mysla_sla_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-05 07:09:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>182fadc21b0ff7c07a3542edee4bcb76</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_attm_mysla_sla_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_182fadc21b0ff7c07a3542edee4bcb76</sys_update_name>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 00:51:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

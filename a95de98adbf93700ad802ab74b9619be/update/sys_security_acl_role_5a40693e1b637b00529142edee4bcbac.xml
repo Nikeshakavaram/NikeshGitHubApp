@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>rr141k@att.com</sys_created_by>
+        <sys_created_on>2019-09-01 10:35:14</sys_created_on>
+        <sys_id>5a40693e1b637b00529142edee4bcbac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_attm_mysla_operational_consultant.public</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_security_acl display_value="x_attm_mysla_operational_consultant.*">2e54bb56db4bf7c0c2da62eb8a961931</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5a40693e1b637b00529142edee4bcbac</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-01 13:28:38</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

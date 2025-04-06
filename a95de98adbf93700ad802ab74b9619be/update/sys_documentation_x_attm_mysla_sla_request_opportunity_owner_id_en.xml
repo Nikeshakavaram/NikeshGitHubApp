@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="opportunity_owner_id" label="Opportunity Owner ID" language="en" table="x_attm_mysla_sla_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>opportunity_owner_id</element>
+            <help/>
+            <hint/>
+            <label>Opportunity Owner ID</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <plural>Opportunity Owner IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-09-18 08:25:30</sys_created_on>
+            <sys_id>5d96e8d01bcc8850529142edee4bcb5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Opportunity Owner ID</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_sla_request_opportunity_owner_id_en</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-18 08:25:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

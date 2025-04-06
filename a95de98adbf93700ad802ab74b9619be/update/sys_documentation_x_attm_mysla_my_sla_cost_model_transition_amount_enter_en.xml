@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="transition_amount_enter" label="Amount (enter $)" language="en" table="x_attm_mysla_my_sla_cost_model">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>transition_amount_enter</element>
+            <help/>
+            <hint/>
+            <label>Amount (enter $)</label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model</name>
+            <plural>Amount (enter $)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-21 13:07:16</sys_created_on>
+            <sys_id>ef8ad9df1bd333407a3542edee4bcb61</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Amount (enter $)</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_my_sla_cost_model_transition_amount_enter_en</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-13 13:20:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

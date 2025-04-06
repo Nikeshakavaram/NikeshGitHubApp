@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_attm_mysla_sla_template">
+    <x_attm_mysla_sla_template action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Approval Process, Manual future</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Gain CSOP Approvals</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>x_attm_mysla_sla_template</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-09-17 12:35:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>092618041b4444506aceb9d1cd4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Process, Manual future</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>x_attm_mysla_sla_template_092618041b4444506aceb9d1cd4bcbe6</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-17 12:35:11</sys_updated_on>
+        <table>x_attm_mysla_task</table>
+        <template>description=Future State: States: Approved Arppoved with exceptions (made changes) Rejected Notification would then be sent to SLA SME   Within Service now approvals get notifications they are required to approve their sections. Approve at the end of entire doc or by section. Time stamp for approval with ""electronic signature""  Example AVPN Product Manager clicked OK for this document or section (UID) + time / Date stamp.  ability to navigate to the specific section IE, deal summary, SLA, etc based on what they have to approve  RPMC, product manager, and or service manager. SLA SME checks a box for each approver.  Define input providers and if they are approvers. Role dependant  For now, who on the deal team is required to approve. All bronze will be considered pre approved.  Send link to Product Managers, that a custom SLA was pre approved.  Have BR reflect auto approval notification of CSOP for Bronze.^description_instructions=Select stakeholders and appovers to approve their section of the CSOP. Select from Deal team members.^action=&lt;p&gt;Send Notification, everyone who is an approver is able to accept, accept with changes, reject. When all approvers including SLA SME have approved, task can be completed.&lt;/p&gt;^assignment_group=e65013e11b52ff004b8685507e4bcbc4^EQ</template>
+        <type>Report</type>
+        <u_condition/>
+        <u_condition_table>x_attm_mysla_sla_request</u_condition_table>
+        <u_mandatory>false</u_mandatory>
+        <u_order>80</u_order>
+        <u_parent/>
+        <u_predecessor/>
+        <user display_value="">9b95381edbb9b7045067e33648961955</user>
+        <view/>
+    </x_attm_mysla_sla_template>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Import from ROME </name>
+        <onclick/>
+        <order>150</order>
+        <script><![CDATA[// Add your code here
+var method = new GlideRecord('x_attm_mydesign_integration_methods');
+method.get('49b2e8141b8c8850529142edee4bcbe5'); // Opprtunity Method
+
+var fields = method.input_attributes;
+var inputAttributes = {};
+	for(var i in fields)
+		{
+		inputAttributes[fields[i]] = current[i].toString();
+	}
+	var transaction = new GlideRecord('x_attm_mydesign_rome_transactions');
+	transaction.initialize();
+	transaction.method = method.sys_id;
+	//transaction.deal = current.sys_id;
+	transaction.table_name='x_attm_mysla_mds_form';
+	transaction.target_record=current.sys_id;
+	transaction.input_parameter = JSON.stringify(inputAttributes);
+	transaction.insert();
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-09-18 08:30:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29c6a4141bcc8850529142edee4bcbda</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Import from ROME </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_action_29c6a4141bcc8850529142edee4bcbda</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-19 12:24:08</sys_updated_on>
+        <table>x_attm_mysla_mds_form</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

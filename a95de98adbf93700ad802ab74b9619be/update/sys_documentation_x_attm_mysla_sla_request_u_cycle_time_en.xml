@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_cycle_time" label="Cycle Time" language="en" table="x_attm_mysla_sla_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_cycle_time</element>
+            <help/>
+            <hint/>
+            <label>Cycle Time</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <plural>Cycle Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-12 11:25:19</sys_created_on>
+            <sys_id>f0365a1a1bbf7f00529142edee4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cycle Time</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_sla_request_u_cycle_time_en</sys_update_name>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 11:25:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

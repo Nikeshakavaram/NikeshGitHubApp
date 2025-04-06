@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_attm_mysla.costModelCalculator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>costModelCalculator</name>
+        <script><![CDATA[var costModelCalculator = Class.create();
+costModelCalculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	processInput: function(){
+		var output = '';
+		var fieldName = this.getParameter('sysparm_fieldName');
+		var input = this.getParameter('sysparm_inputValue');
+		var additionalValues = '';
+		
+		
+		//Questions 1-3
+		if(fieldName == 'enter_of_sites')
+			output = (input.replace(',',''))/700;
+		else if(fieldName == 'no_of_slas')
+			output = (input.replace(',',''))/49;
+		else if(fieldName == 'enter_of_slos_aka_kpis_kms_etc')
+			output = (input.replace(',',''))/20;
+		
+		
+		//Question 4
+		else if(fieldName == 'enter_of_metrics_not_aots_based')
+			{
+			additionalValues = parseInt(this.getParameter('sysparm_additionalValues'));
+	
+				if(input >= additionalValues*0.65)
+					output = 0.50;
+				else if((input >= additionalValues*0.50) && (input < additionalValues*0.65))
+					output = 0.40;
+				else if((input >= additionalValues*0.35) && (input < additionalValues*0.50))
+					output = 0.35;
+				else if((input >= additionalValues*0.15) && (input < additionalValues*0.35))
+					output = 0.25;
+				else if(input <= additionalValues*0.15)
+					output = 0.10;
+				else
+					output = '0.00';
+			}
+		
+		
+		//Question 5,6,7
+		else if(fieldName == 'select_sla_delivery_frequency' || fieldName == 'select_complexity_of_mesurement_tools' || fieldName == 'select_biller_s_for_credit_management')
+			{
+				var costModelBase = new GlideRecord("x_attm_mysla_my_sla_cost_model_base");
+				costModelBase.addQuery("unique_key", fieldName.toString());
+				costModelBase.addQuery("parameter_1", input.toString());
+				costModelBase.query();
+				if (costModelBase.next())
+					output = costModelBase.parameter_2.toString();
+				else
+					output = 0.00;	
+			}
+		
+		else
+			output = '0.00';
+		return output;
+	},
+	type: 'costModelCalculator'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-08-07 13:57:23</sys_created_on>
+        <sys_id>699ed5b61b8bfbc07a3542edee4bcb88</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>costModelCalculator</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_include_699ed5b61b8bfbc07a3542edee4bcb88</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-01 13:59:09</sys_updated_on>
+    </sys_script_include>
+</record_update>

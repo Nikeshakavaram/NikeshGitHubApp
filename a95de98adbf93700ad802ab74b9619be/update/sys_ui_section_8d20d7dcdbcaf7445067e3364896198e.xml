@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8d20d7dcdbcaf7445067e3364896198e" sys_domain="global" table="x_attm_mysla_complexity_form" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>0673622a1bc084906aceb9d1cd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <text>Please complete the form below to tell us about your SLA/Reports request. Based on your responses to the questions, the complexity of your request will be determined and the remainder of the form locked. Click "Clear" to change your answers.  Click "Save" to finish the form and display the calculated complexity. Click "Next" to navigate to the MDS where you will provide additional information and submit your request</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0673622a1bc084906aceb9d1cd4bcb3a</element>
+            <position>0</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>c673622a1bc084906aceb9d1cd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">8d20d7dcdbcaf7445067e3364896198e</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>4e73622a1bc084906aceb9d1cd4bcb3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">8d20d7dcdbcaf7445067e3364896198e</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <position>2</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>c273622a1bc084906aceb9d1cd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">8d20d7dcdbcaf7445067e3364896198e</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>output_document_s_needed_to_satisfy_this_request</element>
+            <position>3</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>4a73622a1bc084906aceb9d1cd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">8d20d7dcdbcaf7445067e3364896198e</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>ce73622a1bc084906aceb9d1cd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">8d20d7dcdbcaf7445067e3364896198e</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process</element>
+            <position>5</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>4673622a1bc084906aceb9d1cd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">8d20d7dcdbcaf7445067e3364896198e</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reports_process</element>
+            <position>6</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:28</sys_created_on>
+            <sys_id>ca73622a1bc084906aceb9d1cd4bcb3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">8d20d7dcdbcaf7445067e3364896198e</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_attm_mysla_complexity_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-11 10:40:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d20d7dcdbcaf7445067e3364896198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_complexity_form</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_8d20d7dcdbcaf7445067e3364896198e</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-11 10:40:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

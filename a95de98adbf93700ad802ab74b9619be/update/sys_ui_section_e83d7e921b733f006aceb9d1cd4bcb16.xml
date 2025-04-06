@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="CSOP" section_id="e83d7e921b733f006aceb9d1cd4bcb16" sys_domain="global" table="x_attm_mysla_sla_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>021c8f171b5cc4506aceb9d1cd4bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas</element>
+            <position>1</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>ca1c8f171b5cc4506aceb9d1cd4bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>costs</element>
+            <position>2</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>421c8f171b5cc4506aceb9d1cd4bcbd8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>independently_submitted_csops_affecting_this_solution</element>
+            <position>3</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>821c07571b5cc4506aceb9d1cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>0a1c07571b5cc4506aceb9d1cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_csop_details</element>
+            <position>5</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>8e1c07571b5cc4506aceb9d1cd4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_an_sla_csop_review_call_to_be_hosted_by_the_oam_required</element>
+            <position>6</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>061c07571b5cc4506aceb9d1cd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_for_indicated_services_is</element>
+            <position>7</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>8a1c07571b5cc4506aceb9d1cd4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-10-10 14:26:06</sys_created_on>
+            <sys_id>021c07571b5cc4506aceb9d1cd4bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-10 14:26:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>CSOP</caption>
+            <header>false</header>
+            <name>x_attm_mysla_sla_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:15:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e83d7e921b733f006aceb9d1cd4bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_sla_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_e83d7e921b733f006aceb9d1cd4bcb16</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:15:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

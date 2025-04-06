@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>ATTfooter</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	//var instance = gs.getProperty('instance_name');
+	//var fromAddr = "Lowes HR Service Center <" + instance + "@service-now.com>";
+	//email.setFrom(fromAddr);
+	//email.setReplyTo(fromAddr);
+	template.print('This is an UNMANNED mailbox.  Replies will be automatically deleted.  DO NOT reply to this email.');
+	template.print('<br>');
+	template.print('<br>');
+	template.print('Thank you.');
+		template.print('<br>');
+	template.print('<br>');
+	template.print('SLA Service Desk');
+	template.print('<br>');
+		template.print('<br>');
+	template.print('MOBILIZING YOUR WORLD');
+	template.print('<br>');
+		template.print('<br>');
+	
+	template.print('This e-mail and any files transmitted with it are AT&T property, are confidential, and are intended solely for the use of the individual or entity to which this email is addressed. If you are not one of the named recipient(s), or otherwise have reason to believe that you have received this message in error, please notify the sender and delete this message immediately from this computer. Any other use, retention, dissemination, forwarding, printing, or copying of this e-mail is strictly prohibited.');
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-23 07:40:25</sys_created_on>
+        <sys_id>89a9b2b5dbfaff40c2da62eb8a9619d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ATTfooter</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_email_89a9b2b5dbfaff40c2da62eb8a9619d4</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-23 07:46:56</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>test</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+gs.info('>>>> chech');
+	gs.info('>>>>>> value from email'+previous.state);
+          // Add your code here
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>na571t@att.com</sys_created_by>
+        <sys_created_on>2019-08-29 14:10:07</sys_created_on>
+        <sys_id>aab3be791b2bbf006aceb9d1cd4bcbfe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_email_aab3be791b2bbf006aceb9d1cd4bcbfe</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-08-29 14:23:40</sys_updated_on>
+    </sys_script_email>
+</record_update>

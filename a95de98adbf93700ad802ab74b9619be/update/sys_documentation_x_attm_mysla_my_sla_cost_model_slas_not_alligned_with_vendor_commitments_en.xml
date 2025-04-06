@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="slas_not_alligned_with_vendor_commitments" label="SLAs not alligned with vendor commitments " language="en" table="x_attm_mysla_my_sla_cost_model">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>slas_not_alligned_with_vendor_commitments</element>
+            <help/>
+            <hint/>
+            <label>SLAs not alligned with vendor commitments </label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model</name>
+            <plural>SLAs not alligned with vendor commitments s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 11:30:48</sys_created_on>
+            <sys_id>98a47f96db4bf7c0c2da62eb8a96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SLAs not alligned with vendor commitments</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_my_sla_cost_model_slas_not_alligned_with_vendor_commitments_en</sys_update_name>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 11:30:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

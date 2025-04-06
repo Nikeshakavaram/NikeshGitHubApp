@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>create choices for Operational Arch</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var scopedProd = new GlideRecord("x_attm_mysla_scoped_products");
+scopedProd.setLimit('2');
+scopedProd.addQuery("type", "Vendor");
+scopedProd.query();
+gs.info( 'test - ' + scopedProd.getRowCount());
+var order = 100;
+while (scopedProd.next()) {
+	gs.info(scopedProd.value.toString());
+   var newChoice = new GlideRecord("sys_choice");
+	newChoice.initialize();
+	newChoice.name = 'x_attm_mysla_operational_consultant';
+	newChoice.element = 'vendor';
+	newChoice.language = 'en';
+	newChoice.label = scopedProd.value.toString();
+	newChoice.value = scopedProd.value.toString();
+	newChoice.sequence = order;
+	newChoice.insert();
+	order = parseInt(order) + 100;
+}
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+        <sys_created_on>2019-08-13 08:10:49</sys_created_on>
+        <sys_id>4b79c3e0db933700c2da62eb8a961945</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>create choices for Operational Arch</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_fix_4b79c3e0db933700c2da62eb8a961945</sys_update_name>
+        <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-08-13 08:27:47</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

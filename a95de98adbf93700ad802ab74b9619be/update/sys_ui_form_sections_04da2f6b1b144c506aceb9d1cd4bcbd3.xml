@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="04da2f6b1b144c506aceb9d1cd4bcbd3" sys_domain="global" table="x_attm_mysla_sla_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:18:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00da2f6b1b144c506aceb9d1cd4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">04da2f6b1b144c506aceb9d1cd4bcbd3</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">24d5aa40dbe27f40779c62eb8a961928</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:18:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:46:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>212137231bd44c506aceb9d1cd4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">04da2f6b1b144c506aceb9d1cd4bcbd3</sys_ui_form>
+            <sys_ui_section caption="Scoped - Products" display_value="Scoped - Products" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">ad2137231bd44c506aceb9d1cd4bcb8e</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:46:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:48:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f281fba31bd44c506aceb9d1cd4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">04da2f6b1b144c506aceb9d1cd4bcbd3</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">239d978cdb87fb80c2da62eb8a961932</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:48:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Nikesh</sys_created_by>
+            <sys_created_on>2023-04-22 08:51:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f172d9a647d221104a762b92e36d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">04da2f6b1b144c506aceb9d1cd4bcbd3</sys_ui_form>
+            <sys_ui_section caption="Deal Information" display_value="Deal Information" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">0cda2f6b1b144c506aceb9d1cd4bcbd4</sys_ui_section>
+            <sys_updated_by>Nikesh</sys_updated_by>
+            <sys_updated_on>2023-04-22 08:51:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>Nikesh</sys_created_by>
+            <sys_created_on>2023-04-22 08:51:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2721da647d221104a762b92e36d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">04da2f6b1b144c506aceb9d1cd4bcbd3</sys_ui_form>
+            <sys_ui_section caption="Scope-Products" display_value="Scope-Products" name="x_attm_mysla_sla_request" sys_domain="global" view="231aa7e31b144c506aceb9d1cd4bcb27">97a736c41b188c906aceb9d1cd4bcb51</sys_ui_section>
+            <sys_updated_by>Nikesh</sys_updated_by>
+            <sys_updated_on>2023-04-22 08:51:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_attm_mysla_sla_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 11:18:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04da2f6b1b144c506aceb9d1cd4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_sla_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_04da2f6b1b144c506aceb9d1cd4bcbd3</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 11:18:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Custom EDL" name="custom_edl">231aa7e31b144c506aceb9d1cd4bcb27</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

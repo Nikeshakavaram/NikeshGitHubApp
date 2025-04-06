@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Custom SLA" section_id="a503687cdb8abb445067e3364896192b" sys_domain="global" table="x_attm_mysla_complexity_form" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>1e73622a1bc084906aceb9d1cd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <text>Please answer these questions to determine the proper custom SLA process to follow:</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>1273622a1bc084906aceb9d1cd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <text>Please provide some additional information by answering Yes, No, or Unknown to the below questions:</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1e73622a1bc084906aceb9d1cd4bcb7f</element>
+            <position>0</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>d273622a1bc084906aceb9d1cd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5a73622a1bc084906aceb9d1cd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization</element>
+            <position>2</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>de73622a1bc084906aceb9d1cd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_this_sla_request_require_customization_of_tier_3_envelope_sla_s</element>
+            <position>3</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5673622a1bc084906aceb9d1cd4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser</element>
+            <position>4</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>da73622a1bc084906aceb9d1cd4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio</element>
+            <position>5</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5273622a1bc084906aceb9d1cd4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>d673622a1bc084906aceb9d1cd4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_we_providing_enhanced_sla_plan_with_additional_customization</element>
+            <position>7</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5e73622a1bc084906aceb9d1cd4bcb82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization</element>
+            <position>8</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>d273622a1bc084906aceb9d1cd4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses</element>
+            <position>9</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5a73622a1bc084906aceb9d1cd4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_sla_customization_include_network_integration_ni_vendors</element>
+            <position>10</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>de73622a1bc084906aceb9d1cd4bcb83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5673622a1bc084906aceb9d1cd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1273622a1bc084906aceb9d1cd4bcb80</element>
+            <position>12</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>da73622a1bc084906aceb9d1cd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>13</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5273622a1bc084906aceb9d1cd4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_requested_sla_customization_been_previously_approved_for_other_customers</element>
+            <position>14</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>d673622a1bc084906aceb9d1cd4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_sla_apply_to_product_s_that_we_frequently_customize</element>
+            <position>15</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5e73622a1bc084906aceb9d1cd4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_sla_customization_apply_to_a_single_product</element>
+            <position>16</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>d273622a1bc084906aceb9d1cd4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_requested_customization_apply_to_a_single_sla</element>
+            <position>17</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5a73622a1bc084906aceb9d1cd4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_we_expected_to_include_access_in_the_sla_credit</element>
+            <position>18</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>de73622a1bc084906aceb9d1cd4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_customization_apply_to_continental_us_sites_only</element>
+            <position>19</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5673622a1bc084906aceb9d1cd4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>da73622a1bc084906aceb9d1cd4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_targets</element>
+            <position>21</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5273622a1bc084906aceb9d1cd4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_credits</element>
+            <position>22</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>d673622a1bc084906aceb9d1cd4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_terms</element>
+            <position>23</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5e73622a1bc084906aceb9d1cd4bcb88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_sla_customization_require_integration_across_multiple_products</element>
+            <position>24</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>d273622a1bc084906aceb9d1cd4bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_sla_customization_include_proactive_site_to_site_performance_slas</element>
+            <position>25</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5a73622a1bc084906aceb9d1cd4bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_sla_plan_require_100_compliance_with_no_deviation_from_customer_request</element>
+            <position>26</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>de73622a1bc084906aceb9d1cd4bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>27</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>5673622a1bc084906aceb9d1cd4bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>28</position>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 17:17:29</sys_created_on>
+            <sys_id>da73622a1bc084906aceb9d1cd4bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Custom SLA" display_value="Custom SLA" name="x_attm_mysla_complexity_form" sys_domain="global" view="Default view">a503687cdb8abb445067e3364896192b</sys_ui_section>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 17:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Custom SLA</caption>
+            <header>false</header>
+            <name>x_attm_mysla_complexity_form</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-12 11:21:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a503687cdb8abb445067e3364896192b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_attm_mysla_complexity_form</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_a503687cdb8abb445067e3364896192b</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-12 13:05:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

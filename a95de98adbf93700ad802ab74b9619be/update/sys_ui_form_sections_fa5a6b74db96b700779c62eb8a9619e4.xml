@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fa5a6b74db96b700779c62eb8a9619e4" sys_domain="global" table="x_attm_mysla_task_template" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-25 12:07:58</sys_created_on>
+            <sys_domain>c90a2b444a3623120064ed56263be407</sys_domain>
+            <sys_domain_path/>
+            <sys_id>d75aab74db96b700779c62eb8a9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_task_template" name="x_attm_mysla_task_template" sys_domain="global" view="Default view">fa5a6b74db96b700779c62eb8a9619e4</sys_ui_form>
+            <sys_ui_section display_value="">0f5a6b74db96b700779c62eb8a9619e7</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 12:07:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_attm_mysla_task_template</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-25 12:07:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa5a6b74db96b700779c62eb8a9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_task_template</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fa5a6b74db96b700779c62eb8a9619e4</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-25 12:07:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

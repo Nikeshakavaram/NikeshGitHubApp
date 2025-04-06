@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_attm_mysla_sla_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLA - Populate fields on Load</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	// Add your code here
+	// 	var mds = current.mds_form');
+	// 	var gr = new GlideRecord("x_attm_mysla_mds_form");
+	// 	if (gr.get(mds)) {
+		g_scratchpad.complexity = current.mds_form.complexity.toString();
+		if(current.mds_form.deal)
+			g_scratchpad.deal = current.mds_form.deal.toString();
+		g_scratchpad.customer = current.mds_form.customer.toString();
+		g_scratchpad.opportunity_id = current.mds_form.opportunity.toString();
+		g_scratchpad.deal_id = current.mds_form.number.toString();
+		g_scratchpad.short_description = current.mds_form.short_description.toString();
+		g_scratchpad.srid = current.mds_form.srid_wrid.toString();
+		g_scratchpad.sales_channel = current.mds_form.glad_deal.toString();
+		g_scratchpad.gsi = current.mds_form.gsi_partner.toString();
+		g_scratchpad.tov = current.mds_form.total_opportunity_value.toString();
+		g_scratchpad.tcv = current.mds_form.total_contract_value.toString();
+		g_scratchpad.term = current.mds_form.contract_term.toString();
+		g_scratchpad.rome_status = current.mds_form.rome_status.toString();
+		g_scratchpad.probability = current.mds_form.probability_of_sale.toString();
+		g_scratchpad.bet = current.mds_form.board_engagement_tool_bet.toString();
+		g_scratchpad.comments = current.mds_form.additional_comments_regarding_bet_number.toString();
+		g_scratchpad.products = current.mds_form.products.toString();
+		g_scratchpad.status = current.mds_form.service_status_by_product.toString();
+		g_scratchpad.offs = current.mds_form.product_1_offs.toString();
+		g_scratchpad.affected_sites = current.mds_form.affected_sites_are.toString();
+		g_scratchpad.labor = current.mds_form.type_of_labor_restrictions.toString();
+		g_scratchpad.gecep = current.mds_form.gecep_id.toString();
+		g_scratchpad.due_to_sales = current.mds_form.deal.u_dtosd.getDisplayValue().toString();
+		//g_scratchpad.target_date = current.mds_form.deal.target_date.getDisplayValue().toString(); //Commented for STRY1900
+		g_scratchpad.opportunity_owner_id = current.mds_form.opportunity_owner_id.toString();
+		g_scratchpad.product_names = current.mds_form.u_product_names.toString();
+		
+	
+	
+		//Setting Target Date from Complexity(STRY 1900)
+		var slaComplexity = current.mds_form.complexity.process.toString();
+		var todayDate = new GlideDateTime(new GlideDate().getDisplayValue());
+	
+		var bizDays = 6;
+		if(slaComplexity == 'Bronze')
+			bizDays = 6;
+		else if(slaComplexity == 'Silver')
+			bizDays = 8;
+		else if(slaComplexity == 'Gold')
+			bizDays = 12;
+		else if(slaComplexity == 'Platinum')
+			bizDays = 20;
+	
+		var duration = new GlideDuration(bizDays * 9 * 3600 * 1000);//(1 Biz day = 8-5 working hrs -> 9 hrs)
+		var schedule = new GlideSchedule('090eecae0a0a0b260077e1dfa71da828');
+		var end = schedule.add(todayDate, duration);
+		g_scratchpad.targetDate = end.getDisplayValue();
+		
+	})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-19 12:17:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9813b80fdb467300779c62eb8a961953</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>SLA - Populate fields on Load</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_9813b80fdb467300779c62eb8a961953</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-10-06 11:15:34</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=9813b80fdb467300779c62eb8a961953"/>
+</record_update>

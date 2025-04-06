@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_attm_mysla_my_sla_cost_model">x_attm_mysla_my_sla_cost_model</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CSM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-08-06 07:56:37</sys_created_on>
+        <sys_id>7693039edb83f7c0c2da62eb8a961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CSM</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_number_7693039edb83f7c0c2da62eb8a961910</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-08-06 07:56:37</sys_updated_on>
+    </sys_number>
+</record_update>

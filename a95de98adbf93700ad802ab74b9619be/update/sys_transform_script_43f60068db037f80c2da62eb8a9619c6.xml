@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Article load v1">2cd64c28db037f80c2da62eb8a9619f9</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+target.kb_knowledge_base = "94beaeefdb2e3740c2da62eb8a961921";
+	target.kb_category = '77dfee63db6e3740c2da62eb8a96193d';
+	if(source.u_active == '0')
+		target.active = false;
+	if(source.u_active == '1')
+		target.active = true;
+	target.short_description = source.u_blogdesc;
+		target.text = source.u_article;
+	target.author = getauthor(source.u_blogcreator);
+	target.u_orginal_submit_date = source.u_created;
+	target.workflow_state = 'published';
+	
+	
+	function getauthor(user)
+	{
+		var gr = new GlideRecord('sys_user');
+		gr.addQuery('employee_number', user.toString());
+		gr.query();
+		if(gr.next())
+			{
+				return gr.sys_id.toString();
+			}
+		else
+			return gs.getUserID().toString();
+		
+	}
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-31 07:49:30</sys_created_on>
+        <sys_id>43f60068db037f80c2da62eb8a9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_transform_script_43f60068db037f80c2da62eb8a9619c6</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-31 07:49:30</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

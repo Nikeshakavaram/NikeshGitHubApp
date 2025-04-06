@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_custom" label="Is this a Custom ITIL, end-to-end Reports, or other Custom Reports request?" language="en" table="x_attm_mysla_complexity_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_custom</element>
+            <help/>
+            <hint/>
+            <label>Is this a Custom ITIL, end-to-end Reports, or other Custom Reports request?</label>
+            <language>en</language>
+            <name>x_attm_mysla_complexity_form</name>
+            <plural>Is this a Custom ITIL, end-to-end Reports, or other Custom Reports request?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-14 09:26:51</sys_created_on>
+            <sys_id>b3fb5691db06b3845067e33648961912</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Is this a Custom ITIL, end-to-end Reports, or other Custom Reports request?</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_complexity_form_is_custom_en</sys_update_name>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-18 05:15:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

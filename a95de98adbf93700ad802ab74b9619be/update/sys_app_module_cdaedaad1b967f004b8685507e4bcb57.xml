@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="MySLA">527067d2db86f300779c62eb8a961992</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_script_fix">sys_id=b8b51698dbe53b00e2735a0adc96190c^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="b8b51698dbe53b00e2735a0adc96190c"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DETAIL</link_type>
+        <map_page/>
+        <mobile_title>Create Bookmark</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_script_fix</name>
+        <order>500</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+        <sys_created_on>2019-06-27 14:42:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cdaedaad1b967f004b8685507e4bcb57</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create Bookmark</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_app_module_cdaedaad1b967f004b8685507e4bcb57</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-18 11:39:01</sys_updated_on>
+        <timeline_page/>
+        <title>Create Bookmark</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

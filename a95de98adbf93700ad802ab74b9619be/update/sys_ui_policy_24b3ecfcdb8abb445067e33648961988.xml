@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_attm_mysla_complexity_form">request_type!=^output_document_s_needed_to_satisfy_this_requestLIKE686378a8db0e3b445067e33648961983^ORoutput_document_s_needed_to_satisfy_this_requestLIKEdfb3b4e8db0e3b445067e336489619c0^ORoutput_document_s_needed_to_satisfy_this_requestLIKE66137ce4db0e3b445067e336489619cd^EQ<item display_value="-- None --" endquery="false" field="request_type" goto="false" newquery="false" operator="!=" or="false" value=""/>
+            <item endquery="false" field="output_document_s_needed_to_satisfy_this_request" goto="false" newquery="false" operator="LIKE" or="false" value="686378a8db0e3b445067e33648961983"/>
+            <item endquery="false" field="output_document_s_needed_to_satisfy_this_request" goto="false" newquery="false" operator="LIKE" or="true" value="dfb3b4e8db0e3b445067e336489619c0"/>
+            <item endquery="false" field="output_document_s_needed_to_satisfy_this_request" goto="false" newquery="false" operator="LIKE" or="true" value="66137ce4db0e3b445067e336489619cd"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setValue('are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio','');
+	g_form.setValue('are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization','');
+	g_form.setValue('does_this_sla_request_require_customization_of_tier_3_envelope_sla_s','');
+	g_form.setValue('are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization','');
+	g_form.setValue('does_the_sla_customization_include_network_integration_ni_vendors','');
+	g_form.setValue('are_we_providing_enhanced_sla_plan_with_additional_customization','');
+	g_form.setValue('are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses','');
+	g_form.setValue('is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser','');
+	g_form.setSectionDisplay('custom_sla', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setSectionDisplay('custom_sla',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>SLA - Show / Hide Custom SLA section</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-12 11:25:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>24b3ecfcdb8abb445067e33648961988</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>SLA - Show / Hide Custom SLA section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_24b3ecfcdb8abb445067e33648961988</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-14 10:16:52</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="select_sla_delivery_frequency" label="Select SLA Delivery Frequency " language="en" table="x_attm_mysla_my_sla_cost_model">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>select_sla_delivery_frequency</element>
+            <help/>
+            <hint/>
+            <label>Select SLA Delivery Frequency </label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model</name>
+            <plural>Select SLA Delivery Frequency s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-07 08:46:41</sys_created_on>
+            <sys_id>3da89cbedb837bc0c2da62eb8a9619b2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Select SLA Delivery Frequency </sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_my_sla_cost_model_select_sla_delivery_frequency_en</sys_update_name>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-07 09:06:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

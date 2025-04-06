@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_attm_mysla_sla_request</collection>
+        <condition table="x_attm_mysla_sla_request">reporting_assigned_toVALCHANGES^reporting_assigned_toISNOTEMPTY^EQ<item endquery="false" field="reporting_assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="reporting_assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 9.0pt; font-family: Verdana, sans-serif;"><br />${mail_script:ATTheaderlogo}</span></p>
+<p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 11.0pt; font-family: Calibri, sans-serif;">&nbsp;Hi ${reporting_assigned_to.first_name},&nbsp;<br /> &nbsp; &nbsp;&nbsp;</span></p>
+<p style="margin-right: 0in; margin-left: 0in; font-size: 12pt; font-family: 'Times New Roman', serif;"><strong><span style="font-size: 16.0pt; font-family: Calibri, sans-serif; color: #00b0f0;">${reporting_assigned_to} (${reporting_assigned_to.user_name}) has been assigned to&nbsp;${URI_REF} for ${customer}</span></strong><span style="font-size: 16.0pt; font-family: Calibri, sans-serif; color: #00b0f0;">&nbsp;</span></p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><span style="font-weight: bold;">Here are the details of the request:</span>&nbsp;</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><strong>Deal Number :</strong> ${deal_id}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><span style="font-weight: bold;">Custom Request Number:</span> ${URI_REF}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><span style="font-weight: bold;">Customer Name: </span>${customer}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><span style="font-weight: bold;">Requestor: </span>${mail_script:getcreatedby}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;">${mail_script:Populating Assignee_Assignment_for_repr}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><span style="font-weight: bold;">Status</span>:&nbsp;${state}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><span style="font-weight: bold;">Custom Request Submission Date</span>:&nbsp;${mail_script:Populate_submission_date}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;"><span style="font-weight: bold;">Negotiated Due Date: </span>${negotiated_date}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;">&nbsp;<span style="font-weight: bold;">Short Description:</span> ${short_description}</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11.0pt;">&nbsp;</p>
+<p style="margin: 0in; font-family: Calibri; font-size: 11pt;">&nbsp;Click ${URI_REF} to view the deal.</p>
+<p style="margin: 0in; font-family: Calibri;"><span style="font-size: 11.0pt;">&nbsp;</span><span style="font-size: 8.0pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+<p style="margin: 0in; font-family: Calibri; font-size: 8.0pt;">${mail_script:ATTfooter}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Report Request Assigned - Req/SME</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>reporting_assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>ACTION REQUIRED ${number}: Custom SLA or Reports Request has been assigned to you ${customer} </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-24 08:31:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6dfe40521bf637807a3542edee4bcbc9</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Report Request Assigned - Req/SME</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sysevent_email_action_6dfe40521bf637807a3542edee4bcbc9</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-01 19:28:26</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>output_document_s_needed_to_satisfy_this_request</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-12 09:01:32</sys_created_on>
+        <sys_id>1fe24438db86bb445067e336489619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>output_document_s_needed_to_satisfy_this_request</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1fe24438db86bb445067e336489619ce</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-12 09:01:32</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <ui_policy display_value="SLA - Show/Hide Output Document(s) needed to satisfy this request">0f6208f4db86bb445067e33648961956</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

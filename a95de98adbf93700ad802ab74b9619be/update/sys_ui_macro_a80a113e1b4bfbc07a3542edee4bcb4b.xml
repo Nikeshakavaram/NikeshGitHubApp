@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>get_calculated_value</name>
+        <scoped_name>x_attm_mysla_get_calculated_value</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-08-07 13:35:13</sys_created_on>
+        <sys_id>a80a113e1b4bfbc07a3542edee4bcb4b</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>get_calculated_value</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_macro_a80a113e1b4bfbc07a3542edee4bcb4b</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:11:16</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+   <j:set var="jvar_n" value="inputValue:${ref}"/>
+   <g:evaluate var = "jvar_fieldID" jelly="true" object="true">
+      var name = jelly.jvar_n;
+      var fieldId = name.split(':')[1];
+      fieldId;
+   </g:evaluate>
+   <g:evaluate var = "jvar_fieldName" jelly="true" object="true">
+      var id = jelly.jvar_fieldID;
+      var fieldName = id.split('.')[1];
+      fieldName;
+   </g:evaluate>
+   <span class="glyphicon glyphicon-calendar" fieldname="${jvar_fieldName}" fieldid="${jvar_fieldID}" onmouseover="processOutput(this)" onmouseout='removeOutput(this)' ></span>
+   <div id="${jvar_fieldName}" ></div>
+	
+	
+	
+   <script>
+      var fieldName = '';
+	   
+	   
+      function processOutput(obj)
+      {
+      fieldName = $j(obj).attr('fieldname');
+      fieldId = $j(obj).attr('fieldid');
+
+		if(fieldName == 'select_sla_delivery_frequency' || fieldName ==  'select_complexity_of_mesurement_tools' || fieldName ==   'select_biller_s_for_credit_management')
+			fieldValue = g_form.getOption(fieldName, g_form.getValue(fieldName)).text;
+		else
+			fieldValue = gel(fieldId).value;
+	   
+	   var additionalValues = parseInt(g_form.getValue('no_of_slas')) + parseInt(g_form.getValue('enter_of_slos_aka_kpis_kms_etc'));
+      
+	   var ga = new GlideAjax('costModelCalculator');
+      ga.addParam('sysparm_name','processInput');
+      ga.addParam('sysparm_fieldName', fieldName);
+      ga.addParam('sysparm_inputValue', fieldValue);
+		
+	   if(fieldName == 'enter_of_metrics_not_aots_based')
+			ga.addParam('sysparm_additionalValues', additionalValues); 
+      ga.getXML(showOutput);      
+      }
+	   
+	   
+	   
+      function showOutput(response) {
+      var answer = response.responseXML.documentElement.getAttribute("answer");
+      $j('#' + fieldName).text('weight: '+ parseFloat(answer).toFixed(2));
+      }
+	   
+	   
+      function removeOutput(obj){
+      fieldName = $j(obj).attr('fieldname');
+      $j('#' + fieldName).text('');
+      }
+	   
+	   
+   </script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

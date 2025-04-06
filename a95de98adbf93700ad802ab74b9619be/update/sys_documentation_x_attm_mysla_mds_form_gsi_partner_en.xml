@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="gsi_partner" label="GSI Partner" language="en" table="x_attm_mysla_mds_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>gsi_partner</element>
+            <help/>
+            <hint/>
+            <label>GSI Partner</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <plural>GSI Partners</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-19 13:48:44</sys_created_on>
+            <sys_id>ebd0db2a1b537f007a3542edee4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>GSI Partner</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_mds_form_gsi_partner_en</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-19 13:48:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

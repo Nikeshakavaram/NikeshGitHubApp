@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>custom_modular</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLA - Show/Hide sections</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	// 	if (isLoading || newValue === '') {
+		// 		return;
+		// 	}
+		g_form.setSectionDisplay('slm_inputs',false);
+		g_form.setSectionDisplay('slm_contingencyriskfactors',false);
+		g_form.setSectionDisplay('fte_worksheet',false);
+		g_form.setSectionDisplay('indirect_labor',false);
+		g_form.setSectionDisplay('direct_labor',false);
+		g_form.setSectionDisplay('activity',false);
+		if(!g_form.isNewRecord() && newValue == 'dcm'){
+			g_form.setSectionDisplay('slm_inputs',true);
+			g_form.setSectionDisplay('slm_contingencyriskfactors',true);
+			g_form.setSectionDisplay('fte_worksheet',true);
+			g_form.setSectionDisplay('indirect_labor',true);
+			g_form.setSectionDisplay('direct_labor',true);
+			g_form.setSectionDisplay('activity',true);
+		}
+		//Type appropriate comment here, and begin script below
+		
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-08-09 07:21:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3397de131bcbbfc07a3542edee4bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SLA - Show/Hide sections</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_client_3397de131bcbbfc07a3542edee4bcba9</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-08-21 07:36:14</sys_updated_on>
+        <table>x_attm_mysla_my_sla_cost_model</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

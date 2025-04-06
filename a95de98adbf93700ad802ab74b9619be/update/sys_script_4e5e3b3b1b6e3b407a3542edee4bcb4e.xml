@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_attm_mysla_sla_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_attm_mysla_sla_request">assigned_toVALCHANGES^assigned_toISNOTEMPTY^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update SLA complexity value</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	//gs.addInfoMessage('In BR from utilization');
+	var presentvalue='';
+	var cumulative_value = 0;
+	
+	var finduser = new GlideRecord('x_attm_mysla_assignee_utilization_for_sla');
+	finduser.addQuery('assigned_user', current.assigned_to.toString());
+	finduser.query();
+	if(finduser.next())
+		{
+		var cumulative = new GlideRecord('x_attm_mysla_sla_request');
+		cumulative.addEncodedQuery('assigned_to='+current.assigned_to);
+		cumulative.query();
+		while(cumulative.next())
+			{
+			if(cumulative.assigned_to == current.assigned_to)
+				cumulative_value += parseInt(relatevalue(cumulative.complexity.process.getDisplayValue()));
+		}
+		
+		finduser.sla_complexity = cumulative_value;
+		finduser.update();
+		
+	}
+	else
+		{
+		finduser.initialize();
+		finduser.assigned_user = current.assigned_to;
+		finduser.sla_complexity = relatevalue(current.complexity.process.getDisplayValue());
+		finduser.insert();
+		
+	}
+	
+	
+	
+	function relatevalue(sla_comp)
+	{
+		//gs.addInfoMessage(gs.getMessage("In THE FUNCTION TO GET RELATED VALUES")+ sla_comp);
+	
+		if(sla_comp == 'Bronze')
+			return 10;
+		else if(sla_comp == 'Silver')
+			return 20;
+		else if(sla_comp == 'Gold')
+			return 50;
+		else
+			return 75;
+			
+		
+	}
+	
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-17 07:46:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e5e3b3b1b6e3b407a3542edee4bcb4e</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Update SLA complexity value</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_4e5e3b3b1b6e3b407a3542edee4bcb4e</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-07-18 22:05:33</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e5e3b3b1b6e3b407a3542edee4bcb4e"/>
+</record_update>

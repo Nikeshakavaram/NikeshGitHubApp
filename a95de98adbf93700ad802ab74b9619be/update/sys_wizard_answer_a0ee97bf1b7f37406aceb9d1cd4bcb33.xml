@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>SLA Template</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>SLA Template</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">6f87c2708731301048d0fea9cebb35a1</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>rr141k@att.com</sys_created_by>
+        <sys_created_on>2019-09-17 08:33:45</sys_created_on>
+        <sys_id>a0ee97bf1b7f37406aceb9d1cd4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLA Template</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_wizard_answer_a0ee97bf1b7f37406aceb9d1cd4bcb33</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-17 08:33:45</sys_updated_on>
+        <table/>
+        <target_url>x_attm_mysla_sla_template.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

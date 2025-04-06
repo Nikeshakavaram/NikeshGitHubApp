@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="migration_end_date" label="Migration End Date" language="en" table="x_attm_mysla_sla_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>migration_end_date</element>
+            <help/>
+            <hint/>
+            <label>Migration End Date</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <plural>Migration End Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:06:04</sys_created_on>
+            <sys_id>f060f40bdb467300779c62eb8a96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Migration End Date</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_sla_request_migration_end_date_en</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:06:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contract" section_id="d17f6047db467300779c62eb8a961961" sys_domain="global" table="x_attm_mysla_sla_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>a82274cbdb467300779c62eb8a961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_signed_date</element>
+            <position>1</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>202274cbdb467300779c62eb8a961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monthly_recurring_charges</element>
+            <position>2</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>a42274cbdb467300779c62eb8a961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>est_sla_contingency</element>
+            <position>3</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>2c2274cbdb467300779c62eb8a961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>allocation_pool</element>
+            <position>4</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>a02274cbdb467300779c62eb8a961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>at_risk_percentage</element>
+            <position>5</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>282274cbdb467300779c62eb8a961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>at_risk_amount</element>
+            <position>6</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>ac2274cbdb467300779c62eb8a961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_start_date</element>
+            <position>7</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>242274cbdb467300779c62eb8a961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>a82274cbdb467300779c62eb8a961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transition_months</element>
+            <position>9</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>202274cbdb467300779c62eb8a961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transition_start_date</element>
+            <position>10</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>a42274cbdb467300779c62eb8a961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>transition_end_date</element>
+            <position>11</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>2c2274cbdb467300779c62eb8a961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>migration_months</element>
+            <position>12</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>a02274cbdb467300779c62eb8a961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>migration_start_date</element>
+            <position>13</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>282274cbdb467300779c62eb8a961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>migration_end_date</element>
+            <position>14</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>ac2274cbdb467300779c62eb8a961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_end_date</element>
+            <position>15</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>242274cbdb467300779c62eb8a961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>a82274cbdb467300779c62eb8a961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_notes</element>
+            <position>17</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:13:42</sys_created_on>
+            <sys_id>202274cbdb467300779c62eb8a961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:13:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contract</caption>
+            <header>false</header>
+            <name>x_attm_mysla_sla_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:02:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d17f6047db467300779c62eb8a961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_sla_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_d17f6047db467300779c62eb8a961961</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:02:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

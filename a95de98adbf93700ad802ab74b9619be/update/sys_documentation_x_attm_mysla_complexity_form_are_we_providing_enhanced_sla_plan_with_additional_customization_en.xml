@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="are_we_providing_enhanced_sla_plan_with_additional_customization" label="Are we providing enhanced SLA plan with additional customization?" language="en" table="x_attm_mysla_complexity_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>are_we_providing_enhanced_sla_plan_with_additional_customization</element>
+            <help/>
+            <hint/>
+            <label>Are we providing enhanced SLA plan with additional customization?</label>
+            <language>en</language>
+            <name>x_attm_mysla_complexity_form</name>
+            <plural>Are we providing enhanced SLA plan with additional customization?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-12 09:22:27</sys_created_on>
+            <sys_id>04d7c878dbc6bb445067e33648961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Are we providing enhanced SLA plan with additional customization?</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_complexity_form_are_we_providing_enhanced_sla_plan_with_additional_customization_en</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-12 09:22:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

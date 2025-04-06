@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>independently_submitted_csops_affecting_this_solution</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Making the Other CSOP details available</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+ 
+var val =	g_form.getValue('independently_submitted_csops_affecting_this_solution');
+if(val.indexOf("None")<0)
+	{g_form.setDisplay('other_csop_details',true);
+	g_form.setMandatory('other_csop_details',true);
+}
+else
+	{g_form.clearValue('other_csop_details');
+		g_form.setMandatory('other_csop_details',false);
+	g_form.setDisplay('other_csop_details',false);
+	
+}
+	
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>na571t@att.com</sys_created_by>
+        <sys_created_on>2019-09-25 10:34:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec7641261bc444906aceb9d1cd4bcb62</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Making the Other CSOP details available</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_client_ec7641261bc444906aceb9d1cd4bcb62</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-25 10:50:43</sys_updated_on>
+        <table>x_attm_mysla_sla_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

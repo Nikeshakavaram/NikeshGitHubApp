@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_attm_mysla_complexity_form">pcs_performance=No^is_enhanced_report=No^is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza=No^custom_pcs=No^is_dxc_requested=No^is_custom=No^EQ<item display_value="No" endquery="false" field="pcs_performance" goto="false" newquery="false" operator="=" or="false" value="No"/>
+            <item display_value="No" endquery="false" field="is_enhanced_report" goto="false" newquery="false" operator="=" or="false" value="No"/>
+            <item display_value="No" endquery="false" field="is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza" goto="false" newquery="false" operator="=" or="false" value="No"/>
+            <item display_value="No" endquery="false" field="custom_pcs" goto="false" newquery="false" operator="=" or="false" value="No"/>
+            <item display_value="No" endquery="false" field="is_dxc_requested" goto="false" newquery="false" operator="=" or="false" value="No"/>
+            <item display_value="No" endquery="false" field="is_custom" goto="false" newquery="false" operator="=" or="false" value="No"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setValue('does_involve_ni','Unknown');
+	g_form.setValue('is_rpf_request','Unknown');
+	g_form.setValue('management_resource','Unknown');
+	g_form.setValue('non_std_reporting','Unknown');
+	g_form.setValue('no_deviation_required','Unknown');
+	g_form.setValue('reports_customization','Unknown');
+	g_form.setValue('std_product','Unknown');
+	try{
+		reportquestionnaire.parentNode.style.display = "none";
+	}
+	catch(error){
+		console.log("Error with hiding annotation:" + error);
+	}
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	try{
+		reportquestionnaire.parentNode.style.display = "block";
+	}
+	catch(error){
+		console.log("Error with showing annotation:" + error);}
+}]]></script_true>
+        <set_values/>
+        <short_description>SLA - Show/Hide Custom Operations Reports section set 2</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-14 11:44:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d87b7a1ddb4ab3845067e336489619b9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SLA - Show/Hide Custom Operations Reports section set 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_d87b7a1ddb4ab3845067e336489619b9</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-27 08:22:44</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

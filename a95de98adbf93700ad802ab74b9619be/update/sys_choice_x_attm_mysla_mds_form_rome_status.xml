@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rome_status" table="x_attm_mysla_mds_form" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rome_status</element>
+            <name>x_attm_mysla_mds_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_id>bd65883687f6301048d0fea9cebb35a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rome_status</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_mds_form_rome_status</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-09 10:54:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Pending assignment</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bbf17d51b267bc04b8685507e4bcbee</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:08</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Pending acceptance</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63bf1b191b267bc04b8685507e4bcb9d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:10</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Under review</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23bf1b191b267bc04b8685507e4bcb9e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:10</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Need more information</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efbf1b191b267bc04b8685507e4bcb9e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:10</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Design documents started</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afbf1b191b267bc04b8685507e4bcb9f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:10</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Design documents completed</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fbf1b191b267bc04b8685507e4bcba0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:10</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Price In Progress</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fbf1b191b267bc04b8685507e4bcba1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:09</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Contract in progress</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebbf1b191b267bc04b8685507e4bcba2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:09</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Waiting for approval</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abbf1b191b267bc04b8685507e4bcba3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:09</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Final solution ready</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bbf1b191b267bc04b8685507e4bcba4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:09</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Post sales support</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bbf1b191b267bc04b8685507e4bcba5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:09</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7bf1b191b267bc04b8685507e4bcba6</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:17:51</sys_updated_on>
+            <value>Draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7bf1b191b267bc04b8685507e4bcba7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:09</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-09 10:54:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67bf1b191b267bc04b8685507e4bcba8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:10:09</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-19 10:10:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4567c6e01b408c50529142edee4bcbf8</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:17:44</sys_updated_on>
+            <value>Requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accepted</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-19 10:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8f80a2c1b408c50529142edee4bcb1a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:18:43</sys_updated_on>
+            <value>Accepted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rome_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_attm_mysla_mds_form</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-19 10:13:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c009062c1b408c50529142edee4bcbc5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-19 10:18:34</sys_updated_on>
+            <value>Completed</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

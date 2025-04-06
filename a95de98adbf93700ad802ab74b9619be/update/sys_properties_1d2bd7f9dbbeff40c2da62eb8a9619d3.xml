@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>SLA Request activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_attm_mysla_sla_request_activity.fields</name>
+        <read_roles/>
+        <suffix>x_attm_mysla</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-23 10:06:48</sys_created_on>
+        <sys_id>1d2bd7f9dbbeff40c2da62eb8a9619d3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>glide.ui.x_attm_mysla_sla_request_activity.fields</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_properties_1d2bd7f9dbbeff40c2da62eb8a9619d3</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-23 12:21:20</sys_updated_on>
+        <type>string</type>
+        <value>assigned_to,state,work_notes,comments,*Attachments*,*Email*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d2bd7f9dbbeff40c2da62eb8a9619d3"/>
+</record_update>

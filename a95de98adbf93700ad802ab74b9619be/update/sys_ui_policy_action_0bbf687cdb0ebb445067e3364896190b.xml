@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>does_the_sla_customization_require_integration_across_multiple_products</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-12 12:16:52</sys_created_on>
+        <sys_id>0bbf687cdb0ebb445067e3364896190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>does_the_sla_customization_require_integration_across_multiple_products</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0bbf687cdb0ebb445067e3364896190b</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-12 12:16:52</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <ui_policy display_value="SLA - Show/Hide Custom SLA section set 2">bc8da4b8db0ebb445067e33648961982</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

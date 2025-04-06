@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>getcreatedby</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+	var userName;
+	var userid;
+	if(current.sys_class_name.toString() == 'x_attm_mysla_task')
+		{
+		userid= current.request.sys_created_by;
+	}
+	else
+		userid = current.sys_created_by;       // Gets the User ID
+	var gr = new GlideRecord('sys_user');   // Creates new GlideRecord Object
+	gr.addQuery('user_name', userid);     // Queries the table for the record of our user found in line 2
+	gr.query();
+	if (gr.next()) {                                                                       // If it finds one....
+		userName = gr.name;                           // set the variable "username" as the users name.
+	}
+	
+	template.print(userName);
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-30 10:14:27</sys_created_on>
+        <sys_id>60ef9784dbc7fb80c2da62eb8a96196e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>getcreatedby</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_email_60ef9784dbc7fb80c2da62eb8a96196e</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-30 10:17:30</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="15a1965c1b5f73007a3542edee4bcb8d" sys_domain="global" table="x_attm_mysla_direct_labor" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>341e78411bdb77007a3542edee4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request</element>
+            <position>1</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b81e78411bdb77007a3542edee4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>function</element>
+            <position>2</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>301e78411bdb77007a3542edee4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fte_source</element>
+            <position>3</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b41e78411bdb77007a3542edee4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>level</element>
+            <position>4</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>3c1e78411bdb77007a3542edee4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>5</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b01e78411bdb77007a3542edee4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fte</element>
+            <position>6</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>381e78411bdb77007a3542edee4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_amount</element>
+            <position>7</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>bc1e78411bdb77007a3542edee4bcb09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tcv</element>
+            <position>8</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>341e78411bdb77007a3542edee4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>months</element>
+            <position>9</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b81e78411bdb77007a3542edee4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>301e78411bdb77007a3542edee4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_type</element>
+            <position>11</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b41e78411bdb77007a3542edee4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_management</element>
+            <position>12</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>3c1e78411bdb77007a3542edee4bcb0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_recurring</element>
+            <position>13</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b01e78411bdb77007a3542edee4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rate_month</element>
+            <position>14</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>381e78411bdb77007a3542edee4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fte_month</element>
+            <position>15</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>bc1e78411bdb77007a3542edee4bcb0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contingency_months</element>
+            <position>16</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>341e78411bdb77007a3542edee4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_month</element>
+            <position>17</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b81e78411bdb77007a3542edee4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>headcount_costs</element>
+            <position>18</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>301e78411bdb77007a3542edee4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>one_time_costs</element>
+            <position>19</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b41e78411bdb77007a3542edee4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_contingency</element>
+            <position>20</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>3c1e78411bdb77007a3542edee4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>21</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 11:16:30</sys_created_on>
+            <sys_id>b01e78411bdb77007a3542edee4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_direct_labor" sys_domain="global" view="Default view">15a1965c1b5f73007a3542edee4bcb8d</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 11:16:30</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_attm_mysla_direct_labor</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-12 09:26:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15a1965c1b5f73007a3542edee4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_direct_labor</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_15a1965c1b5f73007a3542edee4bcb8d</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-12 09:26:11</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

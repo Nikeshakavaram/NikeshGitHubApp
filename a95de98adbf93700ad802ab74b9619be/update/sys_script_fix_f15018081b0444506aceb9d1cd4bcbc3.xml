@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name/>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var id = '';
+var use = new GlideRecord('sys_user');
+use.addQuery('sys_id',gs.getUserID());
+use.query();
+if(use.next())
+	{
+		id=use.employee_number().toString();
+	}
+var url = 'http://cldprd0sql00523.itservices.sbc.com/webslm/ContentSearch/#!/home?AttUid='+id;
+
+
+gs.setRedirect(url.toString());]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>na571t@att.com</sys_created_by>
+        <sys_created_on>2019-09-17 12:19:13</sys_created_on>
+        <sys_id>f15018081b0444506aceb9d1cd4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_fix_f15018081b0444506aceb9d1cd4bcbc3</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-17 12:19:13</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

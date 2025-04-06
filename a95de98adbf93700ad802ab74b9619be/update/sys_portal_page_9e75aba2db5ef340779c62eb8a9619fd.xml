@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2024-07-10 03:29:27">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+        <sys_created_on>2019-06-30 22:15:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e75aba2db5ef340779c62eb8a9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_portal_page_9e75aba2db5ef340779c62eb8a9619fd</sys_update_name>
+        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-06-30 22:15:58</sys_updated_on>
+        <title>PA New Tab</title>
+        <user/>
+        <view>pa_new_tab_72</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">9e75aba2db5ef340779c62eb8a9619fd</page>
+                <summary>Utilization Report</summary>
+                <sys_created_by>rr141k@att.com</sys_created_by>
+                <sys_created_on>2019-07-18 16:09:41</sys_created_on>
+                <sys_id>404e3e581b3afb407a3542edee4bcb6c</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>rr141k@att.com</sys_updated_by>
+                <sys_updated_on>2019-07-18 16:09:41</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-18 16:09:41</sys_created_on>
+                        <sys_id>044e3e581b3afb407a3542edee4bcb6e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-18 16:09:41</sys_updated_on>
+                        <value>Utilization Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-18 16:09:41</sys_created_on>
+                        <sys_id>084e3e581b3afb407a3542edee4bcb6d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-18 16:09:41</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-18 16:09:41</sys_created_on>
+                        <sys_id>0c4e3e581b3afb407a3542edee4bcb6c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-18 16:09:41</sys_updated_on>
+                        <value>8c9bbcd01bbabb407a3542edee4bcbbd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-18 16:09:41</sys_created_on>
+                        <sys_id>404e3e581b3afb407a3542edee4bcb6e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-18 16:09:41</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-18 16:09:41</sys_created_on>
+                        <sys_id>8c4e3e581b3afb407a3542edee4bcb6d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-18 16:09:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>c0a2a2681bfa3f407a3542edee4bcbfe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>c0a2a2681bfa3f407a3542edee4bcbff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>c4a2a2681bfa3f407a3542edee4bcbfe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>c4a2a2681bfa3f407a3542edee4bcbff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-18 16:09:41</sys_created_on>
+                        <sys_id>c84e3e581b3afb407a3542edee4bcb6d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-18 16:09:41</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>c8a2a2681bfa3f407a3542edee4bcbfe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>c8a2a2681bfa3f407a3542edee4bcbff</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>cca2a2681bfa3f407a3542edee4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2019-07-18 09:09:41">404e3e581b3afb407a3542edee4bcb6c</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:28</sys_created_on>
+                        <sys_id>cca2a2681bfa3f407a3542edee4bcbfe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:28</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">9e75aba2db5ef340779c62eb8a9619fd</page>
+                <summary>Calendar PTO</summary>
+                <sys_created_by>kt784c@att.com</sys_created_by>
+                <sys_created_on>2019-07-05 10:31:01</sys_created_on>
+                <sys_id>6814fe08db267f40779c62eb8a96191d</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>kt784c@att.com</sys_updated_by>
+                <sys_updated_on>2019-07-05 10:32:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>kt784c@att.com</sys_created_by>
+                        <sys_created_on>2019-07-05 10:31:01</sys_created_on>
+                        <sys_id>2c14fe08db267f40779c62eb8a96191f</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kt784c@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-05 10:32:44</sys_updated_on>
+                        <value>Calendar PTO</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>kt784c@att.com</sys_created_by>
+                        <sys_created_on>2019-07-05 10:31:01</sys_created_on>
+                        <sys_id>6814fe08db267f40779c62eb8a96191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kt784c@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-05 10:31:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8292e6e81bfa3f407a3542edee4bcb9f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8292e6e81bfa3f407a3542edee4bcba0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8692e6e81bfa3f407a3542edee4bcb9f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8692e6e81bfa3f407a3542edee4bcba0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8a92e6e81bfa3f407a3542edee4bcb9e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8a92e6e81bfa3f407a3542edee4bcb9f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8e92e6e81bfa3f407a3542edee4bcb9e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:19</sys_created_on>
+                        <sys_id>8e92e6e81bfa3f407a3542edee4bcb9f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>kt784c@att.com</sys_created_by>
+                        <sys_created_on>2019-07-05 10:31:01</sys_created_on>
+                        <sys_id>a414fe08db267f40779c62eb8a96191e</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>kt784c@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-05 10:32:44</sys_updated_on>
+                        <value>f974364cdb267f40779c62eb8a9619a4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>kt784c@att.com</sys_created_by>
+                        <sys_created_on>2019-07-05 10:31:01</sys_created_on>
+                        <sys_id>a414fe08db267f40779c62eb8a96191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kt784c@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-05 10:31:01</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-07-05 03:31:01">6814fe08db267f40779c62eb8a96191d</portal_section>
+                        <sys_created_by>kt784c@att.com</sys_created_by>
+                        <sys_created_on>2019-07-05 10:31:01</sys_created_on>
+                        <sys_id>e014fe08db267f40779c62eb8a96191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kt784c@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-05 10:31:01</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">9e75aba2db5ef340779c62eb8a9619fd</page>
+                <summary>WIP SLA Requests</summary>
+                <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                <sys_created_on>2019-06-30 22:34:34</sys_created_on>
+                <sys_id>7eb9abaadb5ef340779c62eb8a961929</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                <sys_updated_on>2019-06-30 22:38:56</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:34:34</sys_created_on>
+                        <sys_id>36b9abaadb5ef340779c62eb8a96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:34:34</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>432eaf6edb5ef340779c62eb8a9619c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:53:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>432eaf6edb5ef340779c62eb8a9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:53:59</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>472eaf6edb5ef340779c62eb8a9619c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:53:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>472eaf6edb5ef340779c62eb8a9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:53:59</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>4b2eaf6edb5ef340779c62eb8a9619c3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:53:59</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>4b2eaf6edb5ef340779c62eb8a9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:53:59</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>4f2eaf6edb5ef340779c62eb8a9619c3</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:54:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:53:59</sys_created_on>
+                        <sys_id>4f2eaf6edb5ef340779c62eb8a9619c4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:53:59</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:34:34</sys_created_on>
+                        <sys_id>72b9abaadb5ef340779c62eb8a96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:34:34</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:34:34</sys_created_on>
+                        <sys_id>b6b9abaadb5ef340779c62eb8a96192a</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:38:56</sys_updated_on>
+                        <value>66baa32edb5ef340779c62eb8a96193e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:34:34</sys_created_on>
+                        <sys_id>bab9abaadb5ef340779c62eb8a96192b</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:38:56</sys_updated_on>
+                        <value>WIP SLA Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-06-30 15:34:34">7eb9abaadb5ef340779c62eb8a961929</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 22:34:34</sys_created_on>
+                        <sys_id>f6b9abaadb5ef340779c62eb8a96192b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 22:34:34</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">9e75aba2db5ef340779c62eb8a9619fd</page>
+                <summary>Total Active SLA Requests</summary>
+                <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                <sys_id>e5b35c991b2ef7c04b8685507e4bcb6b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>009222681bfa3f407a3542edee4bcb84</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>009222681bfa3f407a3542edee4bcb85</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>009222681bfa3f407a3542edee4bcb86</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>049222681bfa3f407a3542edee4bcb85</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>089222681bfa3f407a3542edee4bcb84</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>089222681bfa3f407a3542edee4bcb85</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>0c9222681bfa3f407a3542edee4bcb84</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rr141k@att.com</sys_created_by>
+                        <sys_created_on>2019-07-19 08:47:11</sys_created_on>
+                        <sys_id>0c9222681bfa3f407a3542edee4bcb85</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rr141k@att.com</sys_updated_by>
+                        <sys_updated_on>2019-07-19 08:47:11</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>25b35c991b2ef7c04b8685507e4bcb6d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>29b35c991b2ef7c04b8685507e4bcb6c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>61b35c991b2ef7c04b8685507e4bcb6d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>adb35c991b2ef7c04b8685507e4bcb6c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>e1b35c991b2ef7c04b8685507e4bcb6e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>e5b35c991b2ef7c04b8685507e4bcb6d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>Total Active SLA Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>e9b35c991b2ef7c04b8685507e4bcb6c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-07-08 13:02:48">e5b35c991b2ef7c04b8685507e4bcb6b</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-07-08 20:02:48</sys_created_on>
+                        <sys_id>edb35c991b2ef7c04b8685507e4bcb6b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-07-08 20:02:48</sys_updated_on>
+                        <value>d3b7e32adb5ef340779c62eb8a961918</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">9e75aba2db5ef340779c62eb8a9619fd</page>
+                <summary>SLA Requests Pending Assignment</summary>
+                <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                <sys_created_on>2019-06-30 23:02:46</sys_created_on>
+                <sys_id>ff2033eedb5ef340779c62eb8a96191c</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                <sys_updated_on>2019-06-30 23:06:07</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:02:46</sys_created_on>
+                        <sys_id>3b2033eedb5ef340779c62eb8a96191d</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:06:07</sys_updated_on>
+                        <value>7cf0bfa2db9ef340779c62eb8a961983</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:02:46</sys_created_on>
+                        <sys_id>3f203326db9ef340779c62eb8a961922</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:02:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>72a13326db9ef340779c62eb8a96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>72a13326db9ef340779c62eb8a96192e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>76a13326db9ef340779c62eb8a96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>76a13326db9ef340779c62eb8a96192e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:02:46</sys_created_on>
+                        <sys_id>77203326db9ef340779c62eb8a961923</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:06:07</sys_updated_on>
+                        <value>SLA Requests Pending Assignment</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>7aa13326db9ef340779c62eb8a96192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>7aa13326db9ef340779c62eb8a96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>7ea13326db9ef340779c62eb8a96192c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:09:15</sys_created_on>
+                        <sys_id>7ea13326db9ef340779c62eb8a96192d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:09:15</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:02:46</sys_created_on>
+                        <sys_id>b3203326db9ef340779c62eb8a961923</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:02:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-06-30 16:02:46">ff2033eedb5ef340779c62eb8a96191c</portal_section>
+                        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+                        <sys_created_on>2019-06-30 23:02:46</sys_created_on>
+                        <sys_id>ff203326db9ef340779c62eb8a961922</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+                        <sys_updated_on>2019-06-30 23:02:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

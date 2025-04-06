@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var gdw = GlideDialogWindow.get();
+var recordID = gdw.getPreference('recordSysID');
+
+
+var ga = new GlideAjax('costModelCalculator');
+ga.addParam('sysparm_name', 'staffLevel');
+ga.addParam('sysparm_recordID', recordID);
+ga.getXML(showLaborRates2);
+
+
+
+function showLaborRates2(response) {
+	$j("#infoMessage").empty();
+	$j("#tableBody").empty();
+	$j("#tableHead").empty();
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	var laborRateArr = JSON.parse(answer);
+	var thead = '';
+	var row = '';
+	
+	if(laborRateArr.length != 0)
+		{
+		//Adding table head
+		thead = '<tr><th class="cellPadding">Level</th><th class="cellPadding">Rate</th></tr>';
+		$j('#staffLevel > thead:last').append(thead);
+
+		//Adding table body
+		for(var i=0; i<laborRateArr.length; i++)
+			{
+			row = row + '<tr><td class="cellPadding"><a href="#" onclick="updateFTE(this)" laborID="'+ laborRateArr[i].sys_id + '">' + laborRateArr[i].level + '</a></td><td class="cellPadding">' + laborRateArr[i].rate + '</td></tr>';
+		}
+		$j('#staffLevel > tbody:last').append(row);
+		}
+	else
+		$j('#infoMessage').html('<div class="cellPadding"><b>There are no labor rates for this country</b></div>');
+		
+}
+
+function updateFTE(laborRateObj)
+{
+	var ga = new GlideAjax('costModelCalculator');
+	ga.addParam('sysparm_name','updateLaborRate');
+	ga.addParam('sysparm_FTE_ID', recordID);
+	ga.addParam('sysparm_laborRate_ID', $j(laborRateObj).attr('laborID'));
+	ga.getXML(refreshScreen);
+}
+
+
+function refreshScreen(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	location.reload();
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_attm_mysla_CostModel_staffLevel.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<style>
+		.cellPadding{
+		padding:5px;
+		font-size: 16px;
+		text-align: center;
+		}
+	</style>
+	<div id="infoMessage">Please wait...</div>
+	<table align="center" id="staffLevel">
+		<thead id="tableHead">
+		</thead>
+		
+		<tbody id="tableBody">
+		</tbody>
+	</table>
+	
+</j:jelly>]]></html>
+        <name>CostModel_staffLevel</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>rr141k@att.com</sys_created_by>
+        <sys_created_on>2020-02-14 13:08:00</sys_created_on>
+        <sys_id>4c2cfc901b0704506aceb9d1cd4bcbf9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CostModel_staffLevel</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_page_4c2cfc901b0704506aceb9d1cd4bcbf9</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2020-02-17 11:16:49</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>products</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rr141k@att.com</sys_created_by>
+        <sys_created_on>2019-10-10 10:49:39</sys_created_on>
+        <sys_id>707ad2131bd44450529142edee4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>products</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_707ad2131bd44450529142edee4bcb64</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-10-10 10:49:39</sys_updated_on>
+        <table>x_attm_mysla_mds_form</table>
+        <ui_policy display_value="SLA - Hide fields on Load">4a7023e21b4e77004b8685507e4bcb12</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

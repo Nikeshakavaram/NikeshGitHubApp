@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>mds_form</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLA - Set MDS Form values</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (newValue === '') {
+		return;
+	}
+//	if(g_scratchpad.targetDate)
+	//	g_form.setValue('target_date',g_scratchpad.targetDate);	
+	
+	if(g_form.isNewRecord() == true){
+		g_form.setValue('complexity',g_scratchpad.complexity);
+		if(g_scratchpad.deal)
+			g_form.setValue('deal',g_scratchpad.deal);
+		if(g_scratchpad.customer)
+			g_form.setValue('customer',g_scratchpad.customer);
+		if(g_scratchpad.opportunity_id)
+			g_form.setValue('opportunity_id',g_scratchpad.opportunity_id);
+		if(g_scratchpad.deal_id)
+			g_form.setValue('deal_id',g_scratchpad.deal_id);
+		if(g_scratchpad.short_description)
+			g_form.setValue('short_description',g_scratchpad.short_description);
+		if(g_scratchpad.srid)
+			g_form.setValue('srid_wrid',g_scratchpad.srid);
+		if(g_scratchpad.sales_channel)
+			g_form.setValue('sales_channel',g_scratchpad.sales_channel);
+		if(g_scratchpad.tov)
+			g_form.setValue('total_opportunity_value',g_scratchpad.tov);
+		if(g_scratchpad.tcv)
+			g_form.setValue('total_contract_value_if_different_than_rome',g_scratchpad.tcv);
+		if(g_scratchpad.term)
+			g_form.setValue('contract_term',g_scratchpad.term);
+		if(g_scratchpad.rome_status)
+			g_form.setValue('rome_status',g_scratchpad.rome_status);
+		if(g_scratchpad.probability)
+			g_form.setValue('probability_of_sale',g_scratchpad.probability);
+		if(g_scratchpad.bet)
+			g_form.setValue('board_engagement_tool_bet',g_scratchpad.bet);
+		if(g_scratchpad.comments)
+			g_form.setValue('additional_comments_regarding_bet_number',g_scratchpad.comments);
+		if(g_scratchpad.products)
+			g_form.setValue('products',g_scratchpad.products);
+		if(g_scratchpad.status)
+			g_form.setValue('service_status_by_product',g_scratchpad.status);
+		if(g_scratchpad.offs)
+			g_form.setValue('product_1_offs',g_scratchpad.offs);
+		if(g_scratchpad.affected_sites)
+			g_form.setValue('affected_sites_are',g_scratchpad.affected_sites);
+		if(g_scratchpad.labor)
+			g_form.setValue('type_of_labor_restrictions',g_scratchpad.labor);
+		if(g_scratchpad.gecep)
+			g_form.setValue('gecep_id',g_scratchpad.gecep);
+		if(g_scratchpad.due_to_sales)
+			g_form.setValue('due_to_sales_date',g_scratchpad.due_to_sales);
+		if(g_scratchpad.targetDate)
+			g_form.setValue('target_date',g_scratchpad.targetDate);	
+		g_form.setDisplay('gsi_partner',false);
+		if(g_scratchpad.gsi){
+			g_form.setDisplay('gsi_partner',true);
+			g_form.setValue('gsi_partner',g_scratchpad.gsi);
+		}
+		if(g_scratchpad.opportunity_owner_id)
+			g_form.setValue('opportunity_owner_id',g_scratchpad.opportunity_owner_id);
+		if(g_scratchpad.product_names)
+			g_form.setValue('product_names',g_scratchpad.product_names);
+		
+		//Type appropriate comment here, and begin script below
+		
+	}}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-19 12:31:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0216f803db867300779c62eb8a961951</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>SLA - Set MDS Form values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_client_0216f803db867300779c62eb8a961951</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-10-06 11:04:08</sys_updated_on>
+        <table>x_attm_mysla_sla_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

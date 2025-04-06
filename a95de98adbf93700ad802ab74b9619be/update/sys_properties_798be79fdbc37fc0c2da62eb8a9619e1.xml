@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>This JSON is referred to in the Macro : operational_consultant and a Script Include : SLARequest_utils</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_attm_mysla.operational_consultant_questions</name>
+        <read_roles/>
+        <suffix>operational_consultant_questions</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+        <sys_created_on>2019-08-09 13:33:48</sys_created_on>
+        <sys_id>798be79fdbc37fc0c2da62eb8a9619e1</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>x_attm_mysla.operational_consultant_questions</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_properties_798be79fdbc37fc0c2da62eb8a9619e1</sys_update_name>
+        <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-08-13 12:14:41</sys_updated_on>
+        <type>string</type>
+        <value>[&#13;
+{&#13;
+"name" : "existing_service",&#13;
+ "value" : "Is Service Existing or New ?"&#13;
+},&#13;
+{&#13;
+"name" : "geographic_location",&#13;
+ "value" : "Geographic Location"&#13;
+},&#13;
+{&#13;
+"name" : "service_tower",&#13;
+ "value" : "Service / Tower"&#13;
+},&#13;
+{&#13;
+"name" : "component_type",&#13;
+ "value" : "Component Type"&#13;
+},&#13;
+{&#13;
+"name" : "at_t_product_ni",&#13;
+ "value" : "AT&amp;T Product / NI"&#13;
+},&#13;
+{&#13;
+"name" : "software",&#13;
+ "value" : "Software"&#13;
+},&#13;
+{&#13;
+"name" : "product_manager_ni_engagment_manager",&#13;
+ "value" : "Product Manager / NI Engagment Manager"&#13;
+},&#13;
+{&#13;
+"name" : "vendor",&#13;
+ "value" : "Vendor"&#13;
+},&#13;
+{&#13;
+"name" : "management_monitoring_tier_1_5",&#13;
+ "value" : "Management/Monitoring Tier 1.5"&#13;
+},&#13;
+{&#13;
+"name" : "management_monitoring_tier_2",&#13;
+ "value" : "Management/Monitoring Tier 2"&#13;
+},&#13;
+{&#13;
+"name" : "onsite_customer_vendor",&#13;
+ "value" : "Onsite Customer Vendor"&#13;
+},&#13;
+{&#13;
+"name" : "logical_macds",&#13;
+ "value" : "Logical MACDs"&#13;
+},&#13;
+{&#13;
+"name" : "physical_macds",&#13;
+ "value" : "Physical MACDs"&#13;
+},&#13;
+{&#13;
+"name" : "provide_plug_in_data",&#13;
+ "value" : "Provide Plug-in Data (for manual SLA metrics)"&#13;
+},&#13;
+{&#13;
+"name" : "ticket_scrubbing",&#13;
+ "value" : "Ticket Scrubbing"&#13;
+},&#13;
+{&#13;
+"name" : "sla_validation",&#13;
+ "value" : "SLA Validation"&#13;
+},&#13;
+{&#13;
+"name" : "sla_reporting",&#13;
+ "value" : "SLA Reporting (SLA dashboard creation)"&#13;
+},&#13;
+{&#13;
+"name" : "stewardship_reviews",&#13;
+ "value" : "Stewardship Reviews"&#13;
+},&#13;
+{&#13;
+"name" : "rca_reports",&#13;
+ "value" : "RCA Reports"&#13;
+},&#13;
+{&#13;
+"name" : "calculate_and_submit_sla_credits",&#13;
+ "value" : "Calculate and submit SLA credits"&#13;
+},&#13;
+{&#13;
+"name" : "process_sla_credits",&#13;
+ "value" : "Process SLA credits"&#13;
+},&#13;
+{&#13;
+"name" : "operational_reporting",&#13;
+ "value" : "Operational Reporting"&#13;
+},&#13;
+{&#13;
+"name" : "primary_ticketing_system",&#13;
+ "value" : "Primary Ticketing System (source of truth for SLAs)"&#13;
+},&#13;
+{&#13;
+"name" : "secondary_ticketing_system",&#13;
+ "value" : "Secondary Ticketing System"&#13;
+},&#13;
+{&#13;
+"name" : "inventory_system",&#13;
+ "value" : "Inventory System"&#13;
+},&#13;
+{&#13;
+"name" : "sla_reporting_platform",&#13;
+ "value" : "SLA Reporting Platform (SLA Dashboard)"&#13;
+},&#13;
+{&#13;
+"name" : "operational_reporting_tool",&#13;
+ "value" : "Operational Reporting Tool"&#13;
+},&#13;
+{&#13;
+"name" : "sla_credit_submission_tool",&#13;
+ "value" : "SLA credit submission tool"&#13;
+},&#13;
+{&#13;
+"name" : "billing_system",&#13;
+ "value" : "Billing System"&#13;
+},&#13;
+{&#13;
+"name" : "rpmc",&#13;
+ "value" : "RPMC"&#13;
+},&#13;
+{&#13;
+"name" : "plcm_team",&#13;
+ "value" : "PLCM Team"&#13;
+},&#13;
+{&#13;
+"name" : "clcm_team",&#13;
+ "value" : "CLCM Team"&#13;
+},&#13;
+{&#13;
+"name" : "webslm_development",&#13;
+ "value" : "WEBSLM Development"&#13;
+},&#13;
+{&#13;
+"name" : "gsam",&#13;
+ "value" : "GSAM"&#13;
+},&#13;
+{&#13;
+"name" : "billing_ops",&#13;
+ "value" : "Billing OPS"&#13;
+}&#13;
+]</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=798be79fdbc37fc0c2da62eb8a9619e1"/>
+</record_update>

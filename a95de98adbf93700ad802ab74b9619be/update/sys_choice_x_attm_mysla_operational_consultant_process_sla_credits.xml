@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="process_sla_credits" table="x_attm_mysla_operational_consultant" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>process_sla_credits</element>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:31:50</sys_created_on>
+            <sys_id>eb65cc3687f6301048d0fea9cebb354c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>process_sla_credits</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_operational_consultant_process_sla_credits</sys_update_name>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:31:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>process_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Billing OPS</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a3aa7e8db973700c2da62eb8a9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:31:50</sys_updated_on>
+            <value>Billing OPS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>process_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Automated-ISOM</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:32:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>845a2be8db973700c2da62eb8a9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:32:03</sys_updated_on>
+            <value>Automated-ISOM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>process_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add new item</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>10000</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-01 14:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df7592fe1b277b00529142edee4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-01 14:23:29</sys_updated_on>
+            <value>Add new item</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

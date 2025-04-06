@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>scoped_products</name>
+        <scoped_name>x_attm_mysla_scoped_products</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-07-16 12:54:13</sys_created_on>
+        <sys_id>b27c3baf1be6f7407a3542edee4bcbc3</sys_id>
+        <sys_mod_count>125</sys_mod_count>
+        <sys_name>scoped_products</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_macro_b27c3baf1be6f7407a3542edee4bcbc3</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-23 08:05:23</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    
+	<style>
+		.centerthis{
+		text-align:center;
+		}
+	</style>
+	
+	
+	<table class="table table-hover" id="scope">
+        <thead>
+            <th bgcolor="#ADD8E6" class="centerthis">Region</th>
+            <th bgcolor="#ADD8E6" class="centerthis">Lead Region</th>
+            <th bgcolor="#ADD8E6" class="centerthis">Region Solutioned</th>
+            <th bgcolor="#ADD8E6" class="centerthis">Total Sites</th>
+            <th bgcolor="#ADD8E6" class="centerthis">Impacted Sites</th>
+            <th bgcolor="#ADD8E6" class="centerthis">Impacted Devices</th>
+            <th bgcolor="#ADD8E6" class="centerthis">Impacted Circuits</th>
+        </thead>
+        <tbody>
+			
+		<!-- Fetching records from Scoped Products table-->
+			<g:evaluate var="jvar_scopedProduct" object="true" jelly="true">
+				var scopedProduct = new GlideRecord("x_attm_mysla_scoped_products");
+				scopedProduct.addQuery('type','Regions');
+				scopedProduct.query();
+			
+				scopedProduct;
+			</g:evaluate>
+		
+		
+			
+			<!-- Looping throug the records-->
+			<j:while test="${jvar_scopedProduct.next()}">
+				
+            <tr>
+				<td class="centerthis"><b>${jvar_scopedProduct.getValue('value')}</b></td>
+                <td style="text-align:center;">
+                    <input id="${jvar_scopedProduct.getValue('value')}_leadRegion" class="${jvar_scopedProduct.getValue('value')} leadRegionChecks" onchange="updateRegionDetailsField()" type="checkbox" />
+                </td>
+                <td style="text-align: center;">
+                    <input id="${jvar_scopedProduct.getValue('value')}_regionSolutioned" class="${jvar_scopedProduct.getValue('value')}" onchange="updateRegionDetailsField()" type="checkbox" />
+                </td>
+                <td>
+                    <input id="${jvar_scopedProduct.getValue('value')}_totalSites" class="${jvar_scopedProduct.getValue('value')} form-control" onchange="updateRegionDetailsField()" type="text" name="destination" value=""/>
+                </td>
+                <td>
+                    <input id="${jvar_scopedProduct.getValue('value')}_impactedSites" class="${jvar_scopedProduct.getValue('value')} form-control" onchange="updateRegionDetailsField()" type="text" name="port" value="" />
+                </td>
+                <td>
+                    <input id="${jvar_scopedProduct.getValue('value')}_impactedDevices" class="${jvar_scopedProduct.getValue('value')} form-control" onchange="updateRegionDetailsField()" type="text" name="comments" disabled="disabled"  />
+                </td>
+                <td color="#EEEEEE">
+                    <input id="${jvar_scopedProduct.getValue('value')}_impactedCircuits" class="${jvar_scopedProduct.getValue('value')} form-control" onchange="updateRegionDetailsField()" type="text" name="comments" disabled="disabled"  />
+                </td>
+            </tr>
+					</j:while>			
+			<tr><td><b>Totals</b></td>
+			<td></td>
+			<td></td>
+			<td id="totalSites"></td>
+			<td id="impactedSites"></td>
+			<td id="totalImpactedDevices"></td>
+			<td id="totalImpactedCircuits"></td>
+			</tr>
+        </tbody>
+    </table>
+	
+	
+	
+	
+	<!-- All scripting begins here-->
+	<!--We have a function that updates every single change in the table on to the Region Field table on SLA request form-->
+	<!--We also have a function that read the values from the Region Field and displays neatly table format--> 
+	<script>
+		var regionsArr = ['AP', 'CALA', 'Canada', 'EMEA', 'Japan', 'USA'];
+		var tableColumns = ['leadRegion', 'regionSolutioned', 'totalSites', 'impactedSites', 'impactedDevices', 'impactedCircuits'];
+		
+	$j( document ).ready(function() {
+		$j('.leadRegionChecks').click(function() {
+        $j('.leadRegionChecks').not(this).prop('checked', false);
+    });
+		
+		
+		var region_details = g_form.getValue('region_details');
+		if(region_details != '')
+		{
+		var regionsDetailsArr = region_details.split('---');
+		for(var i = 0 ; i != regionsDetailsArr.length; i++ )
+		{
+				var cellValues = regionsDetailsArr[i].split('~');
+				for(var j = 0 ; j != tableColumns.length; j++ )
+				{
+					if($j('#' + regionsArr[i] + '_' + tableColumns[j]).attr('type') == 'checkbox')
+		
+		{
+		if (cellValues[j] == 'true')
+		$j('#' + regionsArr[i] + '_' + tableColumns[j]).prop('checked', true);
+		else
+		$j('#' + regionsArr[i] + '_' + tableColumns[j]).prop('checked', false);	
+		}
+					else
+						$j('#' + regionsArr[i] + '_' + tableColumns[j]).val(cellValues[j]);
+				}
+	
+		}
+		}
+		
+		
+		
+		
+		
+		
+		var totalSites = parseInt($j('#AP_totalSites').val() || 0) + parseInt($j('#CALA_totalSites').val() || 0) + parseInt($j('#Canada_totalSites').val() || 0) + parseInt($j('#EMEA_totalSites').val() || 0) + parseInt($j('#Japan_totalSites').val() || 0) + parseInt($j('#USA_totalSites').val() || 0)
+		$j('#totalSites').text(totalSites);
+		
+		var impactedSites = parseInt($j('#AP_impactedSites').val() || 0) + parseInt($j('#CALA_impactedSites').val() || 0) + parseInt($j('#Canada_impactedSites').val() || 0) + parseInt($j('#EMEA_impactedSites').val() || 0) + parseInt($j('#Japan_impactedSites').val() || 0) + parseInt($j('#USA_impactedSites').val() || 0)
+		$j('#impactedSites').text(impactedSites);
+		
+		
+		
+});
+		
+		
+		
+		
+		function updateRegionDetailsField()
+		{
+		
+		var regionDetailsVal = '';
+		for(var i = 0 ; i != regionsArr.length; i++ )
+		{
+				var regionDetailsVal = regionDetailsVal + $j( "." +  regionsArr[i] ).map(function() 
+				{
+				var ap_Val = '';
+				if($j(this).attr('type') == 'checkbox')
+					ap_Val = $j(this).is(":checked");
+				else
+					ap_Val = $j(this).val();
+
+				return ap_Val;
+		  }).get().join('~') + '---';
+
+				}
+		var finalVal = regionDetailsVal.substring(0, regionDetailsVal.length-3);
+		g_form.setValue('region_details', finalVal);
+		
+		
+		var totalSites = parseInt($j('#AP_totalSites').val() || 0) + parseInt($j('#CALA_totalSites').val() || 0) + parseInt($j('#Canada_totalSites').val() || 0) + parseInt($j('#EMEA_totalSites').val() || 0) + parseInt($j('#Japan_totalSites').val() || 0) + parseInt($j('#USA_totalSites').val() || 0)
+		$j('#totalSites').text(totalSites);
+		
+		var impactedSites = parseInt($j('#AP_impactedSites').val() || 0) + parseInt($j('#CALA_impactedSites').val() || 0) + parseInt($j('#Canada_impactedSites').val() || 0) + parseInt($j('#EMEA_impactedSites').val() || 0) + parseInt($j('#Japan_impactedSites').val() || 0) + parseInt($j('#USA_impactedSites').val() || 0)
+		$j('#impactedSites').text(impactedSites);
+		
+		}
+	
+		
+		
+		$j("#AP_impactedSites").change(function(){
+		if(parseInt($j(this).val() || 0) >  parseInt($j("#AP_totalSites").val()))
+		{
+			alert('Number of impacted sites cannot be greater than number of total sites');
+			$j(this).val('');
+			updateRegionDetailsField();
+		}
+	});
+		
+		$j("#CALA_impactedSites").change(function(){
+		if(parseInt($j(this).val() || 0) >  parseInt($j("#CALA_totalSites").val()))
+		{
+			alert('Number of impacted sites cannot be greater than number of total sites');
+			$j(this).val('');
+			updateRegionDetailsField();
+		}
+	});
+		
+		$j("#Canada_impactedSites").change(function(){
+		if(parseInt($j(this).val() || 0) >  parseInt($j("#Canada_totalSites").val()))
+		{
+			alert('Number of impacted sites cannot be greater than number of total sites');
+			$j(this).val('');
+			updateRegionDetailsField();
+		}
+	});
+		
+		$j("#EMEA_impactedSites").change(function(){
+		if(parseInt($j(this).val() || 0) >  parseInt($j("#EMEA_totalSites").val()))
+		{
+			alert('Number of impacted sites cannot be greater than number of total sites');
+			$j(this).val('');
+			updateRegionDetailsField();
+		}
+	});
+		
+		$j("#Japan_impactedSites").change(function(){
+		if(parseInt($j(this).val() || 0) >  parseInt($j("#Japan_totalSites").val()))
+		{
+			alert('Number of impacted sites cannot be greater than number of total sites');
+			$j(this).val('');
+			updateRegionDetailsField();
+		}
+	});
+		
+		$j("#USA_impactedSites").change(function(){
+		if(parseInt($j(this).val() || 0) >  parseInt($j("#USA_totalSites").val()))
+		{
+			alert('Number of impacted sites cannot be greater than number of total sites');
+			$j(this).val('');
+			updateRegionDetailsField();
+		}
+	});
+		
+		
+	</script>
+   
+
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

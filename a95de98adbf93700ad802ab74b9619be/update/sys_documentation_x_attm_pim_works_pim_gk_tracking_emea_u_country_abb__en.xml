@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_country_abb_" label="Country abb." language="en" table="x_attm_pim_works_pim_gk_tracking_emea">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_country_abb_</element>
+            <help/>
+            <hint/>
+            <label>Country abb.</label>
+            <language>en</language>
+            <name>x_attm_pim_works_pim_gk_tracking_emea</name>
+            <plural>Country abb.s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 12:45:01</sys_created_on>
+            <sys_id>0f8e7be31b1c4c506aceb9d1cd4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Country abb.</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_pim_works_pim_gk_tracking_emea_u_country_abb__en</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 12:45:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

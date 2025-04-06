@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_attm_mysla_LinkRedirection.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:evaluate var="jvar_survey_url" jelly="true">
+  var id = '';
+var use = new GlideRecord('sys_user');
+use.addQuery('sys_id',gs.getUserID());
+use.query();
+if(use.next())
+	{
+		id=use.employee_number.toString();
+	}
+	
+	var url = 'http://cldprd0sql00523.itservices.sbc.com/webslm/ContentSearch/#!/home?AttUid='+id;
+    gs.setRedirect(url);
+	url;
+	
+  </g:evaluate>
+		<input type="hidden" id="redirectURL" value="${jvar_survey_url}"/>
+	<script>
+		window.location.href = redirectURL;
+	</script>
+	
+	
+
+	
+</j:jelly>]]></html>
+        <name>LinkRedirection</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>na571t@att.com</sys_created_by>
+        <sys_created_on>2019-09-17 12:39:02</sys_created_on>
+        <sys_id>92f5d0041b4444506aceb9d1cd4bcb0e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>LinkRedirection</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_page_92f5d0041b4444506aceb9d1cd4bcb0e</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-17 13:10:21</sys_updated_on>
+    </sys_ui_page>
+</record_update>

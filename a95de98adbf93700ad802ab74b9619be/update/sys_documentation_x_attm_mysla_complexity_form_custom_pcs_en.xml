@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="custom_pcs" label="Is this a Custom PCS (including PCS Application) request? " language="en" table="x_attm_mysla_complexity_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>custom_pcs</element>
+            <help/>
+            <hint/>
+            <label>Is this a Custom PCS (including PCS Application) request? </label>
+            <language>en</language>
+            <name>x_attm_mysla_complexity_form</name>
+            <plural>Is this a Custom PCS (including PCS Application) request? s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-14 09:24:54</sys_created_on>
+            <sys_id>df8b5251db06b3845067e33648961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is this a Custom PCS (including PCS Application) request?</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_complexity_form_custom_pcs_en</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-14 09:24:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

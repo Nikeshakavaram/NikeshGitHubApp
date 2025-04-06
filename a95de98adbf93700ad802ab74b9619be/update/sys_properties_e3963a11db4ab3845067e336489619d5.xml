@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_attm_mysla.operations_reports_docs</name>
+        <read_roles/>
+        <suffix>operations_reports_docs</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-14 11:26:09</sys_created_on>
+        <sys_id>e3963a11db4ab3845067e336489619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_attm_mysla.operations_reports_docs</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_properties_e3963a11db4ab3845067e336489619d5</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-14 11:26:09</sys_updated_on>
+        <type>string</type>
+        <value>67a2b8e4db0e3b445067e33648961986,b5e23ce4db0e3b445067e3364896197a,2df238e4db0e3b445067e3364896191b,73f2bce4db0e3b445067e33648961965,1c237ce4db0e3b445067e336489619d1,d7237c68db0e3b445067e33648961992,6d337ce4db0e3b445067e33648961987,f2437028db0e3b445067e33648961935,5c73f8a8db0e3b445067e336489619cb</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3963a11db4ab3845067e336489619d5"/>
+</record_update>

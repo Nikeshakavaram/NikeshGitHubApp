@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_attm_mysla_customer_responsibilities</from_table>
+        <m2m_from_field>customer_responsibilities</m2m_from_field>
+        <m2m_from_label>Custom Requests</m2m_from_label>
+        <m2m_table>x_attm_mysla_m2m_custom_reque_customer_res</m2m_table>
+        <m2m_to_field>custom_request</m2m_to_field>
+        <m2m_to_label>Customer Responsibilities</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>na571t@att.com</sys_created_by>
+        <sys_created_on>2019-09-30 10:38:33</sys_created_on>
+        <sys_id>6e473e841b188c906aceb9d1cd4bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_attm_mysla_m2m_custom_reque_customer_res</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_m2m_6e473e841b188c906aceb9d1cd4bcbeb</sys_update_name>
+        <sys_updated_by>na571t@att.com</sys_updated_by>
+        <sys_updated_on>2019-09-30 10:38:33</sys_updated_on>
+        <to_table>x_attm_mysla_sla_request</to_table>
+    </sys_m2m>
+</record_update>

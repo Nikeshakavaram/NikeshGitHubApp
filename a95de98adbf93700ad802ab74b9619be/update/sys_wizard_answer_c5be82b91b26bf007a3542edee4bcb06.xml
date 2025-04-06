@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>SLA Templates</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>SLA Templates</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">6f87c2708731301048d0fea9cebb35a1</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>rr141k@att.com</sys_created_by>
+        <sys_created_on>2019-07-10 18:17:07</sys_created_on>
+        <sys_id>c5be82b91b26bf007a3542edee4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SLA Templates</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_wizard_answer_c5be82b91b26bf007a3542edee4bcb06</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-07-10 18:17:07</sys_updated_on>
+        <table/>
+        <target_url>x_attm_mysla_task_template.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

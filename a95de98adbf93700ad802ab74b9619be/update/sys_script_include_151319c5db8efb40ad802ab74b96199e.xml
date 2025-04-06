@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_attm_mysla.SLAUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SLAUtils</name>
+        <script><![CDATA[var SLAUtils = Class.create();
+SLAUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	setValues: function(){
+		var complexity = this.getParameter('sysparm_value');
+		var gr = new GlideRecord("x_attm_mysla_complexity_form");
+		if (gr.get(complexity)) {
+			var json = new global.JSON();
+			var deal ={
+				'deal_id': gr.getValue('deal').toString(),
+				'customer': gr.deal.u_customer_name.toString(),
+				'opportunity_id': gr.deal.u_opportunity.u_opportunity_id.toString(),
+				'short_description': gr.deal.short_description.toString(),
+				'srid' : gr.deal.u_support_request.u_support_request_id.toString(),
+				'sales_channel': gr.deal.u_channel.toString(),
+				'tov': gr.deal.u_tov.toString(),
+			};
+				return json.encode(deal);
+			}		
+	},
+	displayDetails: function(){
+		var value = this.getParameter('sysparm_value');
+		
+		var gr = new GlideRecord('sys_user');
+		if(gr.get(value))
+		{
+			var json =  new global.JSON();
+			var object =
+			{
+				'name' : gr.getValue('name'),
+				'contact' : gr.getValue('phone'),
+				'role' : gr.getValue('roles'),
+			};
+			var details = json.encode(object);
+			return details;
+		}	
+	},
+	type: 'SLAUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-13 09:33:20</sys_created_on>
+        <sys_id>151319c5db8efb40ad802ab74b96199e</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>SLAUtils</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_include_151319c5db8efb40ad802ab74b96199e</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-07-16 10:51:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

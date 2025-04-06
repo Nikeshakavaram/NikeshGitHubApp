@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="997f6047db467300779c62eb8a96195f" sys_domain="global" table="x_attm_mysla_sla_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:02:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>957f6047db467300779c62eb8a961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">997f6047db467300779c62eb8a96195f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">72f8184fdb827300779c62eb8a96194f</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:02:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+            <sys_created_on>2019-07-10 15:26:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44976df51b2e3fc04b8685507e4bcb00</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">997f6047db467300779c62eb8a96195f</sys_ui_form>
+            <sys_ui_section caption="Deal Information" display_value="Deal Information" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">08972df51b2e3fc04b8685507e4bcbfd</sys_ui_section>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-05 07:15:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-05 07:09:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c2fadc21b0ff7c07a3542edee4bcb79</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">997f6047db467300779c62eb8a96195f</sys_ui_form>
+            <sys_ui_section caption="Operational Architecture" display_value="Operational Architecture" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">182fadc21b0ff7c07a3542edee4bcb76</sys_ui_section>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-05 07:15:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-07-16 11:41:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5bd6b6b1ba6f7407a3542edee4bcb3d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">997f6047db467300779c62eb8a96195f</sys_ui_form>
+            <sys_ui_section caption="Scope-Products" display_value="Scope-Products" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">c9bd6b6b1ba6f7407a3542edee4bcb3a</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 00:50:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:02:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d97f6047db467300779c62eb8a961962</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">997f6047db467300779c62eb8a96195f</sys_ui_form>
+            <sys_ui_section caption="Contract" display_value="Contract" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">d17f6047db467300779c62eb8a961961</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 00:50:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-12 14:15:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>243d7e921b733f006aceb9d1cd4bcb1a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">997f6047db467300779c62eb8a96195f</sys_ui_form>
+            <sys_ui_section caption="CSOP" display_value="CSOP" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">e83d7e921b733f006aceb9d1cd4bcb16</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:16:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-19 05:42:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a48b1641bb63f407a3542edee4bcbd4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_sla_request" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">997f6047db467300779c62eb8a96195f</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_attm_mysla_sla_request" sys_domain="global" view="Default view">1a48b1641bb63f407a3542edee4bcbd1</sys_ui_section>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-12 14:16:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_attm_mysla_sla_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 12:02:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>997f6047db467300779c62eb8a96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_sla_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_997f6047db467300779c62eb8a96195f</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 12:02:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>complexity</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLA - Set Values from Deal</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var isNewRecord = g_form.isNewRecord();
+	if (newValue === '' || isNewRecord == false) {
+		return;
+	}
+	
+	//Type appropriate comment here, and begin script below
+	// 	var ajax = new GlideAjax('SLAUtils');
+	// 	ajax.addParam('sysparm_name', 'setValues');
+	// 	ajax.addParam('sysparm_value', newValue);
+	// 	ajax.getXML(function(response) {
+		// 		var answer = response.responseXML.documentElement.getAttribute("answer");
+		// 		var deal = JSON.parse(answer);
+		// 		g_form.setValue('deal',deal.deal_id);
+		// 		g_form.setValue('customer',deal.customer);
+		// 		g_form.setValue('opportunity',deal.opportunity_id);
+		// 		g_form.setValue('short_description',deal.short_description);
+		// 		g_form.setValue('srid_wrid',deal.srid);
+		// 		g_form.setValue('glad_deal',deal.sales_channel);
+		// 		g_form.setValue('total_opportunity_value',deal.tov);
+		// 	});
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-18 10:10:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af4b4faa1b4a77004b8685507e4bcbcb</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SLA - Set Values from Deal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_client_af4b4faa1b4a77004b8685507e4bcbcb</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-18 13:14:41</sys_updated_on>
+        <table>x_attm_mysla_mds_form</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

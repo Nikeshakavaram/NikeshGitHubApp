@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_attm_mysla_complexity_form">are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization=Yes^ORdoes_this_sla_request_require_customization_of_tier_3_envelope_sla_s=Yes^ORis_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser=Yes^ORare_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio=Yes^ORare_we_providing_enhanced_sla_plan_with_additional_customization=Yes^ORare_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization=Yes^ORare_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses=Yes^ORdoes_the_sla_customization_include_network_integration_ni_vendors=Yes^EQ<item display_value="Yes" endquery="false" field="are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization" goto="false" newquery="false" operator="=" or="false" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="does_this_sla_request_require_customization_of_tier_3_envelope_sla_s" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="are_we_providing_enhanced_sla_plan_with_additional_customization" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="does_the_sla_customization_include_network_integration_ni_vendors" goto="false" newquery="false" operator="=" or="true" value="Yes"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>1000</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	var isValid = false;
+	var outputDocs = g_form.getValue('output_document_s_needed_to_satisfy_this_request');
+	var SLAdocs = g_scratchpad.sla_docs.split(',');
+	for(var i=0; i<SLAdocs.length; i++){
+		if(outputDocs.indexOf(SLAdocs[i]) > -1){
+			isValid = true;
+			break;
+		}
+	}
+	if(isValid == true){
+		g_form.setMandatory('are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio',true);
+		g_form.setMandatory('are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization',true);
+		g_form.setMandatory('does_this_sla_request_require_customization_of_tier_3_envelope_sla_s',true);
+		g_form.setMandatory('are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization',true);
+		g_form.setMandatory('does_the_sla_customization_include_network_integration_ni_vendors',true);
+		g_form.setMandatory('are_we_providing_enhanced_sla_plan_with_additional_customization',true);
+		g_form.setMandatory('are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses',true);
+		g_form.setMandatory('is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser',true);
+	}
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setMandatory('are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio',false);
+	g_form.setMandatory('are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization',false);
+	g_form.setMandatory('does_this_sla_request_require_customization_of_tier_3_envelope_sla_s',false);
+	g_form.setMandatory('are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization',false);
+	g_form.setMandatory('does_the_sla_customization_include_network_integration_ni_vendors',false);
+	g_form.setMandatory('are_we_providing_enhanced_sla_plan_with_additional_customization',false);
+	g_form.setMandatory('are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses',false);
+	g_form.setMandatory('is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser',false);
+	
+	g_form.setReadOnly('are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio',true);
+	g_form.setReadOnly('are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization',true);
+	g_form.setReadOnly('does_this_sla_request_require_customization_of_tier_3_envelope_sla_s',true);
+	g_form.setReadOnly('are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization',true);
+	g_form.setReadOnly('does_the_sla_customization_include_network_integration_ni_vendors',true);
+	g_form.setReadOnly('are_we_providing_enhanced_sla_plan_with_additional_customization',true);
+	g_form.setReadOnly('are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses',true);
+	g_form.setReadOnly('is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser',true);
+	
+}]]></script_true>
+        <set_values/>
+        <short_description>SLA - Make Custom SLA fields read only</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-06-13 06:16:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebc6e801db8afb40ad802ab74b96196a</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>SLA - Make Custom SLA fields read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_ebc6e801db8afb40ad802ab74b96196a</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-06-14 11:35:59</sys_updated_on>
+        <table>x_attm_mysla_complexity_form</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

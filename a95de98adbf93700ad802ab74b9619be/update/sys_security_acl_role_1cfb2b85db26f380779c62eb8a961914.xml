@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>kt784c@att.com</sys_created_by>
+        <sys_created_on>2019-07-08 17:09:03</sys_created_on>
+        <sys_id>1cfb2b85db26f380779c62eb8a961914</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_attm_mysla_task.work_notes.x_attm_mysla.SLA_Requester</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_security_acl display_value="x_attm_mysla_task.work_notes">94fb2b85db26f380779c62eb8a961914</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1cfb2b85db26f380779c62eb8a961914</sys_update_name>
+        <sys_updated_by>kt784c@att.com</sys_updated_by>
+        <sys_updated_on>2019-07-09 08:05:49</sys_updated_on>
+        <sys_user_role display_value="x_attm_mysla.SLA_Requester" name="x_attm_mysla.SLA_Requester">4cbc0bad1bdebf004b8685507e4bcbb0</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

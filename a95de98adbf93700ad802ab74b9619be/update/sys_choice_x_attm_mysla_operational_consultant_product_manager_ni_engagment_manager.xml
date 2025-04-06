@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="product_manager_ni_engagment_manager" table="x_attm_mysla_operational_consultant" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>product_manager_ni_engagment_manager</element>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 09:09:55</sys_created_on>
+            <sys_id>2f65cc3687f6301048d0fea9cebb3551</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>product_manager_ni_engagment_manager</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_operational_consultant_product_manager_ni_engagment_manager</sys_update_name>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 09:09:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_manager_ni_engagment_manager</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Andrea Pinches</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 09:09:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e771f20db173700c2da62eb8a96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 09:09:55</sys_updated_on>
+            <value>Andrea Pinches</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_manager_ni_engagment_manager</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Erin McDermott</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-16 17:11:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6962e0b91b537b007a3542edee4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-16 17:11:14</sys_updated_on>
+            <value>Erin McDermott</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_manager_ni_engagment_manager</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duane Hattaway</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-16 17:11:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd8220b91b537b007a3542edee4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-16 17:11:32</sys_updated_on>
+            <value>Duane Hattaway</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_manager_ni_engagment_manager</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>John Derisi</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-16 17:11:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f8224b91b537b007a3542edee4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-16 17:11:42</sys_updated_on>
+            <value>John Derisi</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

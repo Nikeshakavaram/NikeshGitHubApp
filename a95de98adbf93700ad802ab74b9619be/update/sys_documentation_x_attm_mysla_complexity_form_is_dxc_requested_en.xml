@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_dxc_requested" label="Is this a DXC Reports request?" language="en" table="x_attm_mysla_complexity_form">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_dxc_requested</element>
+            <help/>
+            <hint/>
+            <label>Is this a DXC Reports request?</label>
+            <language>en</language>
+            <name>x_attm_mysla_complexity_form</name>
+            <plural>Is this a DXC Reports request?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-14 09:25:55</sys_created_on>
+            <sys_id>decb1e51db06b3845067e33648961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is this a DXC Reports request?</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_complexity_form_is_dxc_requested_en</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-14 09:25:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="costs" label="Costs" language="en" table="x_attm_mysla_my_sla_cost_model">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>costs</element>
+            <help/>
+            <hint/>
+            <label>Costs</label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model</name>
+            <plural>Costs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-24 09:53:24</sys_created_on>
+            <sys_id>5b34b7421b04c0906aceb9d1cd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Costs</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_my_sla_cost_model_costs_en</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-24 09:53:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

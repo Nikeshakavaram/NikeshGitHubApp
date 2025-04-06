@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d446ef96dbc7f7c0c2da62eb8a9619f6" sys_domain="global" table="x_attm_mysla_my_sla_cost_model" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:27:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d046ef96dbc7f7c0c2da62eb8a9619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_my_sla_cost_model" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">d446ef96dbc7f7c0c2da62eb8a9619f6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">8842d39edb07f7c0c2da62eb8a961903</sys_ui_section>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:27:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:28:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9446ef96dbc7f7c0c2da62eb8a9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_my_sla_cost_model" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">d446ef96dbc7f7c0c2da62eb8a9619f6</sys_ui_form>
+            <sys_ui_section caption="SLM Inputs" display_value="SLM Inputs" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">1046ef96dbc7f7c0c2da62eb8a9619f8</sys_ui_section>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:28:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:29:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21862f96dbc7f7c0c2da62eb8a961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_my_sla_cost_model" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">d446ef96dbc7f7c0c2da62eb8a9619f6</sys_ui_form>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:29:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:29:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de962b56dbc7f7c0c2da62eb8a961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_my_sla_cost_model" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">d446ef96dbc7f7c0c2da62eb8a9619f6</sys_ui_form>
+            <sys_ui_section caption="FTE Worksheet" display_value="FTE Worksheet" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">0a962b56dbc7f7c0c2da62eb8a961961</sys_ui_section>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:29:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:29:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46a623d6dbc7f7c0c2da62eb8a96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_my_sla_cost_model" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">d446ef96dbc7f7c0c2da62eb8a9619f6</sys_ui_form>
+            <sys_ui_section caption="Direct Labor" display_value="Direct Labor" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">caa623d6dbc7f7c0c2da62eb8a96190a</sys_ui_section>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:29:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:30:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87b667d6dbc7f7c0c2da62eb8a9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_my_sla_cost_model" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">d446ef96dbc7f7c0c2da62eb8a9619f6</sys_ui_form>
+            <sys_ui_section caption="Indirect Labor" display_value="Indirect Labor" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">4bb667d6dbc7f7c0c2da62eb8a96199d</sys_ui_section>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:30:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-08-20 19:04:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dd265cf1b53ff007a3542edee4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_attm_mysla_my_sla_cost_model" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">d446ef96dbc7f7c0c2da62eb8a9619f6</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">69d265cf1b53ff007a3542edee4bcbcf</sys_ui_section>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-20 19:04:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_attm_mysla_my_sla_cost_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:27:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d446ef96dbc7f7c0c2da62eb8a9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_my_sla_cost_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d446ef96dbc7f7c0c2da62eb8a9619f6</sys_update_name>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:27:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function  Submit()
+{
+	//alert(	$("user_comment").value);
+	if($("user_comment").value)
+		{g_form.setDisplay('rejection_reason',true);
+		g_form.setMandatory('rejection_reason',true);
+		g_form.setValue('rejection_reason',$("user_comment").value);
+		g_form.setValue('state',1015);
+		GlideDialogWindow.get().destroy();
+		g_form.save();
+		//gsftSubmit(null, g_form.getFormElement(), 'vaidatecomments');
+	}
+	else
+		{
+		alert('Please provide the comments');
+		return false;
+	}
+}
+function cancel() {
+	GlideDialogWindow.get().destroy();
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_attm_mysla_rejection_comment.do</endpoint>
+        <html><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:ui_form id="HR dialog">
+		<style type="text/css">
+			#hr_dialog_footer input {
+				width: 100%;
+			}
+			#info_message {
+				margin-left:10px;
+				color:#667;
+			}
+		</style>
+
+		<script>
+			$j(document).ready(function() {
+				$j("#user_comment").focus();
+			});
+		</script>
+		
+		<div >
+					<div style="padding-top:5px; padding-bottom:5px;">
+						<input class="col-sm-12 form-control" id="user_comment" name="user_comment" placeholder=" Rejection Comments"  rows="3" type="text"></input>
+							</div>
+						
+		</div>
+		
+		</g:ui_form>
+	<br>
+		</br>
+		<footer id="hr_dialog_footer" class="modal-footer" style="padding: 10px 0;">
+			<input type="hidden" id="notePrefix" name="notePrefix" value="${notePrefix}"></input>
+			
+		<button class="btn-default btn" style="float:right;margin-left: 20px; " role="button" onclick=" cancel()" >${gs.getMessage('Cancel')}</button><button class="btn-primary btn" style="float:right" role="button" onclick="Submit()">${gs.getMessage('Submit')}</button>
+	</footer>
+			
+			
+	
+</j:jelly>]]></html>
+        <name>rejection_comment</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>rr141k@att.com</sys_created_by>
+        <sys_created_on>2020-02-11 06:00:44</sys_created_on>
+        <sys_id>9f6dbf4b1bf284106aceb9d1cd4bcbf9</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>rejection_comment</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_page_9f6dbf4b1bf284106aceb9d1cd4bcbf9</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2020-02-11 16:05:51</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_type" table="x_attm_mysla_complexity_form" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <name>x_attm_mysla_complexity_form</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-11 10:51:33</sys_created_on>
+            <sys_id>e965883687f6301048d0fea9cebb3541</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>request_type</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_complexity_form_request_type</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-11 10:51:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Firm</label>
+            <language>en</language>
+            <name>x_attm_mysla_complexity_form</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-11 10:51:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f92d790db0ef7445067e336489619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-11 10:51:33</sys_updated_on>
+            <value>Firm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ROM(Rough Order of Magnitude)</label>
+            <language>en</language>
+            <name>x_attm_mysla_complexity_form</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-11 10:51:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e392d790db0ef7445067e336489619dc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-08 11:58:54</sys_updated_on>
+            <value>ROM(Rough Order of Magnitude)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consult</label>
+            <language>en</language>
+            <name>x_attm_mysla_complexity_form</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-11 10:51:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e39217d0db0ef7445067e336489619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-11 10:51:33</sys_updated_on>
+            <value>Consult</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

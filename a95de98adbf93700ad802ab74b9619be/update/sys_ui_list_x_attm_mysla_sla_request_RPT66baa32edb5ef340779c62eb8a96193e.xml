@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_attm_mysla_sla_request" version="2" view="RPT66baa32edb5ef340779c62eb8a96193e">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>3af3f29d1bb337006aceb9d1cd4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>customer</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>baf3f29d1bb337006aceb9d1cd4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>3ef3f29d1bb337006aceb9d1cd4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>bef3f29d1bb337006aceb9d1cd4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complexity.process</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>32f3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reporting_assignment_group</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>b2f3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reporting_assigned_to</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>36f3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complexity.reports_process</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>b6f3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>3af3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_at</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>baf3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>negotiated_date</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>3ef3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_glide_accepted_date_time</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>bef3f29d1bb337006aceb9d1cd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>32f3f29d1bb337006aceb9d1cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sales_channel</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>b2f3f29d1bb337006aceb9d1cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_opportunity_value</element>
+            <list_id display_value="x_attm_mysla_sla_request" element="NULL" name="x_attm_mysla_sla_request" parent="NULL" relationship="NULL" sys_domain="global" view="ba85cc7687f6301048d0fea9cebb35b4">fef3f29d1bb337006aceb9d1cd4bcb43</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_id>36f3f29d1bb337006aceb9d1cd4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_attm_mysla_sla_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-09 11:01:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fef3f29d1bb337006aceb9d1cd4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_sla_request</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_list_x_attm_mysla_sla_request_RPT66baa32edb5ef340779c62eb8a96193e</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-09 11:01:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt66baa32edb5ef340779c62eb8a96193e" name="RPT66baa32edb5ef340779c62eb8a96193e">ba85cc7687f6301048d0fea9cebb35b4</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

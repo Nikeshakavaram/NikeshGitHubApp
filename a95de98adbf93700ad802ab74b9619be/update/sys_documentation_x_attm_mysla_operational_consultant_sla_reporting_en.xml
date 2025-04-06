@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sla_reporting" label="SLA Reporting (SLA dashboard creation)" language="en" table="x_attm_mysla_operational_consultant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sla_reporting</element>
+            <help/>
+            <hint/>
+            <label>SLA Reporting (SLA dashboard creation)</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <plural>SLA Reporting (SLA dashboard creation)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:25:47</sys_created_on>
+            <sys_id>0ce8e368db973700c2da62eb8a96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>SLA Reporting (SLA dashboard creation)</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_operational_consultant_sla_reporting_en</sys_update_name>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:25:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

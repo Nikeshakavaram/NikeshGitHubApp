@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="utilization" language="en" table="x_attm_mysla_utilization_report">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>utilization</label>
+            <language>en</language>
+            <name>x_attm_mysla_utilization_report</name>
+            <plural>utilizations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-07-23 12:23:27</sys_created_on>
+            <sys_id>c36afb79db723380c2da62eb8a9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>utilization</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_utilization_report__en</sys_update_name>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-07-23 12:23:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

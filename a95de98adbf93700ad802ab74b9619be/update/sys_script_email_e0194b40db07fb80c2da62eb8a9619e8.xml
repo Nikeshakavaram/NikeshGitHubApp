@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Populate_submission_date</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	var gr =  new GlideDate();
+	if(current.sys_class_name.toString() == 'x_attm_mysla_task')
+		{
+		gr.setValue(current.request.sys_created_on);
+	}
+	else
+		{
+		gr.setValue(current.sys_created_on);
+		
+	}
+	//gr.setValue(current.sys_created_on);
+	gr.getByFormat('MM/DD/YYYY');
+	template.print(gr.getDisplayValue());
+	
+	
+	//template.print(current.sys_created_on.toString().substr(0,10));
+	
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-30 08:38:02</sys_created_on>
+        <sys_id>e0194b40db07fb80c2da62eb8a9619e8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Populate_submission_date</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_email_e0194b40db07fb80c2da62eb8a9619e8</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-30 09:22:44</sys_updated_on>
+    </sys_script_email>
+</record_update>

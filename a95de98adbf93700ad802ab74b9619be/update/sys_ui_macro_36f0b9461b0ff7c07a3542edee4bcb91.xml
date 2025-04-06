@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>operational_consultant</name>
+        <scoped_name>x_attm_mysla_operational_consultant</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+        <sys_created_on>2019-08-05 07:17:37</sys_created_on>
+        <sys_id>36f0b9461b0ff7c07a3542edee4bcb91</sys_id>
+        <sys_mod_count>634</sys_mod_count>
+        <sys_name>operational_consultant</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_ui_macro_36f0b9461b0ff7c07a3542edee4bcb91</sys_update_name>
+        <sys_updated_by>rr141k@att.com</sys_updated_by>
+        <sys_updated_on>2019-10-04 08:10:39</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<style>
+		.centerAlign{
+		text-align:center;
+		}
+		
+		.headingColor{
+		background-color:#ADD8E6;
+		}
+	</style>
+
+	
+	
+	<g:evaluate var ="jvar_questions" jelly="true" object="true">
+		var questions = gs.getProperty('x_attm_mysla.operational_consultant_questions').toString();
+		questions;
+	</g:evaluate>
+	
+	<input id="allQuestionsJSON" type="hidden" value="${jvar_questions}"/>
+	
+	<table id="operational_consultant" class="table table-hover">
+		<thead>
+			<tr>
+				<th style="text-align:center;" id="headingSpan" colspan="2">
+					
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+		</tbody>
+		
+		<div>
+			<input id="columnContainer" type="hidden" value=""/>
+		</div>
+	</table>
+	
+	
+	
+	
+	
+	<div id="addOptionPopup" class="modal" role="dialog">
+  <div class="modal-dialog">
+	  <div class="modal-content" >
+		  
+      <div class="modal-header">
+		  <h3 class="modal-title"   align="center"><b>Add a new choice option</b></h3>
+      </div>
+      <div class="modal-body">
+		  <input class="form-control" id="newlyAddedOption" placeholder="type the new option here" type="text" value=""/>
+		  <input class="form-control" id="relatedSelectbox" type="hidden" value=""/>
+      </div>
+      <div class="modal-footer" style="text-align:center;">
+		  
+		  <button type="button" class="okbutton" data-dismiss="modal" onclick="createNewOption()" ><b> Add </b></button>
+		  <button type="button" class="cancel" data-dismiss="modal" id="" ><b> cancel </b></button>
+		  </div>
+    </div>
+	  </div>
+  </div>
+
+	
+	
+	
+	
+	
+	
+	
+	<script>
+		//This array will be used when save button is clicked
+		var questionsArr = [];// This array will be filled after form completely loads and getTableDetails is called
+		
+		
+		$j(document).ready(function(){
+		
+		var ga = new GlideAjax('SLARequest_utils');
+		ga.addParam('sysparm_name','operationalConsultant_getTableDetails');
+		ga.addParam('sysparm_customReqID', g_form.getUniqueValue());
+		ga.getXML(getTableDetails);
+});
+		
+	
+		
+		function getTableDetails(response)
+		{
+			var tableBody = response.responseXML.documentElement.getAttribute("answer");
+			$j('#operational_consultant > tbody').append(tableBody);
+
+			var cols = parseInt($j('#operational_consultant tr:first-child').find('td').length) + 1;
+			$j('#headingSpan').attr('colspan' , cols + 1);
+			var columnContainer = $j('#columnContainer').val();
+
+			for(var j=1; j!=cols; j++)
+			{
+				columnContainer = columnContainer + ',' +  j;
+			}
+
+			$j('#columnContainer').val(columnContainer);
+		
+		
+			var questionsJSON = $j('#allQuestionsJSON').val();
+			questionsJSON = JSON.parse(questionsJSON);
+			var questionsJSONLen = questionsJSON.length;
+
+			for(var n=0; n!=questionsJSONLen; n++)
+				{
+					questionsArr.push(questionsJSON[n].name.toString());
+				}
+			questionsArr.unshift('sys_id');
+		
+		
+		
+		
+		
+		$j("#myModal").on('shown.bs.modal', function(){
+		$j('#relatedSelectbox').val();
+		  });
+		}
+		
+		
+		
+		
+		
+		//When Duplicate is clicked the below function helps the values to be copied over
+		function setSelectedValue(obj)
+		{
+		var selectedOption = $j(obj).children(':selected').text();
+		
+		if(selectedOption == 'Add new item')
+		{
+		var selectQuestion = $j(obj).parent().parent().children(":first-child").text();
+			
+				$j('#addOptionPopup').modal('show');
+				$j('#relatedSelectbox').val(selectQuestion);
+		
+		}
+			
+
+			$j(obj).children().each(function(){
+
+			if($j(this).text().toString() == selectedOption)
+			$j(this).attr('selected','selected');
+			else
+			$j(this).removeAttr('selected');
+			});
+
+		}
+		
+		function createNewOption()
+		{
+		var selectBox = $j('#relatedSelectbox').val();
+		var selectOption = $j('#newlyAddedOption').val();
+		
+		var ga = new GlideAjax('SLARequest_utils');
+		ga.addParam('sysparm_name','operationalConsultant_addOption');
+		ga.addParam('sysparm_selectBox', selectBox);
+		ga.addParam('sysparm_selectOption', selectOption);
+		ga.getXML(informAfterOptionCreate);
+		}
+		
+		function informAfterOptionCreate(response)
+		{
+			var result = response.responseXML.documentElement.getAttribute("answer");
+			location.reload();
+			
+		}
+		
+		
+		
+		
+		function deleteColumn(obj)
+		{
+			var colToDelete = $j(obj).parent().attr('column');
+			var recordID = $j(obj).attr('sys_id');
+	
+			var remainingColumns = $j('#operational_consultant tbody > tr:first-child').find('td').length;
+			if(remainingColumns == 1)
+				{
+					if(recordID == '')
+						{
+							alert('This record does not exist in the database');
+							return false;
+						}
+					else
+						{
+							var ga = new GlideAjax('SLARequest_utils');
+							ga.addParam('sysparm_name','operationalConsultant_deleteRecord');
+							ga.addParam('sysparm_opConID', recordID);
+							ga.addParam('sysparm_columnNumber', colToDelete);
+							ga.getXML(afterDeleteResponse);
+						}
+				}
+			else
+				{
+					$j(obj).text('Please wait');
+		
+					var columnContainer = $j('#columnContainer').val();
+					columnContainer = columnContainer.replace(colToDelete , '');
+					$j('#columnContainer').val(columnContainer);
+		
+		
+					if(recordID == '')
+						$j('[column="' + colToDelete + '"]').remove();
+					else
+					{
+						var ga = new GlideAjax('SLARequest_utils');
+						ga.addParam('sysparm_name','operationalConsultant_deleteRecord');
+						ga.addParam('sysparm_opConID', recordID);
+						ga.addParam('sysparm_columnNumber', colToDelete);
+						ga.getXML(afterDeleteResponse);
+					}
+				}
+		}
+		
+		function afterDeleteResponse(response)
+		{
+			var colToDelete = response.responseXML.documentElement.getAttribute("answer");
+			var remainingColumns = $j('#operational_consultant tbody > tr:first-child').find('td').length;
+			if(remainingColumns == 1)
+				location.reload();
+			else
+				$j('[column="' + colToDelete + '"]').remove();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			function saveAll()
+		{
+			var columnContainer = $j('#columnContainer').val();
+
+			var array = columnContainer.split(',');
+			columnContainer = array.filter(Boolean)
+			var columnContainerLen = columnContainer.length;
+	
+			
+		
+			var JsonArr = [];
+			for(var i=0; i!=columnContainerLen; i++)
+			{
+				var json = {};
+				$j("[column=" + columnContainer[i] +"]").children(':first-child').each(function(index)
+				{
+				if(index == 0)
+					json[questionsArr[index]] = $j(this).first().attr('sys_id');
+				else if(index > 0)
+					{
+						if($j(this).children(":selected").text() != 'None')
+							json[questionsArr[index]] = $j(this).children(":selected").text();
+						else
+							json[questionsArr[index]] = '';
+					}
+				});
+				JsonArr.push(json);
+			}
+
+			console.log(JsonArr);
+
+		var ga = new GlideAjax('SLARequest_utils');
+		ga.addParam('sysparm_name','operationalConsultant_updateTable');
+		ga.addParam('sysparm_tableDetails', JSON.stringify(JsonArr));
+		ga.addParam('sysparm_customReqID', g_form.getUniqueValue());
+		ga.getXML(afterSaveResponse);
+
+		}
+		
+		function afterSaveResponse(response)
+		{
+		var userResponse = response.responseXML.documentElement.getAttribute("answer");
+		//alert(userResponse);
+		location.reload();
+		}
+		
+	
+		
+		
+		
+		
+		function duplicateColumn(obj)
+		{
+		
+		var columnLen = $j('#operational_consultant tbody > tr:first-child').find('td').length;
+		var newColumn = columnLen + 1;
+		
+		var columnToDuplicate = $j(obj).parent().attr('column');
+		
+			$j('#operational_consultant tbody > tr').each(function(index)
+			{
+
+			var clonedElement = $j(this).find('[column=' + columnToDuplicate + ']').clone();
+			if(index == 0)
+				$j(this).append('<td column="' + newColumn + '"><button type="button" sys_id="" class="btn btn-primary" onclick="deleteColumn(this)">Delete</button><button type="button" class="btn btn-primary" onclick="duplicateColumn(this)">Duplicate</button></td>');
+			else
+				$j(this).append('<td column="' + newColumn + '">' + clonedElement.html() + '</td>');
+	
+			});
+		
+			var columnContainer = $j('#columnContainer').val();
+			columnContainer = columnContainer + ',' +  newColumn;
+			$j('#columnContainer').val(columnContainer);
+		
+			var cols = parseInt($j('#operational_consultant tr:first-child').find('td').length);
+			cols = cols + 1;
+			$j('#headingSpan').attr('colspan' , cols);
+		
+		}
+		
+		
+		
+		
+	
+	</script>
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

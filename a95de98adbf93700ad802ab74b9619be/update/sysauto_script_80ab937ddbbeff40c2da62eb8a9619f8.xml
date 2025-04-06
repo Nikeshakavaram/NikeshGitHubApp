@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Negotiation date check for the MySLA records</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="">94d49a5c1b2333006aceb9d1cd4bcbba</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-07-23 10:08:54</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var greater = 0;
+var slarequest = new GlideRecord('x_attm_mysla_sla_request');
+//slarequest.addQuery('sys_id','4b885a791b66bf007a3542edee4bcbc5');
+slarequest.addActiveQuery();
+slarequest.addNotNullQuery('negotiated_date');
+slarequest.query();
+while(slarequest.next())
+	{
+	var sgd1 = new GlideDate();
+	sgd1.getByFormat('dd-MM-yyyy');
+	sgd1.setDisplayValue(slarequest.negotiated_date.toString());
+	var sgd2 = new GlideDate();
+	sgd2.getByFormat('dd-MM-yyyy');
+	
+	greater= sgd1.compareTo(sgd2); // Will return 1 if the sgd1 is greater than sgd2
+	
+	duration= GlideDate.subtract(sgd2,sgd1); //smaller date, larger date
+	
+	
+	if(parseInt(duration.getDisplayValue()) == 2 && greater==1)
+		{
+		//gs.info('Yahoo' + parseInt(duration.getDisplayValue()));
+		gs.eventQueue('x_attm_mysla.due_date_slarequest',slarequest);
+	}
+	
+	
+	
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-23 11:54:34</sys_created_on>
+        <sys_id>80ab937ddbbeff40c2da62eb8a9619f8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Negotiation date check for the MySLA records</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sysauto_script_80ab937ddbbeff40c2da62eb8a9619f8</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-24 14:03:27</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="labor_fte_source" label="Labor FTE Source" language="en" table="x_attm_mysla_fte_worksheet">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>labor_fte_source</element>
+            <help/>
+            <hint/>
+            <label>Labor FTE Source</label>
+            <language>en</language>
+            <name>x_attm_mysla_fte_worksheet</name>
+            <plural>Labor FTE Sources</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-14 12:02:56</sys_created_on>
+            <sys_id>01b88d851b1f77007a3542edee4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Labor FTE Source</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_mysla_fte_worksheet_labor_fte_source_en</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-14 12:02:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

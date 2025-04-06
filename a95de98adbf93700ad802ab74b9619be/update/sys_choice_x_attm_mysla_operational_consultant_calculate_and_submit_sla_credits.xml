@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="calculate_and_submit_sla_credits" table="x_attm_mysla_operational_consultant" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>calculate_and_submit_sla_credits</element>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:30:14</sys_created_on>
+            <sys_id>5b658c3687f6301048d0fea9cebb35cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>calculate_and_submit_sla_credits</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_operational_consultant_calculate_and_submit_sla_credits</sys_update_name>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:30:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calculate_and_submit_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PLCM SLA Manager</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:30:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97d92fa8db973700c2da62eb8a96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:30:14</sys_updated_on>
+            <value>PLCM SLA Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calculate_and_submit_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SLA Manager</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:30:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44f9eba8db973700c2da62eb8a961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:30:25</sys_updated_on>
+            <value>SLA Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calculate_and_submit_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Manager</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:30:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2f9afa8db973700c2da62eb8a9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:30:36</sys_updated_on>
+            <value>Business Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calculate_and_submit_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Service Manager</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:30:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed0a23e8db973700c2da62eb8a9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:30:47</sys_updated_on>
+            <value>Service Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calculate_and_submit_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPMC</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 10:31:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>151aefa8db973700c2da62eb8a96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 10:31:03</sys_updated_on>
+            <value>RPMC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>calculate_and_submit_sla_credits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Add new item</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>10000</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-01 14:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2265dabe1b277b00529142edee4bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-01 14:23:10</sys_updated_on>
+            <value>Add new item</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

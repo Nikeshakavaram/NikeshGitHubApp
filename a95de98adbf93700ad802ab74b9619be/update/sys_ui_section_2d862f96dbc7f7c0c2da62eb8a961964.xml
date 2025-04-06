@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="SLM Contingency Risk Factors" section_id="2d862f96dbc7f7c0c2da62eb8a961964" sys_domain="global" table="x_attm_mysla_my_sla_cost_model" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>38a0c2e91b6b7300529142edee4bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <text>Factors that Decrease risk...</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>30a0c2e91b6b7300529142edee4bcbfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monthly_charge</element>
+            <position>1</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f8a0c2e91b6b7300529142edee4bcbfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pool_percentage</element>
+            <position>2</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>70a0c2e91b6b7300529142edee4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enter_total_number_of_slas</element>
+            <position>3</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f4a0c2e91b6b7300529142edee4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_that_demand_perfection</element>
+            <position>4</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>7ca0c2e91b6b7300529142edee4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_with_unattainable_targets</element>
+            <position>5</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f0a0c2e91b6b7300529142edee4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_or_component_level_calculations</element>
+            <position>6</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>78a0c2e91b6b7300529142edee4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_with_multiple_triggers</element>
+            <position>7</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>fca0c2e91b6b7300529142edee4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_not_alligned_with_vendor_commitments</element>
+            <position>8</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>74a0c2e91b6b7300529142edee4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_disproportionate_credit</element>
+            <position>9</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f8a0c2e91b6b7300529142edee4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complywithrsikysla</element>
+            <position>10</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>70a006e91b6b7300529142edee4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expedited_sla_analysis_requests</element>
+            <position>11</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f4a006e91b6b7300529142edee4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_requests_with_lack_of_info_clarity_from_client</element>
+            <position>12</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>7ca006e91b6b7300529142edee4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>promotion_of_key_measures</element>
+            <position>13</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f0a006e91b6b7300529142edee4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_crossing_multiple_st</element>
+            <position>14</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>78a006e91b6b7300529142edee4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_with_ci</element>
+            <position>15</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>fca006e91b6b7300529142edee4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_with_aggressives2s</element>
+            <position>16</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>74a006e91b6b7300529142edee4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_credits_that_continuously_increase_each_time_an_sla_is_missed_escalating</element>
+            <position>17</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f8a006e91b6b7300529142edee4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_tied_css</element>
+            <position>18</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>70a006e91b6b7300529142edee4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_track_report</element>
+            <position>19</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f4a006e91b6b7300529142edee4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmo_diligence</element>
+            <position>20</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>7ca006e91b6b7300529142edee4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ni_suppliers</element>
+            <position>21</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f0a006e91b6b7300529142edee4bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>38a0c2e91b6b7300529142edee4bcbfb</element>
+            <position>22</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>78a006e91b6b7300529142edee4bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_earnback</element>
+            <position>23</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>fca006e91b6b7300529142edee4bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_baselining</element>
+            <position>24</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>74a006e91b6b7300529142edee4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>slas_aggregate_calculations</element>
+            <position>25</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f8a006e91b6b7300529142edee4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_diligence</element>
+            <position>26</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>70a006e91b6b7300529142edee4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rule_of_smallnumbers</element>
+            <position>27</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f4a006e91b6b7300529142edee4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>28</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>7ca006e91b6b7300529142edee4bcb06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>set_all_rows_to</element>
+            <position>29</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f0a006e91b6b7300529142edee4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weighted_risk</element>
+            <position>30</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>78a006e91b6b7300529142edee4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contingency_factor</element>
+            <position>31</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>fca006e91b6b7300529142edee4bcb07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>32</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>74a006e91b6b7300529142edee4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>33</position>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 15:39:58</sys_created_on>
+            <sys_id>f8a006e91b6b7300529142edee4bcb08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="SLM Contingency Risk Factors" display_value="SLM Contingency Risk Factors" name="x_attm_mysla_my_sla_cost_model" sys_domain="global" view="Default view">2d862f96dbc7f7c0c2da62eb8a961964</sys_ui_section>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 15:39:58</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>SLM Contingency Risk Factors</caption>
+            <header>false</header>
+            <name>x_attm_mysla_my_sla_cost_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-06 10:29:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d862f96dbc7f7c0c2da62eb8a961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_my_sla_cost_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_section_2d862f96dbc7f7c0c2da62eb8a961964</sys_update_name>
+            <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-06 10:29:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

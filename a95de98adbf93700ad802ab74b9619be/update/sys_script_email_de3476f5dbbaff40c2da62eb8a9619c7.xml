@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>ATTheaderlogo</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+	//var instance = gs.getProperty('instance_name');
+	//var fromAddr = "Lowes HR Service Center <" + instance + "@service-now.com>";
+	//email.setFrom(fromAddr);
+	//email.setReplyTo(fromAddr);
+	template.print('<div style="font-size: 11pt; font-family: Calibri, sans-serif;">');
+	template.print('<img src="AT&T%20header.jpg" width="110" height="51"//>');
+	template.print('</div>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
+        <sys_created_on>2019-07-23 07:22:34</sys_created_on>
+        <sys_id>de3476f5dbbaff40c2da62eb8a9619c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ATTheaderlogo</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_script_email_de3476f5dbbaff40c2da62eb8a9619c7</sys_update_name>
+        <sys_updated_by>akavaramnikesh@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-07-23 07:36:42</sys_updated_on>
+    </sys_script_email>
+</record_update>

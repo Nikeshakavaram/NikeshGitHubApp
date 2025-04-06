@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_weekly_productivity" label="Weekly productivity" language="en" table="x_attm_pim_works_pim_pool_management_new">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_weekly_productivity</element>
+            <help/>
+            <hint/>
+            <label>Weekly productivity</label>
+            <language>en</language>
+            <name>x_attm_pim_works_pim_pool_management_new</name>
+            <plural>Weekly productivities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-10-11 12:45:02</sys_created_on>
+            <sys_id>9f8ebbe31b1c4c506aceb9d1cd4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Weekly productivity</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_attm_pim_works_pim_pool_management_new_u_weekly_productivity_en</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-10-11 12:45:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

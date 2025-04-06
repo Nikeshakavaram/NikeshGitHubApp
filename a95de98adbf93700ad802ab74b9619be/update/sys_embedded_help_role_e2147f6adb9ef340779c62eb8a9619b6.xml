@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_attm_mysla.SLA Supervisor" name="x_attm_mysla.SLA Supervisor">2bf3fb6adb9ef340779c62eb8a9619f6</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
+        <sys_created_on>2019-06-30 23:19:53</sys_created_on>
+        <sys_id>e2147f6adb9ef340779c62eb8a9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2bf3fb6adb9ef340779c62eb8a9619f6</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e2147f6adb9ef340779c62eb8a9619b6</sys_update_name>
+        <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+        <sys_updated_on>2019-06-30 23:19:53</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
