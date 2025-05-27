@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="14f3e6c41b98c4d0529142edee4bcbcf" extends="sys_import_set_row" label="CSOP Customer Responsibilities" max_length="40" name="x_attm_mysla_csop_customer_responsibilities" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tag" label="Tag" max_length="40" name="u_tag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Custom SLA Approved by AT&amp;T" label="Custom SLA Approved by AT&amp;T" max_length="170" name="u_custom_sla_approved_by_at_t" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Customer Responsibilities " label="Customer Responsibilities " max_length="1960" name="u_customer_responsibilities_" type="string"/>
+    </element>
+</database>

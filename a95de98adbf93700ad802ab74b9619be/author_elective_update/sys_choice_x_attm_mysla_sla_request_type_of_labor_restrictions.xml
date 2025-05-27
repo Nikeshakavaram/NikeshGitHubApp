@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_labor_restrictions" table="x_attm_mysla_sla_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_labor_restrictions</element>
+            <name>x_attm_mysla_sla_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 11:49:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_labor_restrictions</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_sla_request_type_of_labor_restrictions</sys_update_name>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 11:49:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AP(Asia Pacific)</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 11:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-06-27 04:51:30</sys_updated_on>
+            <value>AP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CALA(Caribbean and Latin America)</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 11:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-06-27 04:51:49</sys_updated_on>
+            <value>CALA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canada</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 11:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-08 16:08:17</sys_updated_on>
+            <value>Canada</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMEA(Europe, Middle East, Africa)</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 11:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>rajivranjan2@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-06-27 04:52:15</sys_updated_on>
+            <value>EMEA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Japan</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 11:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 11:49:42</sys_updated_on>
+            <value>Japan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USA</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>kt784c@att.com</sys_created_by>
+            <sys_created_on>2019-06-19 11:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kt784c@att.com</sys_updated_by>
+            <sys_updated_on>2019-06-19 11:49:42</sys_updated_on>
+            <value>USA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_labor_restrictions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>None</label>
+            <language>en</language>
+            <name>x_attm_mysla_sla_request</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>td908n@att.com</sys_created_by>
+            <sys_created_on>2019-07-15 20:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>td908n@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-15 20:35:57</sys_updated_on>
+            <value>None</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

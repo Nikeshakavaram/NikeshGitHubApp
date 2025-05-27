@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3c077bc61b04c0906aceb9d1cd4bcb25" label="Custom SLA's" max_length="40" name="x_attm_mysla_custom_sla_s_approved" type="collection">
+        <element label="Remedy if Custom SLA is Missed" max_length="100" name="remedy_if_custom_sla_is_missed" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Custom SLA" max_length="32" name="custom_sla" read_only="true" reference="x_attm_mysla_sla_request" type="reference"/>
+        <element label="Custom SLA Performance Objective Approved" max_length="100" name="custom_sla_performance_objective_approved" type="string"/>
+        <element label="Custom SLA Approved by AT&amp;T" max_length="100" name="custom_sla_approved_by_at_t" type="string"/>
+        <index name="index">
+            <element name="custom_sla"/>
+        </index>
+    </element>
+</database>

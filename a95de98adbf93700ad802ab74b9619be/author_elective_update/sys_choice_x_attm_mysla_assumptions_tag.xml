@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tag" table="x_attm_mysla_assumptions" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tag</element>
+            <name>x_attm_mysla_assumptions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:05:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tag</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_assumptions_tag</sys_update_name>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:05:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outsourcing</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:05:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:22:52</sys_updated_on>
+            <value>Outsourcing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AT&amp;T VPN Transport</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:06:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:06:14</sys_updated_on>
+            <value>AT&amp;T VPN Transport</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AT&amp;T VPN Transport with MRS</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:06:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:06:24</sys_updated_on>
+            <value>AT&amp;T VPN Transport with MRS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AT&amp;T VPN Managed</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:06:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:06:37</sys_updated_on>
+            <value>AT&amp;T VPN Managed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ASE</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:06:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:06:48</sys_updated_on>
+            <value>ASE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADI-G</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:06:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:06:57</sys_updated_on>
+            <value>ADI-G</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>BVoIP</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:07:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:07:06</sys_updated_on>
+            <value>BVoIP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web and Audio Conferencing</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:07:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:07:15</sys_updated_on>
+            <value>Web and Audio Conferencing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCS</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>900</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:07:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:07:23</sys_updated_on>
+            <value>PCS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operational Reports</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:08:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:08:15</sys_updated_on>
+            <value>Operational Reports</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Threshold Notification, Threshold Alarming</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>1100</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:08:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:08:30</sys_updated_on>
+            <value>Threshold Notification, Threshold Alarming</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Threshold Alarming</label>
+            <language>en</language>
+            <name>x_attm_mysla_assumptions</name>
+            <sequence>1200</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-09-25 07:09:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-25 07:09:16</sys_updated_on>
+            <value>Threshold Alarming</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

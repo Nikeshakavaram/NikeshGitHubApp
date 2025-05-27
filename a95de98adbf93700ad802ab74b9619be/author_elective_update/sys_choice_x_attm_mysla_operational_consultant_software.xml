@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="software" table="x_attm_mysla_operational_consultant" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>software</element>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-12 15:03:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>software</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_operational_consultant_software</sys_update_name>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-12 15:03:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>software</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Firewall VNF</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-12 15:03:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-12 15:03:37</sys_updated_on>
+            <value>Firewall VNF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>software</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Router VNF</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-12 15:03:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-12 15:03:50</sys_updated_on>
+            <value>Router VNF</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>software</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-Unknown-</label>
+            <language>en</language>
+            <name>x_attm_mysla_operational_consultant</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
+            <sys_created_on>2019-08-13 06:27:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>akmurugesan@kpmg.com</sys_updated_by>
+            <sys_updated_on>2019-08-13 06:27:46</sys_updated_on>
+            <value>-Unknown-</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

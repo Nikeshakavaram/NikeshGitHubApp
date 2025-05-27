@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fbcc60ba1bcc84906aceb9d1cd4bcbac" label="Mysla M2m Custom Reque Assumptions" max_length="40" name="x_attm_mysla_m2m_custom_reque_assumptions" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assumptions" max_length="32" name="assumptions" reference="x_attm_mysla_assumptions" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Custom Request" max_length="32" name="custom_request" reference="x_attm_mysla_sla_request" type="reference"/>
+        <index name="index">
+            <element name="assumptions"/>
+        </index>
+        <index name="index2">
+            <element name="custom_request"/>
+        </index>
+    </element>
+</database>

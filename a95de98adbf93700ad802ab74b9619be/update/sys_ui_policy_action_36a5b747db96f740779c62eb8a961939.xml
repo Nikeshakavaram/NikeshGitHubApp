@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>type</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-07-02 12:43:56</sys_updated_on>
         <table>x_attm_mysla_task_template</table>
         <ui_policy display_value="SLA - Show/Hide Type field">4e45fb07db96f740779c62eb8a9619ce</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=36a5b747db96f740779c62eb8a961939"/>
 </record_update>

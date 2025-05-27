@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="135cf23a1b0008906aceb9d1cd4bcb9e" label="Reporting Tools" max_length="40" name="x_attm_mysla_reporting_tools" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="10000" name="description" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Tag" max_length="100" name="tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MLAN" sequence="5" value="MLAN"/>
+                <element inactive_on_update="false" label="Transport with MRS" sequence="8" value="Transport with MRS"/>
+                <element inactive_on_update="false" label="Integrated offers" sequence="2" value="Integrated offers"/>
+                <element inactive_on_update="false" label="Outsourcing" sequence="3" value="Outsourcing"/>
+                <element inactive_on_update="false" label="Threshold Notification" sequence="13" value="Threshold_Notification"/>
+                <element inactive_on_update="false" label="Web and Audio Conferencing" sequence="11" value="Web_and_Audio_Conferencing"/>
+                <element inactive_on_update="false" label="PCS - Traffic Analysis" sequence="16" value="pcs_traf_anal"/>
+                <element inactive_on_update="false" label="VPN Managed" sequence="6" value="VPN Managed"/>
+                <element inactive_on_update="false" label="OPT-E-WAN" sequence="10" value="OPT_E_WAN"/>
+                <element inactive_on_update="false" label="ASE" sequence="1" value="ASE"/>
+                <element inactive_on_update="false" label="PCS - Performance SLAs" sequence="17" value="pcs_perfo_sla"/>
+                <element inactive_on_update="false" label="ADI" sequence="9" value="ADI"/>
+                <element inactive_on_update="false" label="VPN Transport" sequence="7" value="VPN Transport"/>
+                <element inactive_on_update="false" label="WebEx IP Audio Conferencing" sequence="4" value="WebEx IP Audio Conferencing"/>
+                <element inactive_on_update="false" label="Operational Reports" sequence="18" value="Operational_Reports"/>
+                <element inactive_on_update="false" label="PCS - Exception &amp; Forecast Analysis" sequence="15" value="pcs_forecase_analysis"/>
+                <element inactive_on_update="false" label="Threshold Alarming" sequence="14" value="Threshold_Alarming"/>
+                <element inactive_on_update="false" label="PCS" sequence="12" value="PCS"/>
+            </choice>
+        </element>
+        <element attributes="no_truncate=true" label="Description" max_length="10000" name="description_plain" type="string_full_utf8"/>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ce680bd2dbaebf00c2da62eb8a9619ca" label="Mysla M2m Reports SLA Requests" max_length="40" name="x_attm_mysla_m2m_reports_sla_requests" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Reports" max_length="32" name="reports" reference="x_attm_mysla_reports" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="SLA Request" max_length="32" name="sla_request" reference="x_attm_mysla_sla_request" type="reference"/>
+        <index name="index">
+            <element name="reports"/>
+        </index>
+        <index name="index2">
+            <element name="sla_request"/>
+        </index>
+    </element>
+</database>

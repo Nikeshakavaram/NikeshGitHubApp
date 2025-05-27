@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="51a6a0e61bc044906aceb9d1cd4bcbd9" label="Roles and Responsibilities" max_length="40" name="x_attm_mysla_roles_and_responsibilities" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tag" max_length="40" name="tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Transport with MRS" sequence="500" value="Transport with MRS"/>
+                <element inactive_on_update="false" label="Threshold Notification" sequence="1300" value="Threshold Notification"/>
+                <element inactive_on_update="false" label="VPN Managed" sequence="300" value="VPN Managed"/>
+                <element inactive_on_update="false" label="Web and Audio Conferencing" sequence="1100" value="Web and Audio Conferencing"/>
+                <element inactive_on_update="false" label="Operational Reports" sequence="1900" value="Operational Reports"/>
+                <element inactive_on_update="false" label="OPT-E-WAN" sequence="900" value="OPT-E-WAN"/>
+                <element inactive_on_update="false" label="PCS - Traffic Analysis" sequence="1700" value="PCS - Traffic Analysis"/>
+                <element inactive_on_update="false" label="MLAN" sequence="700" value="MLAN"/>
+                <element inactive_on_update="false" label="ADI" sequence="1500" value="ADI"/>
+                <element inactive_on_update="false" label="BVOIP" sequence="100" value="BVOIP"/>
+                <element inactive_on_update="false" label="ASE" sequence="200" value="ASE"/>
+                <element inactive_on_update="false" label="VPN Transport" sequence="400" value="VPN Transport"/>
+                <element inactive_on_update="false" label="PCS - Application" sequence="1200" value="PCS"/>
+                <element inactive_on_update="false" label="WebEx Audio Conferencing" sequence="1000" value="WebEx Audio Conferencing"/>
+                <element inactive_on_update="false" label="PCS - Performance SLAs" sequence="1800" value="PCS - Performance SLAs"/>
+                <element inactive_on_update="false" label="Integrated Offers" sequence="800" value="Integrated Offers"/>
+                <element inactive_on_update="false" label="PCS - Exception &amp; Forecast Analysis" sequence="1600" value="PCS - Exception &amp; Forecast Analysis"/>
+                <element inactive_on_update="false" label="Outsourcing" sequence="600" value="Outsourcing"/>
+                <element inactive_on_update="false" label="Threshold Alarming" sequence="1400" value="Threshold Alarming"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Custom Responsibilities " max_length="8000" name="custom_responsibilities" type="html"/>
+        <element display="true" label="Organization Function" max_length="100" name="organization_function" type="string"/>
+    </element>
+</database>

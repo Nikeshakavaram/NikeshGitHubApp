@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18d554a61b4044906aceb9d1cd4bcb68" label="Assumptions" max_length="40" name="x_attm_mysla_assumptions" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tag" max_length="40" name="tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="BVoIP" sequence="700" value="BVoIP"/>
+                <element inactive_on_update="false" label="Threshold Alarming" sequence="1200" value="Threshold Alarming"/>
+                <element inactive_on_update="false" label="Outsourcing" sequence="100" value="Outsourcing"/>
+                <element inactive_on_update="false" label="PCS" sequence="900" value="PCS"/>
+                <element inactive_on_update="false" label="Threshold Notification, Threshold Alarming" sequence="1100" value="Threshold Notification, Threshold Alarming"/>
+                <element inactive_on_update="false" label="ASE" sequence="500" value="ASE"/>
+                <element inactive_on_update="false" label="Operational Reports" sequence="1000" value="Operational Reports"/>
+                <element inactive_on_update="false" label="AT&amp;T VPN Transport with MRS" sequence="300" value="AT&amp;T VPN Transport with MRS"/>
+                <element inactive_on_update="false" label="AT&amp;T VPN Managed" sequence="400" value="AT&amp;T VPN Managed"/>
+                <element inactive_on_update="false" label="AT&amp;T VPN Transport" sequence="200" value="AT&amp;T VPN Transport"/>
+                <element inactive_on_update="false" label="Web and Audio Conferencing" sequence="800" value="Web and Audio Conferencing"/>
+                <element inactive_on_update="false" label="ADI-G" sequence="600" value="ADI-G"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Description" max_length="8000" name="description" type="html"/>
+    </element>
+</database>

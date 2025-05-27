@@ -4,12 +4,14 @@
         <breakdown_source/>
         <color>#ffffff</color>
         <disable_multiple_element>false</disable_multiple_element>
+        <experience_dashboard/>
         <group/>
         <groups/>
         <is_breakdown>false</is_breakdown>
         <managed_breakdown/>
         <managed_publisher/>
         <name>GateKeeper Dashboard</name>
+        <no_bulk_migration>false</no_bulk_migration>
         <no_tabs>false</no_tabs>
         <notification_link_label/>
         <notification_link_url/>

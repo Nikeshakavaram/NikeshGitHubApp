@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8febb1fa1bdaf7404b8685507e4bcbcc" extends="task" label="Phase" max_length="40" name="x_attm_mysla_phase" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Request" max_length="32" name="request" reference="x_attm_mysla_sla_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Template" max_length="32" name="template" read_only="true" reference="x_attm_mysla_task_template" type="reference"/>
+    </element>
+</database>

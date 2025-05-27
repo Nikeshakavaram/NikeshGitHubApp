@@ -12,6 +12,7 @@
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
         <expand_node_children>false</expand_node_children>
         <file_path/>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -37,6 +38,7 @@
         <offset/>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script/>
         <parsing_script/>
         <properties/>
         <query>All Rows from Table</query>

@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
         <sys_created_on>2019-06-13 07:47:26</sys_created_on>
-        <sys_id>078b7081db4ebf445067e336489619c1</sys_id>
         <sys_name>Is it expected that AT&amp;T will improve upon standard service guide SLA credit(s)?</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

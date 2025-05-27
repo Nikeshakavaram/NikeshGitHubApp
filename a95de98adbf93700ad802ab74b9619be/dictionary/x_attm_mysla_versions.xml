@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d5f60be1bcc84906aceb9d1cd4bcb36" label="Versions" max_length="40" name="x_attm_mysla_versions" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tag" max_length="100" name="tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ADI" sequence="6" value="ADI"/>
+                <element inactive_on_update="false" label="PCS - Exception and Forecast Analysis" sequence="13" value="PCS - Exception and Forecast Analysis"/>
+                <element inactive_on_update="false" label="Inegrated Offers" sequence="9" value="Inegrated Offers"/>
+                <element inactive_on_update="false" label="Threshold Alarming" sequence="18" value="Threshold Alarming"/>
+                <element inactive_on_update="false" label="MLAN" sequence="8" value="MLAN"/>
+                <element inactive_on_update="false" label="Threshold Notification" sequence="17" value="Threshold Notification"/>
+                <element inactive_on_update="false" label="PCS- Application" sequence="14" value="PCS- Traffic Analysis"/>
+                <element inactive_on_update="false" label="Outsourcing" sequence="7" value="Outsourcing"/>
+                <element inactive_on_update="false" label="Operational Reports" sequence="16" value="Operational Reports"/>
+                <element inactive_on_update="false" label="Bvoip" sequence="1" value="Bvoip"/>
+                <element inactive_on_update="false" label="ASE" sequence="2" value="ASE"/>
+                <element inactive_on_update="false" label="Transport with MRS" sequence="5" value="Transport with MRS"/>
+                <element inactive_on_update="false" label="VPN Transport" sequence="4" value="VPN Transport"/>
+                <element inactive_on_update="false" label="Web and Audio Conferencing" sequence="12" value="Web and Audio Conferencing"/>
+                <element inactive_on_update="false" label="OPT-E-WAN" sequence="10" value="OPT-E-WAN"/>
+                <element inactive_on_update="false" label="VPN Managed" sequence="3" value="VPN Managed"/>
+                <element inactive_on_update="false" label="PCS- Performance SLAs" sequence="15" value="PCS- Performance SLAs"/>
+                <element inactive_on_update="false" label="WebEx_IP Audio" sequence="11" value="WebEx_IP Audio"/>
+            </choice>
+        </element>
+        <element display="true" label="Description" max_length="500" name="description" type="string"/>
+    </element>
+</database>

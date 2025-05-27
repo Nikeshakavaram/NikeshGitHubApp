@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="000accf31b6af7407a3542edee4bcb81" label="Scoped Products" max_length="40" name="x_attm_mysla_scoped_products" type="collection">
+        <element label="Value" max_length="100" name="value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Vendor" sequence="4" value="Vendor"/>
+                <element inactive_on_update="false" label="Component Type" sequence="2" value="Component Type"/>
+                <element inactive_on_update="false" label="Product" sequence="1" value="Product"/>
+                <element inactive_on_update="false" label="Service-Tower" sequence="0" value="Service-Tower"/>
+                <element inactive_on_update="false" label="Software" sequence="3" value="Software"/>
+                <element inactive_on_update="false" label="Regions" sequence="5" value="Regions"/>
+            </choice>
+        </element>
+    </element>
+</database>

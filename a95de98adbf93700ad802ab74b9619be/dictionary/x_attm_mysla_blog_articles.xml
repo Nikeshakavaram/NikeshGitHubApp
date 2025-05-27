@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ea411fab1be2f7407a3542edee4bcb54" extends="sys_import_set_row" label="Load Blog Articles" max_length="40" name="x_attm_mysla_blog_articles" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Active" label="Active" max_length="40" name="u_active" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Article" label="Article" max_length="345" name="u_article" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BlogCreator" label="BlogCreator" max_length="40" name="u_blogcreator" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ArticleAuthor" label="ArticleAuthor" max_length="40" name="u_articleauthor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BlogDesc" label="BlogDesc" max_length="40" name="u_blogdesc" type="string"/>
+    </element>
+</database>

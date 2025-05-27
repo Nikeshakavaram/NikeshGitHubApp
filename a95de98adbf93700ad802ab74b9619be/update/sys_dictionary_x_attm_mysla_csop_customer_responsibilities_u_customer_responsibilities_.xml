@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>rr141k@att.com</sys_created_by>
         <sys_created_on>2019-09-30 09:10:26</sys_created_on>
-        <sys_id>90f32ac41b98c4d0529142edee4bcb0a</sys_id>
         <sys_name>Customer Responsibilities </sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

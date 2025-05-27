@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="deee6e87db0bfbc0c2da62eb8a9619f0" label="Indirect Labour" max_length="40" name="x_attm_mysla_indirect_labour" type="collection">
+        <element label="Data Source(s)" max_length="150" name="data_source_s" read_only="true" type="string"/>
+        <element label="Suggested FTE ()" max_length="150" name="suggested_fte" type="string"/>
+        <element label="ITIL Classifications" max_length="150" name="itil_classifications" read_only="true" type="string"/>
+        <element label="Indirect Support Role(s)" max_length="150" name="indirect_support_role_s" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost Model" max_length="32" name="cost_model" read_only="true" reference="x_attm_mysla_my_sla_cost_model" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Selected" max_length="40" name="selected" type="boolean"/>
+        <index name="index">
+            <element name="cost_model"/>
+        </index>
+    </element>
+</database>

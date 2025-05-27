@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="33fe839cdbcaf7445067e3364896190b" label="Complexity Form" max_length="40" name="x_attm_mysla_complexity_form" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a PCS, Threshold Alarming or Threshold Notification?" max_length="40" name="pcs_performance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" mandatory="true" max_length="40" name="request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Firm" sequence="0" value="Firm"/>
+                <element inactive_on_update="false" label="Consult" sequence="2" value="Consult"/>
+                <element inactive_on_update="false" label="ROM(Rough Order of Magnitude)" sequence="1" value="ROM(Rough Order of Magnitude)"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a DXC Reports request?" max_length="40" name="is_dxc_requested" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Is it expected that AT&amp;T will improve upon standard service guide SLA credit(s)?" max_length="40" name="sla_credits" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Unknown" sequence="0" value="Unknown"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does this SLA request require customization of Tier 3 Envelope SLA's?" max_length="40" name="does_this_sla_request_require_customization_of_tier_3_envelope_sla_s" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reports complexity" max_length="40" name="reports_process" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Gold" sequence="1" value="Gold"/>
+                <element inactive_on_update="false" label="Silver" sequence="4" value="Silver"/>
+                <element inactive_on_update="false" label="Platinum" sequence="3" value="Platinum"/>
+                <element inactive_on_update="false" label="Bronze" sequence="2" value="Bronze"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this an Enhanced Reports package request with additional customization?" max_length="40" name="is_this_request_to_provide_an_enhanced_reports_package_with_additional_customiza" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Are non-standard reporting intervals required (i.e. bi-weekly, quarterly, etc.)?" max_length="40" name="non_std_reporting" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unknown" sequence="-1" value="Unknown"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a Custom ITIL, end-to-end Reports, or other Custom Reports request?" max_length="40" name="is_custom" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="request_type" dependent_on_field="request_type" label="Output document(s) needed to satisfy this request" max_length="1024" name="output_document_s_needed_to_satisfy_this_request" reference="x_attm_mysla_sla_documents" type="glide_list" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are we providing High complexity Network Sourcing SLA Plan with RFP responses?" max_length="40" name="are_we_providing_high_complexity_network_sourcing_sla_plan_with_rfp_responses" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this an Enhanced Reports package request with no additional customization?" max_length="40" name="is_enhanced_report" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are we providing enhanced SLA plan with additional customization?" max_length="40" name="are_we_providing_enhanced_sla_plan_with_additional_customization" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the SLA apply to product(s) that we frequently customize?" max_length="40" name="does_the_sla_apply_to_product_s_that_we_frequently_customize" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a contract recast or renewal with no changes to existing service or SLA?" max_length="40" name="is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Has this SLA customization been previously approved for other customers?" max_length="40" name="has_the_requested_sla_customization_been_previously_approved_for_other_customers" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the SLA plan require 100% compliance with no deviation from the request?" max_length="40" name="does_the_sla_plan_require_100_compliance_with_no_deviation_from_customer_request" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Deal" max_length="32" name="deal" read_only="true" reference="x_attm_mydesign_engagement" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Has this Reports customization been previously approved for other customers?" max_length="40" name="reports_customization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Unknown" sequence="-1" value="Unknown"/>
+            </choice>
+        </element>
+        <element label="Please provide any additional comments regarding the complexity of this Report" max_length="1000" name="operations_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reports Score" max_length="40" name="reports_score" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Is it expected that AT&amp;T will improve upon standard service guide SLA target(s)?" max_length="40" name="sla_targets" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="Unknown" sequence="0" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Are we expected to include access in the SLA credit?" max_length="40" name="are_we_expected_to_include_access_in_the_sla_credit" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the customization apply to continental US sites only?" max_length="40" name="does_the_customization_apply_to_continental_us_sites_only" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Do the Reports require 100% compliance with no deviation from the request?" max_length="40" name="no_deviation_required" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="15"/>
+                <element inactive_on_update="false" label="Unknown" sequence="-1" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the SLA customization include Proactive Site-to-Site performance SLAs?" max_length="40" name="does_the_sla_customization_include_proactive_site_to_site_performance_slas" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the SLA customization require integration across multiple products?" max_length="40" name="does_the_sla_customization_require_integration_across_multiple_products" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the SLA customization apply to a single product?" max_length="40" name="does_the_sla_customization_apply_to_a_single_product" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Is there an existing resource that would be able to support any manual reports?" max_length="40" name="management_resource" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unknown" sequence="-1" value="Unknown"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are we providing an enhanced SLA as documented with no additional customization?" max_length="40" name="are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is this a Custom PCS (including PCS Application) request?" max_length="40" name="custom_pcs" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Please provide any additional comments regarding the complexity of this SLA" max_length="1000" name="comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SLA complexity" max_length="40" name="process" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Platinum" sequence="2" value="Platinum"/>
+                <element inactive_on_update="false" label="T3" sequence="-1" value="T3"/>
+                <element inactive_on_update="false" label="Silver" sequence="4" value="Silver"/>
+                <element inactive_on_update="false" label="Bronze" sequence="1" value="Bronze"/>
+                <element inactive_on_update="false" label="Gold" sequence="0" value="Gold"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Is this an RFP request that needs to be reviewed or are redlines are required?" max_length="40" name="is_rpf_request" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="15"/>
+                <element inactive_on_update="false" label="Unknown" sequence="-1" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the customization apply to the SLA terms &amp; conditions?" max_length="40" name="sla_terms" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="10"/>
+                <element inactive_on_update="false" label="Unknown" sequence="0" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the SLA customization include Network Integration (NI) vendors?" max_length="40" name="does_the_sla_customization_include_network_integration_ni_vendors" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the requested customization apply to a single SLA?" max_length="40" name="does_the_requested_customization_apply_to_a_single_sla" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are we providing Tier 3 Envelope SLAs only with no additional customization?" max_length="4" name="are_we_providing_tier_3_envelope_slas_only_with_no_additional_customization" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#9;// Add your code here&#10;// &#9;return '';  // return the calculated value&#10;&#9;&#10;})(current);" label="SLA Score" max_length="40" name="score" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Is this a request for customization of a Standard Product report?" max_length="40" name="std_product" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="2"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Unknown" sequence="-1" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unknown" label="Does the Reports customization request involve NI or a third party vendor?" max_length="40" name="does_involve_ni" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="10"/>
+                <element inactive_on_update="false" label="Unknown" sequence="-1" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are we providing DXC Enhanced SLA Plan?" max_length="40" name="are_we_providing_dxc_enhanced_sla_plan_with_no_additional_customization" type="string">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="deal"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

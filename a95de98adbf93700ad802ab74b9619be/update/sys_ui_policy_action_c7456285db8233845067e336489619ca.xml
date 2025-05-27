@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>pcs_performance</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-06-13 15:29:20</sys_updated_on>
         <table>x_attm_mysla_complexity_form</table>
         <ui_policy display_value="SLA - Show / Hide Custom Operations Reports section">4af4aa45db8233845067e33648961987</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7456285db8233845067e336489619ca"/>
 </record_update>

@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>at_risk_amount</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>rajivranjan2@kpmg.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-07-08 21:48:01</sys_updated_on>
         <table>x_attm_mysla_sla_request</table>
         <ui_policy display_value="Contract Section Mandatory On Negotiation">56da20591beef7c04b8685507e4bcb36</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b6cba8191beef7c04b8685507e4bcb45"/>
 </record_update>

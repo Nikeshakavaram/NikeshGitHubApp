@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9988b21d1bd8c4d06aceb9d1cd4bcb10" label="SLA Customizations" max_length="40" name="x_attm_mysla_sla_customizations" type="collection">
+        <element display="true" label="Custom SLA Approved by AT&amp;T" max_length="300" name="custom_sla_approved_by_at_t" type="string"/>
+        <element attributes="no_truncate=true" label="SLA Claim Validation and Process - Who is Responsible" max_length="10000" name="sla_claim_validation_and_process_who_is_responsible" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tag" max_length="40" name="tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AVPN Transport" sequence="6" value="AVPN_Transport"/>
+                <element inactive_on_update="false" label="Integrated offers" sequence="7" value="Integrated_offers"/>
+                <element inactive_on_update="false" label="BVOIP" value="BVOIP"/>
+                <element inactive_on_update="false" label="Opt-E wan" sequence="9" value="Opt-E wan"/>
+                <element inactive_on_update="false" label="MLAN" sequence="8" value="MLAN"/>
+                <element inactive_on_update="false" label="Web and Audio Conferencing" sequence="10" value="Web_and_Audio_Conferencing"/>
+                <element inactive_on_update="false" label="ASE" sequence="3" value="ASE"/>
+                <element inactive_on_update="false" label="AVPN Transport MRS" sequence="5" value="AVPN_Transport_MRS"/>
+                <element inactive_on_update="false" label="ADI-G" sequence="2" value="ADI_G"/>
+                <element inactive_on_update="false" label="VPN Managed" sequence="4" value="VPN_Managed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="SLA Claim Validation and Process - Who is Responsible(HTML)" max_length="10000" name="sla_claim_validation_and_process" type="html"/>
+    </element>
+</database>

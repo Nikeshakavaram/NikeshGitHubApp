@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c4d4754e1b94c0106aceb9d1cd4bcb8d" label="Mysla M2m Custom Reque SLA Customiz" max_length="40" name="x_attm_mysla_m2m_custom_reque_sla_customiz" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Custom Request" max_length="32" name="custom_request" reference="x_attm_mysla_sla_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="SLA Customizations" max_length="32" name="sla_customizations" reference="x_attm_mysla_sla_customizations" type="reference"/>
+        <index name="index">
+            <element name="custom_request"/>
+        </index>
+        <index name="index2">
+            <element name="sla_customizations"/>
+        </index>
+    </element>
+</database>

@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>are_we_providing_enhanced_sla_plan_as_documented_with_no_additional_customizatio</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-06-13 07:05:57</sys_updated_on>
         <table>x_attm_mysla_complexity_form</table>
         <ui_policy display_value="SLA - Show / Hide Custom SLA section">24b3ecfcdb8abb445067e33648961988</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=1956e034dbcabb445067e336489619cf"/>
 </record_update>

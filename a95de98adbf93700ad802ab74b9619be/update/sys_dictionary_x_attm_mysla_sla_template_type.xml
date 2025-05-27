@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>rr141k@att.com</sys_created_by>
         <sys_created_on>2019-09-17 08:42:43</sys_created_on>
-        <sys_id>62b0a3b31bbf37406aceb9d1cd4bcb09</sys_id>
         <sys_name>Type</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

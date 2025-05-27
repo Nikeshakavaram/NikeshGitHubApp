@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
         <sys_created_on>2019-08-06 11:27:55</sys_created_on>
-        <sys_id>f7837f16db4bf7c0c2da62eb8a961904</sys_id>
         <sys_name>SLA with site or component level calculations or diluted  aggregates</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

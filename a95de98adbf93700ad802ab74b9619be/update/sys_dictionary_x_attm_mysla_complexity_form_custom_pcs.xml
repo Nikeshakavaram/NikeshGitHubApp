@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
         <sys_created_on>2019-06-14 09:24:53</sys_created_on>
-        <sys_id>8e6b1e11db06b3845067e336489619b1</sys_id>
         <sys_name>Is this a Custom PCS (including PCS Application) request?</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

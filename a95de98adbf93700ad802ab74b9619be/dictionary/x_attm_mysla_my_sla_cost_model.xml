@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2da1cb1adb83f7c0c2da62eb8a96199b" label="Cost Model" max_length="40" name="x_attm_mysla_my_sla_cost_model" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Is there a requirement to provide SLAs for CMO without Due Diligence?" max_length="40" name="cmo_diligence" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Expedited SLA analysis requests" max_length="40" name="expedited_sla_analysis_requests" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Enter Device Count:" max_length="40" name="enter_device_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total Contract Value (TCV) USD $" max_length="40" name="total_contract_value_tcv_usd" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Are we utilizing NI Suppliers?" max_length="40" name="ni_suppliers" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Amount (enter $)" max_length="20" name="transition_amount_enter" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,ref_contributions=x_attm_mysla_get_calculated_value" default="0" label="Enter # of SLOs (aka KPIs, KMs, etc.)" max_length="40" name="enter_of_slos_aka_kpis_kms_etc" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Enter Transition Months" max_length="40" name="enter_transition_months" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,ref_contributions=x_attm_mysla_get_calculated_value" choice="1" label="Select SLA Delivery Frequency" max_length="40" name="select_sla_delivery_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Weekly" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Bi-Weekly" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Daily" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Annual" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Contract Year" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Monthly" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Semi-Annual" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="% Calculated from Risk Factors" max_length="15" name="calculated_from_risk_factors" read_only="true" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Promotion of Key Measures (SLOs) to Critical Service Levels (SLAs)" max_length="40" name="promotion_of_key_measures" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="0" label="What is the Total Supplier At Risk(% of Monthly Charge)?" max_length="0" name="monthly_charge" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Due Diligence for CMO SLAs?" max_length="40" name="due_diligence" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Some" sequence="1" value="-0.5"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="-1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Costs" max_length="40" name="costs" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="0" label="What is the Pool Percentage Available for Allocation?" max_length="0" name="pool_percentage" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Indirect Cost FTE (GSAM)" max_length="40" name="indirect_cost" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Custom Modeler" mandatory="true" max_length="40" name="custom_modular" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Direct Cost model" value="dcm"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Enter target hours for SLAs on Sev 3 tickets (enter 0 for none)" max_length="40" name="sev3_target" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLA that demand perfection" max_length="40" name="sla_that_demand_perfection" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,ref_contributions=x_attm_mysla_get_calculated_value" choice="1" label="Select Biller(s) for Credit Management" max_length="40" name="select_biller_s_for_credit_management" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-Standard Biller" sequence="2" value="Non-Standard Biller"/>
+                <element inactive_on_update="false" label="IBS &amp; Product Billers" sequence="1" value="IBS &amp; Product Billers"/>
+                <element inactive_on_update="false" label="IBS Biller" sequence="0" value="IBS Biller"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Custom Request" max_length="32" name="custom_request" read_only="true" reference="x_attm_mysla_sla_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs not alligned with vendor commitments" max_length="40" name="slas_not_alligned_with_vendor_commitments" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Set all rows to" max_length="40" name="set_all_rows_to" type="string">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,ref_contributions=x_attm_mysla_get_calculated_value" default="0" label="Enter # of SLAs (aka CPIs, CSLs,etc.)" max_length="40" name="no_of_slas" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Do we have a clause for Rule of Small Numbers?" max_length="40" name="rule_of_smallnumbers" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="-1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="-0.5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs with disproportionate credit structure(SiteLevel SLA with Aggregate Credit)" max_length="40" name="slas_disproportionate_credit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLA credits that continuously increase each time an SLA is missed [Escalating]" max_length="40" name="sla_credits_that_continuously_increase_each_time_an_sla_is_missed_escalating" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Explanatory Notes" max_length="4000" name="explanatory_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Enter target hours for SLAs on Sev 1 tickets (enter 0 for none)" max_length="40" name="sev1_target_hours" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs tied to Customer Satisfaction Surveys" max_length="40" name="slas_tied_css" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Contingency Factor" max_length="15" name="contingency_factor" read_only="true" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="SLAs with aggregate calculations" max_length="40" name="slas_aggregate_calculations" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="-1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="-0.5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Enter target hours for SLAs on Sev 2 tickets (enter 0 for none)" max_length="40" name="sev2_target" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,ref_contributions=x_attm_mysla_get_calculated_value" default="0" label="Enter # of Sites" max_length="40" name="enter_of_sites" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs with aggressive S2S Network Performance Targets" max_length="40" name="slas_with_aggressives2s" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Model Name" mandatory="true" max_length="40" name="model_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs that are difficult to track and report on" max_length="40" name="sla_track_report" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Direct Cost Calculated FTE" max_length="40" name="direct_cost_calculated_fte" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLA requests with lack of info/clarity from client" max_length="40" name="sla_requests_with_lack_of_info_clarity_from_client" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLA plans with Continuous Improvement" max_length="40" name="slas_with_ci" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="IS there competitive Pressure to comply with risky SLAs?" max_length="40" name="complywithrsikysla" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,ref_contributions=x_attm_mysla_get_calculated_value" choice="1" label="Select Complexity of Mesurement Tools" max_length="40" name="select_complexity_of_mesurement_tools" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Extraordinary" sequence="0" value="Extraordinary"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="Low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="Medium"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="High"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="SLAs that require baselining" max_length="40" name="slas_baselining" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="-1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="-0.5"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="0"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Weighted Risk" max_length="15" name="weighted_risk" read_only="true" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs that cross multiple service towers (cross offer)" max_length="40" name="slas_crossing_multiple_st" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Select Contract Term (Months)" max_length="40" name="select_contract_term_months" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="SLA plan with potential for Earn-Back" max_length="40" name="sla_earnback" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="-1"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="0"/>
+                <element inactive_on_update="false" label="Some" sequence="0" value="-0.5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Select Sales Channel" max_length="40" name="select_sales_channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RETAIL" sequence="4" value="RETAIL"/>
+                <element inactive_on_update="false" label="IBM-GTM" sequence="3" value="IBM-GTM"/>
+                <element inactive_on_update="false" label="FED-GOV" sequence="2" value="FED-GOV"/>
+                <element inactive_on_update="false" label="DXC-IGEMS" sequence="0" value="DXC-IGEMS"/>
+                <element inactive_on_update="false" label="DXC-Red" sequence="1" value="DXC-Red"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Enter Total Number of SLAs" max_length="40" name="enter_total_number_of_slas" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="% TCV" max_length="15" name="transition_tcv" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs with Multiple Triggers" max_length="40" name="slas_with_multiple_triggers" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="% Override Percent" max_length="15" name="override_percent" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLAs with unattainable targets" max_length="40" name="slas_with_unattainable_targets" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="% TCV" max_length="15" name="tcv" read_only="true" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Enter target hours for SLAs on Sev 4 tickets (enter 0 for none)" max_length="40" name="sev4_target" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="calculated_from_risk_factors" label="Calculate SLA Contingency from" max_length="40" name="calculate_sla_contingency_from" type="string">
+            <choice>
+                <element inactive_on_update="false" label="$ Override Amount" sequence="2" value="override_amount"/>
+                <element inactive_on_update="false" label="% Calculated from Risk Factors" sequence="0" value="calculated_from_risk_factors"/>
+                <element inactive_on_update="false" label="% Override Percent" sequence="1" value="override_percent"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="SLA with site or component level calculations or diluted  aggregates" max_length="40" name="site_or_component_level_calculations" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="Some" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Select Type of Labour Restriction" max_length="40" name="select_type_of_labour_restriction" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="$ Override Amount" max_length="20" name="override_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Amount" max_length="20" name="amount" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,ref_contributions=x_attm_mysla_get_calculated_value" default="0" label="Enter # of Metrics not AOTS Based" max_length="40" name="enter_of_metrics_not_aots_based" type="integer"/>
+        <index name="index">
+            <element name="custom_request"/>
+        </index>
+    </element>
+</database>

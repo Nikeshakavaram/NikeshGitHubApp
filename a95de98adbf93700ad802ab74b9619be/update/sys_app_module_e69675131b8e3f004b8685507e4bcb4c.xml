@@ -17,6 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>/$pa_dashboard.do?sysparm_dashboard=53c2b32adb9ef340779c62eb8a96191e</query>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_attm_mysla.SLA Supervisor</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>

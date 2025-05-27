@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kt784c@att.com</sys_created_by>
             <sys_created_on>2019-06-13 09:03:00</sys_created_on>
-            <sys_id>7cfc8d45db02ff445067e336489619bd</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Please provide any additional comments regarding the complexity of this SLA</sys_name>
             <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>

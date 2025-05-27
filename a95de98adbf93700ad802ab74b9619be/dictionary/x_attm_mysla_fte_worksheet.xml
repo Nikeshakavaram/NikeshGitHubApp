@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="08b7c9451b1f77007a3542edee4bcbe0" label="FTE - Worksheet" max_length="40" name="x_attm_mysla_fte_worksheet" type="collection">
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total Cost" max_length="20" name="total_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Rate per Month" max_length="20" name="rate_per_month" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost Model" max_length="32" name="cost_model" reference="x_attm_mysla_my_sla_cost_model" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Month" max_length="40" name="start_month" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Labor FTE Source" max_length="40" name="labor_fte_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Partial Term" max_length="20" name="partial_term" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="FTE Override" max_length="40" name="fte_override" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="FTE Ratio" max_length="40" name="fte_ratio" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Staff Country" max_length="40" name="staff_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Staff Level" max_length="40" name="staff_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Full Term" max_length="20" name="full_term" type="currency"/>
+        <index name="index">
+            <element name="cost_model"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3488b835dba23b80779c62eb8a961939" label="Deal Team" max_length="40" name="x_attm_mysla_deal_team" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Include in CSOP Review" max_length="40" name="include_in_csop_review" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Approver" max_length="40" name="approver" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Role" max_length="40" name="role" type="string"/>
+        <element attributes="edge_encryption_enabled=true,ref_ac_columns=last_name,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter" label="ATTUID" max_length="40" name="attuid" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request" max_length="32" name="request" read_only="true" reference="x_attm_mysla_sla_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact info" max_length="1000" name="contact_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Input Provider" max_length="40" name="input_provider" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <index name="index">
+            <element name="attuid"/>
+        </index>
+        <index name="index2">
+            <element name="request"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="313d6c71db223b80779c62eb8a961901" label="Reports" max_length="40" name="x_attm_mysla_reports" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Report" max_length="100" name="report" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="DXC Reports &amp; Reporting" sequence="2" value="DXC Reports &amp; Reporting"/>
+                <element inactive_on_update="false" label="IBM GTM Enhanced Operational Reports" sequence="3" value="IBM GTM Enhanced Operational Reports"/>
+                <element inactive_on_update="false" label="LCM Management Reports" sequence="4" value="LCM Management Reports"/>
+                <element inactive_on_update="false" label="AVPN P2P Performance Reports" sequence="0" value="AVPN P2P Performance Reports"/>
+                <element inactive_on_update="false" label="Performance Reports" sequence="5" value="Performance Reports"/>
+                <element inactive_on_update="false" label="Custom Operational Reports" sequence="1" value="Custom Operational Reports"/>
+            </choice>
+        </element>
+    </element>
+</database>

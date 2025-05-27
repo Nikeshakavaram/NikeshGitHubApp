@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>costModelCalculator</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var costModelCalculator = Class.create();
 costModelCalculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	processInput: function(){

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="165d670a1bc0c0906aceb9d1cd4bcbae" label="Custom Requirements" max_length="40" name="x_attm_mysla_custom_requirements" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Custom Request" max_length="32" name="custom_request" read_only="true" reference="x_attm_mysla_sla_request" type="reference"/>
+        <element label="Requested Custom SLA's" max_length="100" name="requested_custom_sla_s" type="string"/>
+        <element label="Affected Product" max_length="300" name="affected_product" type="string"/>
+        <element label="Response / Approved" max_length="300" name="response_approved" type="string"/>
+        <index name="index">
+            <element name="custom_request"/>
+        </index>
+    </element>
+</database>

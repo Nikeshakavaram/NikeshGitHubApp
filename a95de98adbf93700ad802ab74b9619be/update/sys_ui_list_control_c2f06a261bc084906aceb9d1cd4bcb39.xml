@@ -28,6 +28,7 @@
         <omit_if_empty>false</omit_if_empty>
         <omit_links>false</omit_links>
         <omit_new_button>true</omit_new_button>
+        <omit_related_list_count>false</omit_related_list_count>
         <related_list>x_attm_mysla_m2m_custom_reque_roles_and_re.custom_request</related_list>
         <sys_class_name>sys_ui_list_control</sys_class_name>
         <sys_created_by>na571t@att.com</sys_created_by>

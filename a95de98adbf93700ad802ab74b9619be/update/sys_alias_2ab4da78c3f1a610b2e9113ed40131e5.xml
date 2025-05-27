@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_attm_mysla.NikeshGitHubApp</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>NikeshGitHubApp</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>Nikesh</sys_created_by>
+        <sys_created_on>2025-05-26 15:25:25</sys_created_on>
+        <sys_id>2ab4da78c3f1a610b2e9113ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_attm_mysla.NikeshGitHubApp</sys_name>
+        <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+        <sys_update_name>sys_alias_2ab4da78c3f1a610b2e9113ed40131e5</sys_update_name>
+        <sys_updated_by>Nikesh</sys_updated_by>
+        <sys_updated_on>2025-05-26 15:25:25</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>

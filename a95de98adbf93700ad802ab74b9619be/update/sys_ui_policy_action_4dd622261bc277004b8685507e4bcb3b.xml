@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>reports_score</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-06-18 07:26:58</sys_updated_on>
         <table>x_attm_mysla_complexity_form</table>
         <ui_policy display_value="SLA - Hide fields onLoad">ad3f0d8ddb4efb40ad802ab74b9619bb</ui_policy>
+        <value/>
+        <value_action/>
         <visible>false</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=4dd622261bc277004b8685507e4bcb3b"/>
 </record_update>

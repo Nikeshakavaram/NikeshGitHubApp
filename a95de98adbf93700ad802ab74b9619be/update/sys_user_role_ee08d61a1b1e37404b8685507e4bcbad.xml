@@ -8,7 +8,6 @@ Ability to move deals from Pending Assignment to Pending Acceptance status and a
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_attm_mysla.SLA Gatekeeper</name>
-        <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
         <suffix>SLA Gatekeeper</suffix>
         <sys_class_name>sys_user_role</sys_class_name>

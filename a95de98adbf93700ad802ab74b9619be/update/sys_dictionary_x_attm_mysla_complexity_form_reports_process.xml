@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
         <sys_created_on>2019-06-14 12:34:49</sys_created_on>
-        <sys_id>11e60b51db4eb3845067e33648961975</sys_id>
         <sys_name>Reports complexity</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="85e04b221b0a77004b8685507e4bcbd2" label="SLA MDS Form" max_length="40" name="x_attm_mysla_mds_form" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Deal" max_length="32" name="deal" read_only="true" reference="x_attm_mydesign_engagement" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="GeCEP ID(Global electronic Customer Engagement Process)" max_length="100" name="gecep_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Consultant" mandatory="true" max_length="40" name="consultant" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EZ Comm" sequence="10" value="EZ Comm"/>
+                <element inactive_on_update="false" label="Tech Caliber" sequence="40" value="Tech_Caliber"/>
+                <element inactive_on_update="false" label="Shaw Pittman" sequence="30" value="Shaw_Pittman"/>
+                <element inactive_on_update="false" label="Others" sequence="300" value="other"/>
+                <element inactive_on_update="false" label="ISG" sequence="20" value="ISG"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="SRID(Service Request)/WRID(Work Request)" mandatory="true" max_length="40" name="srid_wrid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Affected Sites" mandatory="true" max_length="40" name="affected_sites_are" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="Both"/>
+                <element inactive_on_update="false" label="Existing" sequence="1" value="Existing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="none" label="Type of labor restrictions" mandatory="true" max_length="40" name="type_of_labor_restrictions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Canada" sequence="2" value="Canada"/>
+                <element inactive_on_update="false" label="None" sequence="7" value="none"/>
+                <element inactive_on_update="false" label="EMEA" sequence="3" value="EMEA"/>
+                <element inactive_on_update="false" label="USA" sequence="5" value="USA"/>
+                <element inactive_on_update="false" label="Japan" sequence="4" value="Japan"/>
+                <element inactive_on_update="false" label="AP" sequence="0" value="AP"/>
+                <element inactive_on_update="false" label="CALA" sequence="1" value="CALA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Board Engagement Tool (BET #)" max_length="40" name="board_engagement_tool_bet" type="string"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Products" max_length="1024" name="u_product_names" reference="u_product_type" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer" max_length="32" name="customer" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract term" mandatory="true" max_length="40" name="contract_term" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total opportunity value" mandatory="true" max_length="20" name="total_opportunity_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="SLA &amp; Reports Solution Summary" mandatory="true" max_length="160" name="short_description" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Product 1-offs" max_length="1024" name="product_1_offs" reference="x_attm_mysla_customizations" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total contract value (if different than ROME)" max_length="20" name="total_contract_value" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Products" max_length="1024" name="products" reference="u_product" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Complexity" max_length="32" name="complexity" read_only="true" reference="x_attm_mysla_complexity_form" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="GSI Partner" max_length="40" name="gsi_partner" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sales channel" mandatory="true" max_length="40" name="glad_deal" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="DXC" sequence="2" value="DXC"/>
+                <element inactive_on_update="false" label="Retail" sequence="1" value="Retail"/>
+                <element inactive_on_update="false" label="IBM" sequence="3" value="IBM"/>
+                <element inactive_on_update="false" label="Outsourcing" sequence="4" value="Outsourcing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Owner ID" mandatory="true" max_length="40" name="opportunity_owner_id" type="string"/>
+        <element label="Other Consultant" max_length="100" name="other_consultant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Probability of sale" mandatory="true" max_length="20" name="probability_of_sale" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service status by product" mandatory="true" max_length="40" name="service_status_by_product" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Change to existing service" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Customer currently has this service; add new" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Customer new to service" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Contract renewal only" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Opportunity ID" mandatory="true" max_length="40" name="opportunity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments regarding BET number" max_length="120" name="additional_comments_regarding_bet_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ROME status" mandatory="true" max_length="40" name="rome_status" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Under review" sequence="2" value="3"/>
+                <element inactive="true" inactive_on_update="true" label="Pending assignment" sequence="0" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Post sales support" sequence="10" value="11"/>
+                <element inactive="true" inactive_on_update="true" label="Price In Progress" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Requested" sequence="14" value="Requested"/>
+                <element inactive="true" inactive_on_update="true" label="Pending acceptance" sequence="1" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Closed" sequence="13" value="14"/>
+                <element inactive="true" inactive_on_update="true" label="Final solution ready" sequence="9" value="10"/>
+                <element inactive="true" inactive_on_update="true" label="Design documents completed" sequence="5" value="6"/>
+                <element inactive="true" inactive_on_update="true" label="Cancelled" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="Accepted" sequence="15" value="Accepted"/>
+                <element inactive="true" inactive_on_update="true" label="Waiting for approval" sequence="8" value="9"/>
+                <element inactive="true" inactive_on_update="true" label="Design documents started" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Completed" sequence="16" value="Completed"/>
+                <element inactive_on_update="false" label="Draft" sequence="11" value="Draft"/>
+                <element inactive="true" inactive_on_update="true" label="Contract in progress" sequence="7" value="8"/>
+                <element inactive="true" inactive_on_update="true" label="Need more information" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="complexity"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+        <index name="index3">
+            <element name="deal"/>
+        </index>
+        <index name="index4" unique="true">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="086bffbb1b2e3b407a3542edee4bcbb8" label="Assignee Utilization for SLA" max_length="40" name="x_attm_mysla_assignee_utilization_for_sla" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="0" label="Total Count" max_length="40" name="reports_complexity" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Reporting Complexity %" max_length="40" name="reporting_complexity_percentage" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Complexity Utilization Percentage" max_length="40" name="sla_complexity" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="SLA Complexity %" max_length="40" name="sla_complexity_percentage" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned Person" mandatory="true" max_length="32" name="assigned_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_user"/>
+        </index>
+    </element>
+</database>

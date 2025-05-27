@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>is_this_request_for_a_contract_recast_or_renewal_with_no_changes_to_existing_ser</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-06-13 11:58:48</sys_updated_on>
         <table>x_attm_mysla_complexity_form</table>
         <ui_policy display_value="SLA - Make Custom SLA fields read only">ebc6e801db8afb40ad802ab74b96196a</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3c6e441db8afb40ad802ab74b96198d"/>
 </record_update>

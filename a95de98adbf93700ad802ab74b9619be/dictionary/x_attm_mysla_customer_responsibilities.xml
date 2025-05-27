@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0a9022c81b58c4d0529142edee4bcbd4" label="Customer Responsibilities" max_length="40" name="x_attm_mysla_customer_responsibilities" type="collection">
+        <element attributes="no_truncate=true" display="true" label="Custom SLA Approved by AT&amp;T" max_length="100" name="custom_sla_approved_by_at_t" type="string"/>
+        <element attributes="no_truncate=true" label="Customer Responsibilities" max_length="8000" name="customer_responsibilities" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tag" max_length="40" name="tag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="WebEx IP Audio Conferencing" sequence="1000" value="WebEx IP Audio Conferencing"/>
+                <element inactive_on_update="false" label="ADI" sequence="600" value="ADI"/>
+                <element inactive_on_update="false" label="Threshold Alarming" sequence="1500" value="Threshold Alarming"/>
+                <element inactive_on_update="false" label="VPN Managed" sequence="300" value="VPN Managed"/>
+                <element inactive_on_update="false" label="PCS" sequence="1200" value="PCS"/>
+                <element inactive_on_update="false" label="VPN Transport, Transport with MRS" sequence="400" value="VPN Transport, Transport with MRS"/>
+                <element inactive_on_update="false" label="Operational Reports" sequence="1300" value="Operational Reports"/>
+                <element inactive_on_update="false" label="ASE" sequence="200" value="ASE"/>
+                <element inactive_on_update="false" label="BVOIP" sequence="100" value="BVOIP"/>
+                <element inactive_on_update="false" label="VPN Transport" sequence="500" value="VPN Transport"/>
+                <element inactive_on_update="false" label="Outsourcing" sequence="700" value="Outsourcing"/>
+                <element inactive_on_update="false" label="Threshold Notification" sequence="1400" value="Threshold Notification"/>
+                <element inactive_on_update="false" label="Integrated Offers" sequence="800" value="Integrated Offers"/>
+                <element inactive_on_update="false" label="OPT-E-WAN" sequence="900" value="OPT-E-WAN"/>
+                <element inactive_on_update="false" label="Web and Audio Conferencing" sequence="1100" value="Web and Audio Conferencing"/>
+            </choice>
+        </element>
+    </element>
+</database>

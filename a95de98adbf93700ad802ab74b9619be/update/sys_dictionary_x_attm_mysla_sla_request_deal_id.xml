@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>td908n@att.com</sys_created_by>
         <sys_created_on>2019-07-17 18:30:15</sys_created_on>
-        <sys_id>61d496c4dbb2f740c2da62eb8a9619d1</sys_id>
         <sys_name>Deal ID</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

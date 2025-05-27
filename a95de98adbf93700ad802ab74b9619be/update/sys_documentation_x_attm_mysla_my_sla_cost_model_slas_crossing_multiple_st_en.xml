@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kt784c@att.com</sys_created_by>
             <sys_created_on>2019-08-06 12:37:09</sys_created_on>
-            <sys_id>98d30c6adbcbf7c0c2da62eb8a96195d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>SLAs that cross multiple service towers (cross offer)</sys_name>
             <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>

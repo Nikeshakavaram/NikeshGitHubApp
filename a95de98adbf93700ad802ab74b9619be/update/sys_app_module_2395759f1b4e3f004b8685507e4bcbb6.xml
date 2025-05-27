@@ -17,6 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>/$pa_dashboard.do?sysparm_dashboard=b405a3a2db5ef340779c62eb8a96192b</query>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_attm_mysla.SLA Gatekeeper</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>

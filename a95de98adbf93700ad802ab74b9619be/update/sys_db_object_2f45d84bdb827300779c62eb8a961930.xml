@@ -9,6 +9,7 @@
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>true</delete_access>
+        <filter_extension/>
         <is_extendable>true</is_extendable>
         <label>Custom Request</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -17,7 +18,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">2d6db0c76d2220100acb70b3534330b5</super_class>
+        <super_class display_value="Task" name="task">3461f76a5c0022105590c762d23e63a8</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
         <sys_created_on>2019-06-19 10:10:14</sys_created_on>

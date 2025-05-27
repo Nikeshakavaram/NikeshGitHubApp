@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0c558f92dbc3f7c0c2da62eb8a9619ba" label="My Sla Cost Model Base" max_length="40" name="x_attm_mysla_my_sla_cost_model_base" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Credit Management Weighting" sequence="500" value="select_biller_s_for_credit_management"/>
+                <element inactive_on_update="false" label="Measurement Tools Weighting" sequence="400" value="select_complexity_of_mesurement_tools"/>
+                <element inactive_on_update="false" label="Work Volume Benchmarks" sequence="100" value="work_volume_benchmarks"/>
+                <element inactive_on_update="false" label="Reporting Frequency Weighting" sequence="300" value="select_sla_delivery_frequency"/>
+                <element inactive_on_update="false" label="Plug-in (Manual) Weighting" sequence="200" value="plug_in_manual_weighting"/>
+            </choice>
+        </element>
+        <element label="Unique Key" mandatory="true" max_length="150" name="unique_key" type="string"/>
+        <element label="Parameter 1" mandatory="true" max_length="150" name="parameter_1" type="string"/>
+        <element label="Parameter 2" max_length="150" name="parameter_2" type="string"/>
+    </element>
+</database>

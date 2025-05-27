@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_attm_mysla_assignee_utilization_for_sla" version="2" view="RPT8c9bbcd01bbabb407a3542edee4bcbbd">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_user</element>
+            <list_id display_value="x_attm_mysla_assignee_utilization_for_sla" element="NULL" name="x_attm_mysla_assignee_utilization_for_sla" parent="NULL" relationship="NULL" sys_domain="global" view="e6ca7fa0c37c6210b2e9113ed401311f">24c820f41b767f407a3542edee4bcb04</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-19 18:33:30</sys_created_on>
+            <sys_id>e0c820f41b767f407a3542edee4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-19 18:33:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sla_complexity_percentage</element>
+            <list_id display_value="x_attm_mysla_assignee_utilization_for_sla" element="NULL" name="x_attm_mysla_assignee_utilization_for_sla" parent="NULL" relationship="NULL" sys_domain="global" view="e6ca7fa0c37c6210b2e9113ed401311f">24c820f41b767f407a3542edee4bcb04</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-19 18:33:30</sys_created_on>
+            <sys_id>68c820f41b767f407a3542edee4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-19 18:33:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reporting_complexity_percentage</element>
+            <list_id display_value="x_attm_mysla_assignee_utilization_for_sla" element="NULL" name="x_attm_mysla_assignee_utilization_for_sla" parent="NULL" relationship="NULL" sys_domain="global" view="e6ca7fa0c37c6210b2e9113ed401311f">24c820f41b767f407a3542edee4bcb04</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-19 18:33:30</sys_created_on>
+            <sys_id>e8c820f41b767f407a3542edee4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-19 18:33:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sla_complexity</element>
+            <list_id display_value="x_attm_mysla_assignee_utilization_for_sla" element="NULL" name="x_attm_mysla_assignee_utilization_for_sla" parent="NULL" relationship="NULL" sys_domain="global" view="e6ca7fa0c37c6210b2e9113ed401311f">24c820f41b767f407a3542edee4bcb04</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-19 18:33:30</sys_created_on>
+            <sys_id>6cc820f41b767f407a3542edee4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-19 18:33:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reports_complexity</element>
+            <list_id display_value="x_attm_mysla_assignee_utilization_for_sla" element="NULL" name="x_attm_mysla_assignee_utilization_for_sla" parent="NULL" relationship="NULL" sys_domain="global" view="e6ca7fa0c37c6210b2e9113ed401311f">24c820f41b767f407a3542edee4bcb04</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-19 18:33:30</sys_created_on>
+            <sys_id>ecc820f41b767f407a3542edee4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-19 18:33:30</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_attm_mysla_assignee_utilization_for_sla</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-07-19 18:33:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24c820f41b767f407a3542edee4bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_attm_mysla_assignee_utilization_for_sla</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_ui_list_x_attm_mysla_assignee_utilization_for_sla_RPT8c9bbcd01bbabb407a3542edee4bcbbd</sys_update_name>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-07-19 18:33:30</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt8c9bbcd01bbabb407a3542edee4bcbbd" name="RPT8c9bbcd01bbabb407a3542edee4bcbbd">e6ca7fa0c37c6210b2e9113ed401311f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f6d35941bdb73007a3542edee4bcbc6" label="Direct Labor" max_length="40" name="x_attm_mysla_direct_labor" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Cost Model" max_length="32" name="request" reference="x_attm_mysla_my_sla_cost_model" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="SLA Management" max_length="1000" name="sla_management" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Month" max_length="40" name="start_month" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total Recurring" max_length="20" name="total_recurring" type="currency"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Rate/Month" max_length="20" name="rate_month" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="FTE Month" max_length="40" name="fte_month" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Contingency Months" max_length="40" name="contingency_months" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total Amount" max_length="20" name="total_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Headcount Costs" max_length="40" name="headcount_costs" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Level" max_length="40" name="level" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SLA Contingency" max_length="100" name="sla_contingency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="% TCV" max_length="15" name="tcv" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="One Time Costs" max_length="20" name="one_time_costs" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="FTE Source" max_length="40" name="fte_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Months" max_length="40" name="months" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Function" max_length="1000" name="function" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cost Type" max_length="40" name="cost_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Crtical Deliverables" sequence="3" value="Crtical Deliverables"/>
+                <element inactive_on_update="false" label="Contingency" sequence="2" value="Contingency"/>
+                <element inactive_on_update="false" label="Recurring" sequence="0" value="Recurring"/>
+                <element inactive_on_update="false" label="Transition" sequence="1" value="Transition"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="% FTE" max_length="15" name="fte" type="percent_complete"/>
+        <index name="index">
+            <element name="request"/>
+        </index>
+    </element>
+</database>

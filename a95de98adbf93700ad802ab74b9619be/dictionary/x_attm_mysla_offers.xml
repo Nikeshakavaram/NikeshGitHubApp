@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d61679b1b2bf7406aceb9d1cd4bcbc5" label="Offers" max_length="40" name="x_attm_mysla_offers" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tag" max_length="40" name="tag" type="choice">
+            <choice>
+                <element dependent_value="Offers" inactive_on_update="false" label="Operational Reports" sequence="1400" value="Operational Reports"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="AT&amp;T VPN Transport" sequence="1560" value="AT&amp;T VPN Transport"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="Operational Reports" sequence="1650" value="Operational Reports_assumptions"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="AT&amp;T VPN Managed" sequence="1580" value="AT&amp;T VPN Managed"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="ASE" sequence="200" value="ASE"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="Transport with MRS" sequence="500" value="Transport with MRS"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="MLAN" sequence="800" value="MLAN"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="Outsourcing" sequence="1550" value="Outsourcing"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="PCS" sequence="1640" value="PCS_assumptions"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="OPT-E-WAN" sequence="900" value="OPT-E-WAN"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="Web and Audio Conferencing" sequence="1630" value="Web and Audio Conferencing_assumptions"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="Web and Audio Conferencing" sequence="1200" value="Web and Audio Conferencing"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="PCS, Threshold Alarming" sequence="1300" value="PCS, Threshold Alarming"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="WebEx_IP Audio" sequence="1000" value="WebEx_IP Audio"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="Outsourcing" sequence="700" value="Outsourcing"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="ADI" sequence="600" value="ADI"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="AT&amp;T VPN Transport with MRS" sequence="1570" value="AT&amp;T VPN Transport with MRS"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="VPN Transport" sequence="400" value="VPN Transport"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="Integrated offers" sequence="1100" value="Integrated offers"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="VPN Managed" sequence="300" value="VPN Managed"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="ASE" sequence="1590" value="ASE"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="Threshold Notification" sequence="1500" value="Threshold Notification"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="BVoIP" sequence="1620" value="BVoIP_assumptions"/>
+                <element dependent_value="Offers" inactive_on_update="false" label="Bvoip" sequence="100" value="Bvoip"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="Threshold Notification, Threshold Alarming" sequence="1660" value="Threshold Notification, Threshold Alarming_assumptions"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="ADI-G" sequence="1600" value="ADI-G"/>
+                <element dependent_value="Assumptions" inactive="true" inactive_on_update="true" label="Threshold Alarming" sequence="1680" value="Threshold Alarming_assumptions"/>
+            </choice>
+        </element>
+        <element display="true" label="Description" max_length="300" name="description" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" choice="1" label="Related List" max_length="40" name="related_list" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Offers" value="Offers"/>
+                <element inactive_on_update="false" label="Reporting Tools" sequence="3" value="Reporting Tools"/>
+                <element inactive_on_update="false" label="Assumptions" sequence="2" value="Assumptions"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Custom Request" max_length="32" name="custom_request" reference="x_attm_mysla_sla_request" type="reference"/>
+        <index name="index">
+            <element name="custom_request"/>
+        </index>
+    </element>
+</database>

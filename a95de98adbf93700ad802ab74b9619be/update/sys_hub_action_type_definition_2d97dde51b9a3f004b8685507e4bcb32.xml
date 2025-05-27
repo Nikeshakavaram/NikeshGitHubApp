@@ -6,15 +6,19 @@
         <action_template/>
         <active>true</active>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>sla_-_generate_tasks</internal_name>
         <label_cache>[{"name":"{{action.sla_request}}","label":"action➛sla_request","type":"action","ref":"x_attm_mysla_sla_request"}]</label_cache>
         <master_snapshot>7c68912d1b9a3f004b8685507e4bcbd2</master_snapshot>
+        <master_snapshot_digest/>
         <name>SLA - Generate tasks</name>
         <natlang/>
         <outputs/>
@@ -26,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d97dde51b9a3f004b8685507e4bcb32</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>SLA - Generate tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>
         <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2d97dde51b9a3f004b8685507e4bcb32</sys_update_name>
-        <sys_updated_by>rr141k@att.com</sys_updated_by>
-        <sys_updated_on>2019-09-17 11:32:39</sys_updated_on>
+        <sys_updated_by>Nikesh</sys_updated_by>
+        <sys_updated_on>2025-04-06 11:09:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -150,30 +154,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=18991dad1b9a3f004b8685507e4bcbbe"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>18991dad1b9a3f004b8685507e4bcbbe</id>
-        <sys_created_by>kt784c@att.com</sys_created_by>
-        <sys_created_on>2019-06-27 09:30:48</sys_created_on>
-        <sys_id>10991dad1b9a3f004b8685507e4bcbcd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kt784c@att.com</sys_updated_by>
-        <sys_updated_on>2019-06-27 09:30:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>18991dad1b9a3f004b8685507e4bcbbe</id>
-        <sys_created_by>kt784c@att.com</sys_created_by>
-        <sys_created_on>2019-06-27 09:30:48</sys_created_on>
-        <sys_id>58991dad1b9a3f004b8685507e4bcbcd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kt784c@att.com</sys_updated_by>
-        <sys_updated_on>2019-06-27 09:30:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sla_request</field>
         <id>18991dad1b9a3f004b8685507e4bcbbe</id>
         <sys_created_by>kt784c@att.com</sys_created_by>
@@ -186,6 +166,7 @@
         <value>{{action.sla_request}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=18991dad1b9a3f004b8685507e4bcbbe"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=18991dad1b9a3f004b8685507e4bcbbe"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=18991dad1b9a3f004b8685507e4bcbbe^sys_idNOT IN90991dad1b9a3f004b8685507e4bcbc4"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -272,7 +253,6 @@
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=18991dad1b9a3f004b8685507e4bcbbe"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=18991dad1b9a3f004b8685507e4bcbbe"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_18991dad1b9a3f004b8685507e4bcbbe"/>
     <sys_hub_action_input action="delete_multiple" query="model=2d97dde51b9a3f004b8685507e4bcb32^sys_idNOT IN00991dad1b9a3f004b8685507e4bcb64"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -361,7 +341,6 @@
     <sys_hub_action_output action="delete_multiple" query="model=2d97dde51b9a3f004b8685507e4bcb32"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2d97dde51b9a3f004b8685507e4bcb32"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2d97dde51b9a3f004b8685507e4bcb32"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_2d97dde51b9a3f004b8685507e4bcb32^sys_idNOT INc8991dad1b9a3f004b8685507e4bcb6a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sla_request</element>
         <help/>
@@ -386,7 +365,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2d97dde51b9a3f004b8685507e4bcb32"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_2d97dde51b9a3f004b8685507e4bcb32"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2d97dde51b9a3f004b8685507e4bcb32"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=2d97dde51b9a3f004b8685507e4bcb32^sys_idNOT IN82b75da91b9a3f004b8685507e4bcb6c"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
@@ -410,11 +388,14 @@
         <action_status/>
         <action_template/>
         <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
+        <flow_priority/>
         <internal_name>sla_-_generate_tasks</internal_name>
         <label_cache>[{"name":"{{action.sla_request}}","label":"action➛sla_request","type":"action","ref":"x_attm_mysla_sla_request"}]</label_cache>
         <master>true</master>
@@ -552,30 +533,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=485fe5251b9e3f004b8685507e4bcb9e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>485fe5251b9e3f004b8685507e4bcb9e</id>
-        <sys_created_by>kt784c@att.com</sys_created_by>
-        <sys_created_on>2019-06-27 11:05:48</sys_created_on>
-        <sys_id>045fe5251b9e3f004b8685507e4bcbac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kt784c@att.com</sys_updated_by>
-        <sys_updated_on>2019-06-27 11:05:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>485fe5251b9e3f004b8685507e4bcb9e</id>
-        <sys_created_by>kt784c@att.com</sys_created_by>
-        <sys_created_on>2019-06-27 11:05:48</sys_created_on>
-        <sys_id>c45fe5251b9e3f004b8685507e4bcbac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>kt784c@att.com</sys_updated_by>
-        <sys_updated_on>2019-06-27 11:05:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sla_request</field>
         <id>485fe5251b9e3f004b8685507e4bcb9e</id>
         <sys_created_by>kt784c@att.com</sys_created_by>
@@ -588,6 +545,7 @@
         <value>{{action.sla_request}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=485fe5251b9e3f004b8685507e4bcb9e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=485fe5251b9e3f004b8685507e4bcb9e"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=485fe5251b9e3f004b8685507e4bcb9e^sys_idNOT IN005fe5251b9e3f004b8685507e4bcba3"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -674,7 +632,6 @@
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=485fe5251b9e3f004b8685507e4bcb9e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=485fe5251b9e3f004b8685507e4bcb9e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_485fe5251b9e3f004b8685507e4bcb9e"/>
     <sys_hub_action_input action="delete_multiple" query="model=7c68912d1b9a3f004b8685507e4bcbd2^sys_idNOT INf74fe5251b9e3f004b8685507e4bcb96"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -763,7 +720,6 @@
     <sys_hub_action_output action="delete_multiple" query="model=7c68912d1b9a3f004b8685507e4bcbd2"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=7c68912d1b9a3f004b8685507e4bcbd2"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=7c68912d1b9a3f004b8685507e4bcbd2"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7c68912d1b9a3f004b8685507e4bcbd2^sys_idNOT IN405fe5251b9e3f004b8685507e4bcb9c"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sla_request</element>
         <help/>
@@ -788,7 +744,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7c68912d1b9a3f004b8685507e4bcbd2"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7c68912d1b9a3f004b8685507e4bcbd2"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_7c68912d1b9a3f004b8685507e4bcbd2"/>
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>2d97dde51b9a3f004b8685507e4bcb32</sys_id>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="99a026e21bc084906aceb9d1cd4bcb10" label="Mysla M2m Custom Reque Roles And Re" max_length="40" name="x_attm_mysla_m2m_custom_reque_roles_and_re" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Roles and Responsibilities" max_length="32" name="roles_and_responsibilities" reference="x_attm_mysla_roles_and_responsibilities" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Custom Request" max_length="32" name="custom_request" reference="x_attm_mysla_sla_request" type="reference"/>
+        <index name="index">
+            <element name="custom_request"/>
+        </index>
+        <index name="index2">
+            <element name="roles_and_responsibilities"/>
+        </index>
+    </element>
+</database>

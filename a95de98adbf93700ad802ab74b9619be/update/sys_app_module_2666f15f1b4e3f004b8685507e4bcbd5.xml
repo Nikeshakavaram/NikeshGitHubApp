@@ -17,6 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>$pa_dashboard.do?sysparm_dashboard=1e0746efdbca3700779c62eb8a961916&amp;sysparm_pa_dashboard_redirect_action=true&amp;sysparm_active_panel=addWidgetSideContent</query>
         <report display_value="My Custom Requests">cf06c267dbca3700779c62eb8a96190b</report>
+        <require_confirmation>false</require_confirmation>
         <roles>x_attm_mysla.SLA COE</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>

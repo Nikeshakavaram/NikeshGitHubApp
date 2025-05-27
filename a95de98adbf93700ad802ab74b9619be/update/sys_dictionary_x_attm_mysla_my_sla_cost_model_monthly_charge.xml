@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
         <sys_created_on>2019-08-29 10:05:11</sys_created_on>
-        <sys_id>43ac75b51b6bf300529142edee4bcb7b</sys_id>
         <sys_name>What is the Total Supplier At Risk(% of Monthly Charge)?</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

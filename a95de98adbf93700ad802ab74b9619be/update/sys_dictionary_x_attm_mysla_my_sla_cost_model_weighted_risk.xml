@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
         <sys_created_on>2019-08-21 12:49:51</sys_created_on>
-        <sys_id>d89651db1bd333407a3542edee4bcbc9</sys_id>
         <sys_name>Weighted Risk</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>u_glide_accepted_date_time</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>td908n@att.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-09-04 20:32:33</sys_updated_on>
         <table>x_attm_mysla_sla_request</table>
         <ui_policy display_value="SLA - Show / Hide Accepted date/time">319547ff1b6ffb406aceb9d1cd4bcbf1</ui_policy>
+        <value/>
+        <value_action/>
         <visible>false</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=18868f331baffb406aceb9d1cd4bcb68"/>
 </record_update>

@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>na571t@att.com</sys_created_by>
         <sys_created_on>2019-09-03 09:15:23</sys_created_on>
-        <sys_id>0ef1271f1b2bf7406aceb9d1cd4bcb2c</sys_id>
         <sys_name>Tag</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

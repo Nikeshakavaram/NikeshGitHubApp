@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
             <sys_created_on>2019-08-13 09:03:22</sys_created_on>
-            <sys_id>b80613acdbd33700c2da62eb8a96190b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Management/Monitoring Tier 1.5</sys_name>
             <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>

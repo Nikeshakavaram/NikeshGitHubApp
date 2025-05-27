@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="38c33356db4bf7c0c2da62eb8a9619bb" label="Operational Consultant" max_length="40" name="x_attm_mysla_operational_consultant" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Inventory System" max_length="40" name="inventory_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="DBOR" sequence="300" value="DBOR"/>
+                <element inactive_on_update="false" label="GPS" sequence="200" value="GPS"/>
+                <element inactive_on_update="false" label="NC3" sequence="400" value="NC3"/>
+                <element inactive_on_update="false" label="A&amp;AI" sequence="100" value="A&amp;AI"/>
+            </choice>
+        </element>
+        <element label="Component Counts for CALA" max_length="10" name="component_counts_cala" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="GSAM" max_length="40" name="gsam" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="India" sequence="300" value="India"/>
+                <element inactive_on_update="false" label="USA" sequence="400" value="USA"/>
+                <element inactive_on_update="false" label="Malaysia" sequence="100" value="Malaysia"/>
+                <element inactive_on_update="false" label="Slovakia" sequence="200" value="Slovakia"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Management/Monitoring Tier 1.5" max_length="40" name="management_monitoring_tier_1_5" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="Adcom ISD" sequence="300" value="Adcom ISD"/>
+                <element inactive_on_update="false" label="GCSC" sequence="400" value="GCSC"/>
+                <element inactive_on_update="false" label="AT&amp;T ISD" sequence="100" value="AT&amp;T ISD"/>
+                <element inactive_on_update="false" label="NCR ISD" sequence="200" value="NCR ISD"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="PLCM Team" max_length="40" name="plcm_team" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="USA" sequence="100" value="USA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Billing System" max_length="40" name="billing_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Standard Biller" sequence="100" value="Standard Biller"/>
+                <element inactive_on_update="false" label="UB" sequence="300" value="UB"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="IBS" sequence="200" value="IBS"/>
+            </choice>
+        </element>
+        <element label="Component Counts for Canada" max_length="10" name="component_counts_canada" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Onsite Customer Vendor" max_length="40" name="onsite_customer_vendor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cisco" sequence="500" value="Cisco"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="LEC" sequence="200" value="LEC"/>
+                <element inactive_on_update="false" label="NCR" sequence="400" value="NCR"/>
+                <element inactive_on_update="false" label="AT&amp;T" sequence="100" value="AT&amp;T"/>
+                <element inactive_on_update="false" label="PTT" sequence="300" value="PTT"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Operational Reporting Tool" max_length="40" name="operational_reporting_tool" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business Objects" sequence="100" value="Business Objects"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service / Tower" max_length="40" name="service_tower" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="LAN" sequence="200" value="LAN"/>
+                <element inactive_on_update="false" label="Conferencing" sequence="500" value="Conferencing"/>
+                <element inactive_on_update="false" label="WAN" sequence="100" value="WAN"/>
+                <element inactive_on_update="false" label="Transport" sequence="600" value="Transport"/>
+                <element inactive_on_update="false" label="SD-WAN" sequence="700" value="SD-WAN"/>
+                <element inactive_on_update="false" label="Security" sequence="400" value="Security"/>
+                <element inactive_on_update="false" label="Voice" sequence="300" value="Voice"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SLA credit submission tool" max_length="40" name="sla_credit_submission_tool" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RDS" sequence="300" value="RDS"/>
+                <element inactive_on_update="false" label="MDS" sequence="200" value="MDS"/>
+                <element inactive_on_update="false" label="group mailbox g04973@att.com" sequence="100" value="group mailbox g04973@att.com"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is Service Existing or New ?" max_length="15" name="existing_service" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="100" value="New"/>
+                <element inactive_on_update="false" label="Existing" sequence="100" value="Existing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="WEBSLM Development" max_length="15" name="webslm_development" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="USA" sequence="100" value="USA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SLA Reporting (SLA dashboard creation)" max_length="40" name="sla_reporting" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RPMC" sequence="100" value="RPMC"/>
+                <element inactive_on_update="false" label="Service Manager" sequence="200" value="Service Manager"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="SLA Manager" sequence="300" value="SLA Manager"/>
+            </choice>
+        </element>
+        <element label="Component Counts for AP" max_length="10" name="component_counts_ap" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ticket Scrubbing" max_length="40" name="ticket_scrubbing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SLA Manager" sequence="300" value="SLA Manager"/>
+                <element inactive_on_update="false" label="Service Manager" sequence="200" value="Service Manager"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="GSAM" sequence="100" value="GSAM"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Logical MACDs" max_length="40" name="logical_macds" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ADI Enablement" sequence="200" value="ADI Enablement"/>
+                <element inactive_on_update="false" label="Flexcare" sequence="400" value="Flexcare"/>
+                <element inactive_on_update="false" label="ADIG Enablement" sequence="300" value="ADIG Enablement"/>
+                <element inactive_on_update="false" label="AVPN Enablement" sequence="100" value="AVPN Enablement"/>
+            </choice>
+        </element>
+        <element label="Component Counts for EMEA" max_length="10" name="component_counts_emea" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Operational Reporting" max_length="40" name="operational_reporting" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Service Manager" sequence="300" value="Service Manager"/>
+                <element inactive_on_update="false" label="Reports Manager" sequence="200" value="Reports Manager"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="CLCM Team" sequence="100" value="CLCM Team"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Component Type" max_length="40" name="component_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="VPN Concentrator" sequence="2400" value="VPN Concentrator"/>
+                <element inactive_on_update="false" label="Load Balancer" sequence="1400" value="Load Balancer"/>
+                <element inactive_on_update="false" label="Voice Gateway" sequence="1600" value="Voice Gateway"/>
+                <element inactive_on_update="false" label="Wireless Controller" sequence="50" value="Wireless Controller"/>
+                <element inactive_on_update="false" label="WAN Accelerator" sequence="2600" value="WAN Accelerator"/>
+                <element inactive_on_update="false" label="Circuit" sequence="10" value="Circuit"/>
+                <element inactive_on_update="false" label="Switch" sequence="40" value="Switch"/>
+                <element inactive_on_update="false" label="VNF" sequence="1000" value="VNF"/>
+                <element inactive_on_update="false" label="Viptella Appliance" sequence="500" value="Viptella Appliance"/>
+                <element inactive_on_update="false" label="CPE" sequence="200" value="CPE"/>
+                <element inactive_on_update="false" label="DNS/DHCP" sequence="1300" value="DNS/DHCP"/>
+                <element inactive_on_update="false" label="Wireless Antenna" sequence="60" value="Wireless Antenna"/>
+                <element inactive_on_update="false" label="Firewall" sequence="80" value="Firewall"/>
+                <element inactive_on_update="false" label="NAC" sequence="2000" value="NAC"/>
+                <element inactive_on_update="false" label="Wireless Backup Device" sequence="2500" value="Wireless Backup Device"/>
+                <element inactive_on_update="false" label="Call Manager" sequence="1700" value="Call Manager"/>
+                <element inactive_on_update="false" label="Core Switch" sequence="1800" value="Core Switch"/>
+                <element inactive_on_update="false" label="-Unknown-" sequence="1500" value="-Unknown-"/>
+                <element inactive_on_update="false" label="Wireless Access Point" sequence="40" value="Wireless Access Point"/>
+                <element inactive_on_update="false" label="Wireless Backup Link" sequence="2700" value="Wireless Backup Link"/>
+                <element inactive_on_update="false" label="Router" sequence="30" value="Router"/>
+                <element inactive_on_update="false" label="Handset" sequence="800" value="Handset"/>
+                <element inactive_on_update="false" label="Access Switch" sequence="1100" value="Access Switch"/>
+                <element inactive_on_update="false" label="Call Recorder" sequence="100" value="Call Recorder"/>
+                <element inactive_on_update="false" label="Distribution Switch" sequence="700" value="Distribution Switch"/>
+                <element inactive_on_update="false" label="Cloud Based Security" sequence="1200" value="Cloud Based Security"/>
+                <element inactive_on_update="false" label="Flexware CPE" sequence="300" value="Flexware CPE"/>
+                <element inactive_on_update="false" label="Velocloud Appliance" sequence="2100" value="Velocloud Appliance"/>
+                <element inactive_on_update="false" label="Voicemail" sequence="2200" value="Voicemail"/>
+            </choice>
+        </element>
+        <element label="Component Counts for Japan" max_length="10" name="component_counts_japan" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SLA Reporting Platform (SLA Dashboard)" max_length="40" name="sla_reporting_platform" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No Reporting" sequence="300" value="No Reporting"/>
+                <element inactive_on_update="false" label="GESP" sequence="400" value="GESP"/>
+                <element inactive_on_update="false" label="Manual Reporting" sequence="200" value="Manual Reporting"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="WEBSLM" sequence="100" value="WEBSLM"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SLA Validation" max_length="40" name="sla_validation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="SLA Manager" sequence="300" value="SLA Manager"/>
+                <element inactive_on_update="false" label="RPMC" sequence="100" value="RPMC"/>
+                <element inactive_on_update="false" label="Service Manager" sequence="200" value="Service Manager"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Secondary Ticketing System" max_length="40" name="secondary_ticketing_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="BMP" sequence="200" value="BMP"/>
+                <element inactive_on_update="false" label="SalesForce" sequence="300" value="SalesForce"/>
+                <element inactive_on_update="false" label="Service Now" sequence="400" value="Service Now"/>
+                <element inactive_on_update="false" label="WFA" sequence="500" value="WFA"/>
+                <element inactive_on_update="false" label="AOTS" sequence="100" value="AOTS"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Physical MACDs" max_length="40" name="physical_macds" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NCR" sequence="400" value="NCR"/>
+                <element inactive_on_update="false" label="LEC" sequence="200" value="LEC"/>
+                <element inactive_on_update="false" label="AT&amp;T" sequence="100" value="AT&amp;T"/>
+                <element inactive_on_update="false" label="PTT" sequence="300" value="PTT"/>
+                <element inactive_on_update="false" label="Cisco" sequence="500" value="Cisco"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vendor" max_length="40" name="vendor" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NCR" sequence="400" value="NCR"/>
+                <element inactive_on_update="false" label="Infoblox" sequence="800" value="Infoblox"/>
+                <element inactive_on_update="false" label="Check Point" sequence="1100" value="Check Point"/>
+                <element inactive_on_update="false" label="Dell" sequence="700" value="Dell"/>
+                <element inactive_on_update="false" label="-Unknown-" sequence="1400" value="-Unknown-"/>
+                <element inactive_on_update="false" label="HP" sequence="1700" value="HP"/>
+                <element inactive_on_update="false" label="Meraki" sequence="1800" value="Meraki"/>
+                <element inactive_on_update="false" label="Juniper" sequence="1300" value="Juniper"/>
+                <element inactive_on_update="false" label="AT&amp;T" sequence="100" value="AT&amp;T"/>
+                <element inactive_on_update="false" label="IBM" sequence="300" value="IBM"/>
+                <element inactive_on_update="false" label="AVAYA" sequence="600" value="AVAYA"/>
+                <element inactive_on_update="false" label="Silver-Peak/Ciena" sequence="900" value="Silver-Peak/Ciena"/>
+                <element inactive_on_update="false" label="Zscaler" sequence="1000" value="Zscaler"/>
+                <element inactive_on_update="false" label="Viptella" sequence="500" value="Viptella"/>
+                <element inactive_on_update="false" label="Cisco" sequence="1600" value="Cisco"/>
+                <element inactive_on_update="false" label="Velocloud/VMware" sequence="1900" value="Velocloud/VMware"/>
+                <element inactive_on_update="false" label="Aruba" sequence="1500" value="Aruba"/>
+                <element inactive_on_update="false" label="Cradlepoint" sequence="200" value="Cradlepoint"/>
+                <element inactive_on_update="false" label="DSR" sequence="1200" value="DSR"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Calculate and submit SLA credits" max_length="40" name="calculate_and_submit_sla_credits" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RPMC" sequence="500" value="RPMC"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="SLA Manager" sequence="200" value="SLA Manager"/>
+                <element inactive_on_update="false" label="PLCM SLA Manager" sequence="100" value="PLCM SLA Manager"/>
+                <element inactive_on_update="false" label="Service Manager" sequence="400" value="Service Manager"/>
+                <element inactive_on_update="false" label="Business Manager" sequence="300" value="Business Manager"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Management/Monitoring Tier 2" max_length="40" name="management_monitoring_tier_2" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ADIG Center" sequence="300" value="ADIG Center"/>
+                <element inactive_on_update="false" label="ADI Center" sequence="200" value="ADI Center"/>
+                <element inactive_on_update="false" label="AVPN Center" sequence="100" value="AVPN Center"/>
+                <element inactive_on_update="false" label="Flexcare" sequence="400" value="Flexcare"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Software" max_length="40" name="software" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-Unknown-" sequence="300" value="-Unknown-"/>
+                <element inactive_on_update="false" label="Router VNF" sequence="200" value="Router VNF"/>
+                <element inactive_on_update="false" label="Firewall VNF" sequence="100" value="Firewall VNF"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SLA Support Team" max_length="40" name="rpmc" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Slovakia" sequence="200" value="Slovakia"/>
+                <element inactive_on_update="false" label="India" sequence="100" value="India"/>
+                <element inactive_on_update="false" label="USA" sequence="300" value="USA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Process SLA credits" max_length="40" name="process_sla_credits" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Billing OPS" sequence="100" value="Billing OPS"/>
+                <element inactive_on_update="false" label="Automated-ISOM" sequence="200" value="Automated-ISOM"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+            </choice>
+        </element>
+        <element label="Component Counts for USA" max_length="10" name="component_counts_usa" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Provide Plug-in Data (for manual SLA metrics)" max_length="40" name="provide_plug_in_data" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CLCM Team" sequence="100" value="CLCM Team"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="CLCM Team" max_length="40" name="clcm_team" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="India" sequence="100" value="India"/>
+                <element inactive_on_update="false" label="Slovakia" sequence="200" value="Slovakia"/>
+                <element inactive_on_update="false" label="USA" sequence="300" value="USA"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Geographic Location" max_length="40" name="geographic_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MOW" sequence="200" value="MOW"/>
+                <element inactive_on_update="false" label="USA" sequence="100" value="USA"/>
+                <element inactive_on_update="false" label="Global" sequence="300" value="Global"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RCA Reports" max_length="40" name="rca_reports" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="PLCM OPS" sequence="100" value="PLCM OPS"/>
+                <element inactive_on_update="false" label="Service Manager" sequence="300" value="Service Manager"/>
+                <element inactive_on_update="false" label="Reports Manager" sequence="200" value="Reports Manager"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stewardship Reviews" max_length="40" name="stewardship_reviews" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SLA Manager" sequence="300" value="SLA Manager"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="PLCM" sequence="100" value="PLCM"/>
+                <element inactive_on_update="false" label="Service Manager" sequence="200" value="Service Manager"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Billing OPS" max_length="40" name="billing_ops" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Slovakia" sequence="100" value="Slovakia"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Product Manager / NI Engagment Manager" max_length="40" name="product_manager_ni_engagment_manager" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Erin McDermott" sequence="300" value="Erin McDermott"/>
+                <element inactive_on_update="false" label="Andrea Pinches" sequence="100" value="Andrea Pinches"/>
+                <element inactive_on_update="false" label="John Derisi" sequence="500" value="John Derisi"/>
+                <element inactive_on_update="false" label="Duane Hattaway" sequence="400" value="Duane Hattaway"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Custom Request" max_length="32" name="custom_request" reference="x_attm_mysla_sla_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="AT&amp;T Product / NI" max_length="100" name="at_t_product_ni" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Networx Universal Network Based IP VPN Service" sequence="1800" value="Networx Universal Network Based IP VPN Service"/>
+                <element inactive_on_update="false" label="Video Conferencing - SE" sequence="2000" value="Video Conferencing - SE"/>
+                <element inactive_on_update="false" label="Unified Communications - Vendor Branded Services" sequence="9350" value="Unified Communications - Vendor Branded Services"/>
+                <element inactive_on_update="false" label="Hosting NI - Non-US Billed" sequence="15550" value="Hosting NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Unified Communications Voice - Non-US Billed" sequence="3050" value="Unified Communications Voice - Non-US Billed"/>
+                <element inactive_on_update="false" label="Optical Mesh Service" sequence="13350" value="Optical Mesh Service"/>
+                <element inactive_on_update="false" label="DS1 - State" sequence="9750" value="DS1 - State"/>
+                <element inactive_on_update="false" label="Solutions Products - Vendor Branded Services" sequence="12450" value="Solutions Products - Vendor Branded Services"/>
+                <element inactive_on_update="false" label="Software Defined WAN (SD-WAN) NI - OTHER" sequence="13650" value="Software Defined WAN (SD-WAN) NI - OTHER"/>
+                <element inactive_on_update="false" label="IP Toll-Free Service" sequence="8900" value="IP Toll-Free Service"/>
+                <element inactive_on_update="false" label="AT&amp;T Business Fiber (FBS) - SE" sequence="6050" value="AT&amp;T Business Fiber (FBS) - SE"/>
+                <element inactive_on_update="false" label="Local Trunks - W MW SW E" sequence="8100" value="Local Trunks - W MW SW E"/>
+                <element inactive_on_update="false" label="SDWAN-OTT (NCR Managed) Security" sequence="40" value="SDWAN-OTT (NCR Managed) Security"/>
+                <element inactive_on_update="false" label="Managed LAN Services" sequence="10150" value="Managed LAN Services"/>
+                <element inactive_on_update="false" label="Unified Communications Voice" sequence="1900" value="Unified Communications Voice"/>
+                <element inactive_on_update="false" label="International Private Line" sequence="15700" value="International Private Line"/>
+                <element inactive_on_update="false" label="Networx Universal Managed Firewall Service" sequence="4000" value="Networx Universal Managed Firewall Service"/>
+                <element inactive_on_update="false" label="Managed LAN" sequence="10100" value="Managed LAN"/>
+                <element inactive_on_update="false" label="Firewall Security Services - End Point Security" sequence="14000" value="Firewall Security Services - End Point Security"/>
+                <element inactive_on_update="false" label="Enterprise Hosting - Facilities and Connectivity - 50 to 99 Percent Managed - Non-US Billed" sequence="100" value="Enterprise Hosting - Facilities and Connectivity - 50 to 99 Percent Managed - Non-US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T Synaptic Storage as a Service" sequence="4900" value="AT&amp;T Synaptic Storage as a Service"/>
+                <element inactive_on_update="false" label="Wi-Fi - Enterprise" sequence="2150" value="Wi-Fi - Enterprise"/>
+                <element inactive_on_update="false" label="AT&amp;T Business Wi-Fi" sequence="6750" value="AT&amp;T Business Wi-Fi"/>
+                <element inactive_on_update="false" label="271 Line Split" sequence="15100" value="271 Line Split"/>
+                <element inactive_on_update="false" label="AT&amp;T WAN Acceleration" sequence="7200" value="AT&amp;T WAN Acceleration"/>
+                <element inactive_on_update="false" label="Enterprise Hosting - Facilities and Connectivity - 0 to 49 Percent Managed" sequence="2300" value="Enterprise Hosting - Facilities and Connectivity - 0 to 49 Percent Managed"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - Outsourcing - Non-US Billed" sequence="6200" value="AT&amp;T Consulting - Outsourcing - Non-US Billed"/>
+                <element inactive_on_update="false" label="Networx Universal Voice over IP Transport Service" sequence="4100" value="Networx Universal Voice over IP Transport Service"/>
+                <element inactive_on_update="false" label="VDNA on AVPN" sequence="10" value="VDNA on AVPN"/>
+                <element inactive_on_update="false" label="Frame Relay" sequence="11600" value="Frame Relay"/>
+                <element inactive_on_update="false" label="Managed Internet Service" sequence="9050" value="Managed Internet Service"/>
+                <element inactive_on_update="false" label="Cisco Hosted Collaboration Solutions from AT&amp;T - Non-US Billed" sequence="10600" value="Cisco Hosted Collaboration Solutions from AT&amp;T - Non-US Billed"/>
+                <element inactive_on_update="false" label="DSL - FastAccess Extreme 3.0 (3M)" sequence="2250" value="DSL - FastAccess Extreme 3.0 (3M)"/>
+                <element inactive_on_update="false" label="CPE - Non-US Billed" sequence="7700" value="CPE - Non-US Billed"/>
+                <element inactive_on_update="false" label="Beltway Outsourcing and Consulting" sequence="9400" value="Beltway Outsourcing and Consulting"/>
+                <element inactive_on_update="false" label="NIS Professional Services - CPE" sequence="14600" value="NIS Professional Services - CPE"/>
+                <element inactive_on_update="false" label="Managed Router Solutions NI" sequence="11250" value="Managed Router Solutions NI"/>
+                <element inactive_on_update="false" label="Unified Communications Voice Custom NI" sequence="4200" value="Unified Communications Voice Custom NI"/>
+                <element inactive_on_update="false" label="International Private Line NI - Non-US Billed" sequence="11950" value="International Private Line NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="IBM BlueSky LAN - Managed Services - Infrastructure Management" sequence="14300" value="IBM BlueSky LAN - Managed Services - Infrastructure Management"/>
+                <element inactive_on_update="false" label="DS0 - State" sequence="7850" value="DS0 - State"/>
+                <element inactive_on_update="false" label="Security - CPE" sequence="12300" value="Security - CPE"/>
+                <element inactive_on_update="false" label="Wireless Connectivity Option PVC Only 128K $99" sequence="4450" value="Wireless Connectivity Option PVC Only 128K $99"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - IT Service Management" sequence="6850" value="AT&amp;T Consulting - IT Service Management"/>
+                <element inactive_on_update="false" label="DSL - FastAccess Business DSL 6.0" sequence="1150" value="DSL - FastAccess Business DSL 6.0"/>
+                <element inactive_on_update="false" label="Security Event and Threat Analysis" sequence="12350" value="Security Event and Threat Analysis"/>
+                <element inactive_on_update="false" label="SDWAN-OTT (NCR Managed)" sequence="40" value="SDWAN-OTT (NCR Managed)"/>
+                <element inactive_on_update="false" label="Network Integration - Vendor Branded Services" sequence="3650" value="Network Integration - Vendor Branded Services"/>
+                <element inactive_on_update="false" label="1GB Data Pooling for Tablets 4G LTE $25" sequence="13800" value="1GB Data Pooling for Tablets 4G LTE $25"/>
+                <element inactive_on_update="false" label="Internet Protect with DDoS Defense" sequence="15750" value="Internet Protect with DDoS Defense"/>
+                <element inactive_on_update="false" label="Customer Premises Equipment - Non-US Billed" sequence="8750" value="Customer Premises Equipment - Non-US Billed"/>
+                <element inactive_on_update="false" label="Telepresence Solution - Non-US Billed" sequence="10300" value="Telepresence Solution - Non-US Billed"/>
+                <element inactive_on_update="false" label="GigaMAN - FCC" sequence="14100" value="GigaMAN - FCC"/>
+                <element inactive_on_update="false" label="AVPN Access NI (C-ILLE) - Non-US Billed" sequence="10" value="AVPN Access NI (C-ILLE) - Non-US Billed"/>
+                <element inactive_on_update="false" label="Consulting Essentials" sequence="9550" value="Consulting Essentials"/>
+                <element inactive_on_update="false" label="IPFlex on AVPN" sequence="10" value="IPFlex on AVPN"/>
+                <element inactive_on_update="false" label="Voice Over IP (VOIP) - Managed Internet Services" sequence="4350" value="Voice Over IP (VOIP) - Managed Internet Services"/>
+                <element inactive_on_update="false" label="Managed IP Telephony (MIPT)" sequence="9100" value="Managed IP Telephony (MIPT)"/>
+                <element inactive_on_update="false" label="Software Defined WAN (SD-WAN) NI - VeloCloud" sequence="16250" value="Software Defined WAN (SD-WAN) NI - VeloCloud"/>
+                <element inactive_on_update="false" label="P3PP AMEAP" sequence="14650" value="P3PP AMEAP"/>
+                <element inactive_on_update="false" label="Metro Ethernet - SE" sequence="7350" value="Metro Ethernet - SE"/>
+                <element inactive_on_update="false" label="IP Enabled Frame Relay" sequence="12050" value="IP Enabled Frame Relay"/>
+                <element inactive_on_update="false" label="SONET/OCX/Wavelength Services - OC48" sequence="16300" value="SONET/OCX/Wavelength Services - OC48"/>
+                <element inactive_on_update="false" label="FirstNet" sequence="12750" value="FirstNet"/>
+                <element inactive_on_update="false" label="AT&amp;T NetBond" sequence="7000" value="AT&amp;T NetBond"/>
+                <element inactive_on_update="false" label="Interactive Voice Services" sequence="14400" value="Interactive Voice Services"/>
+                <element inactive_on_update="false" label="IP Telephony" sequence="7950" value="IP Telephony"/>
+                <element inactive_on_update="false" label="Network Pull-through" sequence="3750" value="Network Pull-through"/>
+                <element inactive_on_update="false" label="SONET/OCX/Wavelength Services - OC12" sequence="15000" value="SONET/OCX/Wavelength Services - OC12"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - IT Transformation" sequence="4650" value="AT&amp;T Consulting - IT Transformation"/>
+                <element inactive_on_update="false" label="AT&amp;T Dedicated Internet" sequence="6950" value="AT&amp;T Dedicated Internet"/>
+                <element inactive_on_update="false" label="Customer Premise Equipment - VoIP CPE" sequence="10750" value="Customer Premise Equipment - VoIP CPE"/>
+                <element inactive_on_update="false" label="Networx Universal Premise Based IP VPN Service" sequence="2950" value="Networx Universal Premise Based IP VPN Service"/>
+                <element inactive_on_update="false" label="IP Toll-Free on AVPN - Non-US Billed" sequence="10" value="IP Toll-Free on AVPN - Non-US Billed"/>
+                <element inactive_on_update="false" label="DS0 - Voice Grade - SE" sequence="8800" value="DS0 - Voice Grade - SE"/>
+                <element inactive_on_update="false" label="IBM BlueSky WAN/MAN - Managed Services - Infrastructure Management" sequence="13050" value="IBM BlueSky WAN/MAN - Managed Services - Infrastructure Management"/>
+                <element inactive_on_update="false" label="CPE Maintenance - Outsourcing" sequence="9600" value="CPE Maintenance - Outsourcing"/>
+                <element inactive_on_update="false" label="AT&amp;T Switched Ethernet (ASE)" sequence="6400" value="AT&amp;T Switched Ethernet (ASE)"/>
+                <element inactive_on_update="false" label="Ethernet Switched Service - MAN" sequence="12700" value="Ethernet Switched Service - MAN"/>
+                <element inactive_on_update="false" label="AT&amp;T Collaborate" sequence="4550" value="AT&amp;T Collaborate"/>
+                <element inactive_on_update="false" label="IBM BlueSky - Custom Managed Services/Infrastructure Mgmt" sequence="13000" value="IBM BlueSky - Custom Managed Services/Infrastructure Mgmt"/>
+                <element inactive_on_update="false" label="Networx Universal Combined Service" sequence="1700" value="Networx Universal Combined Service"/>
+                <element inactive_on_update="false" label="Mobility" sequence="5200" value="Mobility"/>
+                <element inactive_on_update="false" label="Threat Manager - Log Analysis - NI" sequence="9300" value="Threat Manager - Log Analysis - NI"/>
+                <element inactive_on_update="false" label="Networx Managed-Tiered Security Service" sequence="3900" value="Networx Managed-Tiered Security Service"/>
+                <element inactive_on_update="false" label="Centrex - W MW SW E" sequence="8550" value="Centrex - W MW SW E"/>
+                <element inactive_on_update="false" label="Enterprise Routing Services - Intelligent Call Processing" sequence="13950" value="Enterprise Routing Services - Intelligent Call Processing"/>
+                <element inactive_on_update="false" label="AT&amp;T Secure Email Gateway - Non-US Billed" sequence="4850" value="AT&amp;T Secure Email Gateway - Non-US Billed"/>
+                <element inactive_on_update="false" label="Hosting NI" sequence="14250" value="Hosting NI"/>
+                <element inactive_on_update="false" label="Networx Universal Storage Service" sequence="1850" value="Networx Universal Storage Service"/>
+                <element inactive_on_update="false" label="Unified Communications Voice Standard NI" sequence="1950" value="Unified Communications Voice Standard NI"/>
+                <element inactive_on_update="false" label="AT&amp;T Secure Email Gateway" sequence="7050" value="AT&amp;T Secure Email Gateway"/>
+                <element inactive_on_update="false" label="AT&amp;T Synaptic Hosting" sequence="7100" value="AT&amp;T Synaptic Hosting"/>
+                <element inactive_on_update="false" label="IOT" sequence="14500" value="IOT"/>
+                <element inactive_on_update="false" label="Networx Universal Private Line Service" sequence="4050" value="Networx Universal Private Line Service"/>
+                <element inactive_on_update="false" label="Networx Universal Internet Protocol Service-MTIPS" sequence="1750" value="Networx Universal Internet Protocol Service-MTIPS"/>
+                <element inactive_on_update="false" label="Voice Over Enhanced VPN Service" sequence="2050" value="Voice Over Enhanced VPN Service"/>
+                <element inactive_on_update="false" label="Civilian Professional Svcs" sequence="7650" value="Civilian Professional Svcs"/>
+                <element inactive_on_update="false" label="Managed Multi-Service Networking" sequence="11200" value="Managed Multi-Service Networking"/>
+                <element inactive_on_update="false" label="AT&amp;T WAN Acceleration NI - Non-US Billed" sequence="6550" value="AT&amp;T WAN Acceleration NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Firewall Security Services - Premises-Based - UTM - NI" sequence="15300" value="Firewall Security Services - Premises-Based - UTM - NI"/>
+                <element inactive_on_update="false" label="IBM BlueSky Mainframe SNA Host" sequence="15600" value="IBM BlueSky Mainframe SNA Host"/>
+                <element inactive_on_update="false" label="Integrated Contact Services - Enterprise Routing Services" sequence="11900" value="Integrated Contact Services - Enterprise Routing Services"/>
+                <element inactive_on_update="false" label="Point-to-Point PL - OC-48 - FCC" sequence="15950" value="Point-to-Point PL - OC-48 - FCC"/>
+                <element inactive_on_update="false" label="Customer Premise Equipment - VoIP CPE - Services" sequence="7800" value="Customer Premise Equipment - VoIP CPE - Services"/>
+                <element inactive_on_update="false" label="SDWAN OTT (AT&amp;T ISD)" sequence="40" value="SDWAN OTT (AT&amp;T ISD)"/>
+                <element inactive_on_update="false" label="Enterprise Hosting - Facilities and Connectivity - 50 to 99 Percent Managed" sequence="3400" value="Enterprise Hosting - Facilities and Connectivity - 50 to 99 Percent Managed"/>
+                <element inactive_on_update="false" label="AT&amp;T Conferencing with Skype for Business - AT&amp;T Hosted" sequence="6100" value="AT&amp;T Conferencing with Skype for Business - AT&amp;T Hosted"/>
+                <element inactive_on_update="false" label="IP Flexible Reach LD" sequence="9800" value="IP Flexible Reach LD"/>
+                <element inactive_on_update="false" label="Security - Private IntraNet Protect" sequence="14850" value="Security - Private IntraNet Protect"/>
+                <element inactive_on_update="false" label="Unified Communications NI - Non-US Billed" sequence="4150" value="Unified Communications NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="MSS" sequence="6650" value="MSS"/>
+                <element inactive_on_update="false" label="Network Aggregation Services NI" sequence="6700" value="Network Aggregation Services NI"/>
+                <element inactive_on_update="false" label="Global Inbound Service" sequence="11650" value="Global Inbound Service"/>
+                <element inactive_on_update="false" label="Network Integration - Deployment - Non-US Billed" sequence="300" value="Network Integration - Deployment - Non-US Billed"/>
+                <element inactive_on_update="false" label="Networx Enterprise Managed Network Service" sequence="500" value="Networx Enterprise Managed Network Service"/>
+                <element inactive_on_update="false" label="Networx Universal Managed Network Service" sequence="700" value="Networx Universal Managed Network Service"/>
+                <element inactive_on_update="false" label="Business Access Line - W MW SW" sequence="9450" value="Business Access Line - W MW SW"/>
+                <element inactive_on_update="false" label="Toll Free Services" sequence="11300" value="Toll Free Services"/>
+                <element inactive_on_update="false" label="Consolidated Statement Service" sequence="8600" value="Consolidated Statement Service"/>
+                <element inactive_on_update="false" label="Enhanced VPN Services" sequence="50" value="Enhanced VPN Services"/>
+                <element inactive_on_update="false" label="Network Outsourcing - Custom Managed Services" sequence="400" value="Network Outsourcing - Custom Managed Services"/>
+                <element inactive_on_update="false" label="Networx Universal Call Center/Customer Contact Center" sequence="600" value="Networx Universal Call Center/Customer Contact Center"/>
+                <element inactive_on_update="false" label="Security - DDoS Defense" sequence="13550" value="Security - DDoS Defense"/>
+                <element inactive_on_update="false" label="AT&amp;T Private Cloud" sequence="6350" value="AT&amp;T Private Cloud"/>
+                <element inactive_on_update="false" label="ISDN-PRI - W MW SW E" sequence="9950" value="ISDN-PRI - W MW SW E"/>
+                <element inactive_on_update="false" label="911 AT&amp;T ESInet Services" sequence="12600" value="911 AT&amp;T ESInet Services"/>
+                <element inactive_on_update="false" label="ANIRA Express" sequence="45" value="ANIRA Express"/>
+                <element inactive_on_update="false" label="AT&amp;T Connect" sequence="6800" value="AT&amp;T Connect"/>
+                <element inactive_on_update="false" label="MSS WWAN SVC SOLUTION RETAIL Code:4109D" sequence="7400" value="MSS WWAN SVC SOLUTION RETAIL Code:4109D"/>
+                <element inactive_on_update="false" label="Network Collocation Service" sequence="3500" value="Network Collocation Service"/>
+                <element inactive_on_update="false" label="Network Integration - Contact Center - Non-US Billed" sequence="3550" value="Network Integration - Contact Center - Non-US Billed"/>
+                <element inactive_on_update="false" label="DS3 - State" sequence="7900" value="DS3 - State"/>
+                <element inactive_on_update="false" label="Customer Premise Equipment - Data CPE - Other Services" sequence="8700" value="Customer Premise Equipment - Data CPE - Other Services"/>
+                <element inactive_on_update="false" label="SDWAN Static Network Based (Formerly ANIRA)" sequence="40" value="SDWAN Static Network Based (Formerly ANIRA)"/>
+                <element inactive_on_update="false" label="Vendor Branded Services - Non-US Billed" sequence="900" value="Vendor Branded Services - Non-US Billed"/>
+                <element inactive_on_update="false" label="Contact Center - Vendor Branded Services" sequence="10650" value="Contact Center - Vendor Branded Services"/>
+                <element inactive_on_update="false" label="Customer Network Management Service" sequence="10700" value="Customer Network Management Service"/>
+                <element inactive_on_update="false" label="Unified Communications NI - Vendor Branded Services" sequence="800" value="Unified Communications NI - Vendor Branded Services"/>
+                <element inactive_on_update="false" label="Voice Over Managed Router Solutions" sequence="1000" value="Voice Over Managed Router Solutions"/>
+                <element inactive_on_update="false" label="Intrusion Detection" sequence="13200" value="Intrusion Detection"/>
+                <element inactive_on_update="false" label="Global Mobile Management - Non-US Billed" sequence="15450" value="Global Mobile Management - Non-US Billed"/>
+                <element inactive_on_update="false" label="Networx Enterprise Voice Service" sequence="2800" value="Networx Enterprise Voice Service"/>
+                <element inactive_on_update="false" label="Networx Universal Customer Specific Design and Engineering Service" sequence="2850" value="Networx Universal Customer Specific Design and Engineering Service"/>
+                <element inactive_on_update="false" label="AT&amp;T Wi-Fi Services" sequence="5850" value="AT&amp;T Wi-Fi Services"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - Project Management" sequence="6900" value="AT&amp;T Consulting - Project Management"/>
+                <element inactive_on_update="false" label="NIS Professional Services" sequence="13300" value="NIS Professional Services"/>
+                <element inactive_on_update="false" label="Hosted Integrated Contact Services" sequence="15500" value="Hosted Integrated Contact Services"/>
+                <element inactive_on_update="false" label="MRS" sequence="5950" value="MRS"/>
+                <element inactive_on_update="false" label="AT&amp;T Applications Traffic Analyzer" sequence="11450" value="AT&amp;T Applications Traffic Analyzer"/>
+                <element inactive_on_update="false" label="Secure IP - Remote Access" sequence="16100" value="Secure IP - Remote Access"/>
+                <element inactive_on_update="false" label="Network Functions on Demand - Non-US Billed" sequence="1300" value="Network Functions on Demand - Non-US Billed"/>
+                <element inactive_on_update="false" label="Network Outsourcing - Custom Managed Services" sequence="1500" value="Network Outsourcing - Custom Managed Services"/>
+                <element inactive_on_update="false" label="AT&amp;T UC Services - Non-US Billed" sequence="6450" value="AT&amp;T UC Services - Non-US Billed"/>
+                <element inactive_on_update="false" label="Global Mobile Management - NI" sequence="14150" value="Global Mobile Management - NI"/>
+                <element inactive_on_update="false" label="Network Integration - IP" sequence="1400" value="Network Integration - IP"/>
+                <element inactive_on_update="false" label="Networx Enterprise Network Based IP VPN Service" sequence="1600" value="Networx Enterprise Network Based IP VPN Service"/>
+                <element inactive_on_update="false" label="Telepresence NI - Non-US Billed" sequence="16350" value="Telepresence NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Beltway Managed Application Services - Non-US Billed" sequence="8450" value="Beltway Managed Application Services - Non-US Billed"/>
+                <element inactive_on_update="false" label="911 Next Generation 9-1-1 Call Handling" sequence="13850" value="911 Next Generation 9-1-1 Call Handling"/>
+                <element inactive_on_update="false" label="Networx Enterprise Voice over IP Transport Service" sequence="1650" value="Networx Enterprise Voice over IP Transport Service"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - Outsourcing" sequence="5450" value="AT&amp;T Consulting - Outsourcing"/>
+                <element inactive_on_update="false" label="SDWAN Network Based With VeloCloud" sequence="40" value="SDWAN Network Based With VeloCloud"/>
+                <element inactive_on_update="false" label="Premise Based Firewall - Non-US Billed" sequence="13400" value="Premise Based Firewall - Non-US Billed"/>
+                <element inactive_on_update="false" label="Voice Over Enhanced VPN Service - Non US Billed" sequence="3200" value="Voice Over Enhanced VPN Service - Non US Billed"/>
+                <element inactive_on_update="false" label="NetVPN - State Govt (FL, MS, SC)" sequence="6000" value="NetVPN - State Govt (FL, MS, SC)"/>
+                <element inactive_on_update="false" label="SDWAN OTT With VeloCloud" sequence="40" value="SDWAN OTT With VeloCloud"/>
+                <element inactive_on_update="false" label="ATM" sequence="6600" value="ATM"/>
+                <element inactive_on_update="false" label="Firewall Security Services - Premises-Based - UTM - NI - Non-US Billed" sequence="11550" value="Firewall Security Services - Premises-Based - UTM - NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Beltway Outsourcing and Consulting - Non-US Billed" sequence="10500" value="Beltway Outsourcing and Consulting - Non-US Billed"/>
+                <element inactive_on_update="false" label="Frame Relay (LD)" sequence="12800" value="Frame Relay (LD)"/>
+                <element inactive_on_update="false" label="OPT-E-Man" sequence="15900" value="OPT-E-Man"/>
+                <element inactive_on_update="false" label="AT&amp;T Network Based IP VPN Remote Access - Non-US Billed" sequence="4800" value="AT&amp;T Network Based IP VPN Remote Access - Non-US Billed"/>
+                <element inactive_on_update="false" label="Networx Universal Dedicated Hosting Service" sequence="3950" value="Networx Universal Dedicated Hosting Service"/>
+                <element inactive_on_update="false" label="Integrated Contact Services - Resource Manager" sequence="13100" value="Integrated Contact Services - Resource Manager"/>
+                <element inactive_on_update="false" label="Security Device Management" sequence="16150" value="Security Device Management"/>
+                <element inactive_on_update="false" label="CCS Add On" sequence="7600" value="CCS Add On"/>
+                <element inactive_on_update="false" label="USI Enterprise Application Management" sequence="3100" value="USI Enterprise Application Management"/>
+                <element inactive_on_update="false" label="T1 Access (M24) SINA" sequence="12500" value="T1 Access (M24) SINA"/>
+                <element inactive_on_update="false" label="Beltway Wireline Wireless LAN/WAN - Non-US Billed" sequence="8500" value="Beltway Wireline Wireless LAN/WAN - Non-US Billed"/>
+                <element inactive_on_update="false" label="ISDN-PRI - W MW SW" sequence="8950" value="ISDN-PRI - W MW SW"/>
+                <element inactive_on_update="false" label="Global Voice Services" sequence="14200" value="Global Voice Services"/>
+                <element inactive_on_update="false" label="IP-VPN" sequence="10950" value="IP-VPN"/>
+                <element inactive_on_update="false" label="Network Integration - Vendor Branded Services - Non-US Billed" sequence="350" value="Network Integration - Vendor Branded Services - Non-US Billed"/>
+                <element inactive_on_update="false" label="Networx Universal Internet Protocol Service" sequence="650" value="Networx Universal Internet Protocol Service"/>
+                <element inactive_on_update="false" label="AT&amp;T WAN Acceleration - Non-US Billed" sequence="5000" value="AT&amp;T WAN Acceleration - Non-US Billed"/>
+                <element inactive_on_update="false" label="FlexWare - Non-US Billed" sequence="30" value="FlexWare - Non-US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T Implementation Solutions - Network Deployment" sequence="5550" value="AT&amp;T Implementation Solutions - Network Deployment"/>
+                <element inactive_on_update="false" label="Customer Premise Equipment - Data CPE" sequence="7750" value="Customer Premise Equipment - Data CPE"/>
+                <element inactive_on_update="false" label="Enhanced Transport Services" sequence="3350" value="Enhanced Transport Services"/>
+                <element inactive_on_update="false" label="T1 Access (Non-M24)" sequence="13750" value="T1 Access (Non-M24)"/>
+                <element inactive_on_update="false" label="Managed Router Solutions - Non-US Billed" sequence="10200" value="Managed Router Solutions - Non-US Billed"/>
+                <element inactive_on_update="false" label="Network Functions on Demand" sequence="200" value="Network Functions on Demand"/>
+                <element inactive_on_update="false" label="-Select-" sequence="16200" value="-Select-"/>
+                <element inactive_on_update="false" label="Network Based Firewall - Non-US Billed" sequence="2400" value="Network Based Firewall - Non-US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T Network Based IP VPN Remote Access - US Billed" sequence="5600" value="AT&amp;T Network Based IP VPN Remote Access - US Billed"/>
+                <element inactive_on_update="false" label="Managed LAN NI" sequence="8250" value="Managed LAN NI"/>
+                <element inactive_on_update="false" label="IP Telephony and LAN - Non-US Billed" sequence="9850" value="IP Telephony and LAN - Non-US Billed"/>
+                <element inactive_on_update="false" label="Global Video Service" sequence="12900" value="Global Video Service"/>
+                <element inactive_on_update="false" label="FlexWare" sequence="30" value="FlexWare"/>
+                <element inactive_on_update="false" label="Networx Enterprise Combined Service" sequence="450" value="Networx Enterprise Combined Service"/>
+                <element inactive_on_update="false" label="Networx Enterprise Unified Message Service" sequence="550" value="Networx Enterprise Unified Message Service"/>
+                <element inactive_on_update="false" label="Business Internet Services" sequence="10550" value="Business Internet Services"/>
+                <element inactive_on_update="false" label="SDWAN Static OTT (Formerly AVTS)" sequence="40" value="SDWAN Static OTT (Formerly AVTS)"/>
+                <element inactive_on_update="false" label="IP Flexible Reach - FBB" sequence="14550" value="IP Flexible Reach - FBB"/>
+                <element inactive_on_update="false" label="Wi-Fi - Enterprise AWE" sequence="3300" value="Wi-Fi - Enterprise AWE"/>
+                <element inactive_on_update="false" label="Managed IP Telephony - Non-US Billed" sequence="8200" value="Managed IP Telephony - Non-US Billed"/>
+                <element inactive_on_update="false" label="IP Audio Conferencing Service - Restricted Global (Internal AT&amp;T Only)" sequence="15800" value="IP Audio Conferencing Service - Restricted Global (Internal AT&amp;T Only)"/>
+                <element inactive_on_update="false" label="hosted voice service - NI" sequence="12950" value="hosted voice service - NI"/>
+                <element inactive_on_update="false" label="Networx Universal SED" sequence="750" value="Networx Universal SED"/>
+                <element inactive_on_update="false" label="Web Security Services" sequence="1050" value="Web Security Services"/>
+                <element inactive_on_update="false" label="Enhanced VPN Services - Non US Billed" sequence="1200" value="Enhanced VPN Services - Non US Billed"/>
+                <element inactive_on_update="false" label="AVPN Access NI (C-ILLE)" sequence="10" value="AVPN Access NI (C-ILLE)"/>
+                <element inactive_on_update="false" label="GigaMAN - State" sequence="15400" value="GigaMAN - State"/>
+                <element inactive_on_update="false" label="Network Integration - Custom Wireless LAN/WAN" sequence="2500" value="Network Integration - Custom Wireless LAN/WAN"/>
+                <element inactive_on_update="false" label="AT&amp;T UC Services" sequence="5700" value="AT&amp;T UC Services"/>
+                <element inactive_on_update="false" label="Cisco Hosted Collaboration Solutions from AT&amp;T" sequence="9500" value="Cisco Hosted Collaboration Solutions from AT&amp;T"/>
+                <element inactive_on_update="false" label="AT&amp;T Maintenance Solutions" sequence="6300" value="AT&amp;T Maintenance Solutions"/>
+                <element inactive_on_update="false" label="Private Network Transport" sequence="16000" value="Private Network Transport"/>
+                <element inactive_on_update="false" label="Network Integration (NI)" sequence="2600" value="Network Integration (NI)"/>
+                <element inactive_on_update="false" label="Managed Voice Services NI" sequence="8350" value="Managed Voice Services NI"/>
+                <element inactive_on_update="false" label="Security NI - Vendor Branded Services" sequence="14900" value="Security NI - Vendor Branded Services"/>
+                <element inactive_on_update="false" label="Global TeleConference Service" sequence="11700" value="Global TeleConference Service"/>
+                <element inactive_on_update="false" label="ADI" sequence="20" value="ADI"/>
+                <element inactive_on_update="false" label="Unified Communications Voice Custom NI - Non-US Billed" sequence="850" value="Unified Communications Voice Custom NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Voice LD - Intl" sequence="950" value="Voice LD - Intl"/>
+                <element inactive_on_update="false" label="Managed Application Services NI - Non-US Billed" sequence="11050" value="Managed Application Services NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Enterprise Hosting Services" sequence="3450" value="Enterprise Hosting Services"/>
+                <element inactive_on_update="false" label="ADIG" sequence="11400" value="ADIG"/>
+                <element inactive_on_update="false" label="IP Flex" sequence="13250" value="IP Flex"/>
+                <element inactive_on_update="false" label="Networx Enterprise Ethernet Service" sequence="2700" value="Networx Enterprise Ethernet Service"/>
+                <element inactive_on_update="false" label="HOSTMACD" sequence="11800" value="HOSTMACD"/>
+                <element inactive_on_update="false" label="Network Integration - CPE - Non-US Billed" sequence="1350" value="Network Integration - CPE - Non-US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T Conferencing with Microsoft Lync - AT&amp;T Hosted" sequence="5350" value="AT&amp;T Conferencing with Microsoft Lync - AT&amp;T Hosted"/>
+                <element inactive_on_update="false" label="Network Based Firewall" sequence="7450" value="Network Based Firewall"/>
+                <element inactive_on_update="false" label="Internet Protect Service - My Internet Protect" sequence="14450" value="Internet Protect Service - My Internet Protect"/>
+                <element inactive_on_update="false" label="AVPN Managed" sequence="10" value="AVPN Managed"/>
+                <element inactive_on_update="false" label="Networx Enterprise Transport Agnostic BVOIP" sequence="3850" value="Networx Enterprise Transport Agnostic BVOIP"/>
+                <element inactive_on_update="false" label="AT&amp;T VPN Tunneling Services - Non-US Billed" sequence="6500" value="AT&amp;T VPN Tunneling Services - Non-US Billed"/>
+                <element inactive_on_update="false" label="Managed Application Services NI - CPE" sequence="10000" value="Managed Application Services NI - CPE"/>
+                <element inactive_on_update="false" label="Beltway Wireline Wireless LAN/WAN" sequence="7550" value="Beltway Wireline Wireless LAN/WAN"/>
+                <element inactive_on_update="false" label="Security NI" sequence="13600" value="Security NI"/>
+                <element inactive_on_update="false" label="Ultravailable Network" sequence="8400" value="Ultravailable Network"/>
+                <element inactive_on_update="false" label="IP Telephony and LAN" sequence="8850" value="IP Telephony and LAN"/>
+                <element inactive_on_update="false" label="Unified Communications NI" sequence="10400" value="Unified Communications NI"/>
+                <element inactive_on_update="false" label="Network Integration - VOIP" sequence="1450" value="Network Integration - VOIP"/>
+                <element inactive_on_update="false" label="Networx Enterprise Customer Specific Design and Engineering Service" sequence="1550" value="Networx Enterprise Customer Specific Design and Engineering Service"/>
+                <element inactive_on_update="false" label="Customized Switched Metro Ethernet Service" sequence="9700" value="Customized Switched Metro Ethernet Service"/>
+                <element inactive_on_update="false" label="SONET/OCX/Wavelength Services" sequence="13700" value="SONET/OCX/Wavelength Services"/>
+                <element inactive_on_update="false" label="Telepresence NI" sequence="15050" value="Telepresence NI"/>
+                <element inactive_on_update="false" label="IP Flexible Reach Local" sequence="10850" value="IP Flexible Reach Local"/>
+                <element inactive_on_update="false" label="Voice DNA" sequence="3150" value="Voice DNA"/>
+                <element inactive_on_update="false" label="ISDN-PRI - SE" sequence="8050" value="ISDN-PRI - SE"/>
+                <element inactive_on_update="false" label="Ethernet Access to MIS (EaMIS)" sequence="11500" value="Ethernet Access to MIS (EaMIS)"/>
+                <element inactive_on_update="false" label="AT&amp;T VPN" sequence="7150" value="AT&amp;T VPN"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - Advanced Infrastructure" sequence="5400" value="AT&amp;T Consulting - Advanced Infrastructure"/>
+                <element inactive_on_update="false" label="Premise Based Firewall" sequence="12150" value="Premise Based Firewall"/>
+                <element inactive_on_update="false" label="Networx Universal Transport Agnostic BVOIP" sequence="3000" value="Networx Universal Transport Agnostic BVOIP"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - Security" sequence="4700" value="AT&amp;T Consulting - Security"/>
+                <element inactive_on_update="false" label="AT&amp;T Dedicated Internet - Global - Non-US Billed" sequence="4750" value="AT&amp;T Dedicated Internet - Global - Non-US Billed"/>
+                <element inactive_on_update="false" label="AVPN Transport" sequence="10" value="AVPN Transport"/>
+                <element inactive_on_update="false" label="IBM BlueSky Security - Firewall" sequence="11850" value="IBM BlueSky Security - Firewall"/>
+                <element inactive_on_update="false" label="Voice Tone Service" sequence="2100" value="Voice Tone Service"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - Data Center" sequence="6150" value="AT&amp;T Consulting - Data Center"/>
+                <element inactive_on_update="false" label="Telepresence Solution" sequence="12550" value="Telepresence Solution"/>
+                <element inactive_on_update="false" label="Enterprise Hosting Services - 0 to 49 Percent Managed - Non-US Billed" sequence="150" value="Enterprise Hosting Services - 0 to 49 Percent Managed - Non-US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T Web Hosting - Virtual &amp; Managed Dedicated Server" sequence="7250" value="AT&amp;T Web Hosting - Virtual &amp; Managed Dedicated Server"/>
+                <element inactive_on_update="false" label="Managed Application Services NI" sequence="9000" value="Managed Application Services NI"/>
+                <element inactive_on_update="false" label="Wireless LAN Services" sequence="2200" value="Wireless LAN Services"/>
+                <element inactive_on_update="false" label="AT&amp;T Switched Ethernet - Network On Demand" sequence="5650" value="AT&amp;T Switched Ethernet - Network On Demand"/>
+                <element inactive_on_update="false" label="Global Managed Internet Service - Non-US Billed" sequence="12850" value="Global Managed Internet Service - Non-US Billed"/>
+                <element inactive_on_update="false" label="Internet Protect" sequence="13150" value="Internet Protect"/>
+                <element inactive_on_update="false" label="AT&amp;T Consulting - VPN and Network Transformation - Non-US Billed" sequence="5500" value="AT&amp;T Consulting - VPN and Network Transformation - Non-US Billed"/>
+                <element inactive_on_update="false" label="Implementation Solutions" sequence="15650" value="Implementation Solutions"/>
+                <element inactive_on_update="false" label="Managed Data Network Services" sequence="8150" value="Managed Data Network Services"/>
+                <element inactive_on_update="false" label="CPE - Outsourcing" sequence="8650" value="CPE - Outsourcing"/>
+                <element inactive_on_update="false" label="Network Integration - CPE" sequence="250" value="Network Integration - CPE"/>
+                <element inactive_on_update="false" label="Enterprise Hosting - Fully Managed - 100 Percent Managed Solution - Non-US Billed" sequence="2350" value="Enterprise Hosting - Fully Managed - 100 Percent Managed Solution - Non-US Billed"/>
+                <element inactive_on_update="false" label="IP Toll-Free on AVPN" sequence="10" value="IP Toll-Free on AVPN"/>
+                <element inactive_on_update="false" label="WANX" sequence="3250" value="WANX"/>
+                <element inactive_on_update="false" label="AT&amp;T VPN - Non-US Billed" sequence="4950" value="AT&amp;T VPN - Non-US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T WAN Acceleration NI" sequence="5800" value="AT&amp;T WAN Acceleration NI"/>
+                <element inactive_on_update="false" label="Managed Network VPN" sequence="8300" value="Managed Network VPN"/>
+                <element inactive_on_update="false" label="Wavelength Channel Service" sequence="4400" value="Wavelength Channel Service"/>
+                <element inactive_on_update="false" label="Managed LAN NI - Non-US Billed" sequence="9150" value="Managed LAN NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Network Integration - Business Continuity" sequence="2450" value="Network Integration - Business Continuity"/>
+                <element inactive_on_update="false" label="Network Integration - Non-US Billed" sequence="2550" value="Network Integration - Non-US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T VPN Tunneling Services" sequence="5750" value="AT&amp;T VPN Tunneling Services"/>
+                <element inactive_on_update="false" label="Local PL - STM-1" sequence="11000" value="Local PL - STM-1"/>
+                <element inactive_on_update="false" label="Network Integration - Deployment" sequence="3600" value="Network Integration - Deployment"/>
+                <element inactive_on_update="false" label="911 - CPE" sequence="11350" value="911 - CPE"/>
+                <element inactive_on_update="false" label="Wireless Data Services" sequence="1100" value="Wireless Data Services"/>
+                <element inactive_on_update="false" label="AT&amp;T WebEx Service - License" sequence="5050" value="AT&amp;T WebEx Service - License"/>
+                <element inactive_on_update="false" label="IBM BlueSky WAP - Managed Services - Infrastructure Management" sequence="14350" value="IBM BlueSky WAP - Managed Services - Infrastructure Management"/>
+                <element inactive_on_update="false" label="ANIRA Wireless Broadband" sequence="45" value="ANIRA Wireless Broadband"/>
+                <element inactive_on_update="false" label="Intl IP Enabled Frame Relay" sequence="12000" value="Intl IP Enabled Frame Relay"/>
+                <element inactive_on_update="false" label="Network Outsourcing - Non US Billed" sequence="2650" value="Network Outsourcing - Non US Billed"/>
+                <element inactive_on_update="false" label="AT&amp;T Dedicated Ethernet (ADE)" sequence="6250" value="AT&amp;T Dedicated Ethernet (ADE)"/>
+                <element inactive_on_update="false" label="Voice LD" sequence="4300" value="Voice LD"/>
+                <element inactive_on_update="false" label="Managed Voice Services NI - Non-US Billed" sequence="10250" value="Managed Voice Services NI - Non-US Billed"/>
+                <element inactive_on_update="false" label="Enterprise Hosting - Fully Managed - 100 Percent Managed Solution" sequence="1250" value="Enterprise Hosting - Fully Managed - 100 Percent Managed Solution"/>
+                <element inactive_on_update="false" label="Master Discount Agreement" sequence="5150" value="Master Discount Agreement"/>
+                <element inactive_on_update="false" label="Software Defined WAN (SD-WAN) NI - Non-US Billed - OTHER" sequence="12400" value="Software Defined WAN (SD-WAN) NI - Non-US Billed - OTHER"/>
+                <element inactive_on_update="false" label="Network Outsourcing" sequence="3700" value="Network Outsourcing"/>
+                <element inactive_on_update="false" label="Managed Internet Service - WHLS" sequence="10050" value="Managed Internet Service - WHLS"/>
+                <element inactive_on_update="false" label="EPLS-WAN" sequence="15250" value="EPLS-WAN"/>
+                <element inactive_on_update="false" label="AT&amp;T Business Fiber (FBS) - SE" sequence="5300" value="AT&amp;T Business Fiber (FBS) - SE"/>
+                <element inactive_on_update="false" label="Networx Universal Intrusion Detection and Prevention Service" sequence="2900" value="Networx Universal Intrusion Detection and Prevention Service"/>
+                <element inactive_on_update="false" label="Managed IP Network Service" sequence="11100" value="Managed IP Network Service"/>
+                <element inactive_on_update="false" label="Private Line - T3" sequence="14700" value="Private Line - T3"/>
+                <element inactive_on_update="false" label="Networx Enterprise Internet Protocol Service" sequence="3800" value="Networx Enterprise Internet Protocol Service"/>
+                <element inactive_on_update="false" label="Managed Router Solutions" sequence="9200" value="Managed Router Solutions"/>
+                <element inactive_on_update="false" label="Customer Premise Equipment - Voice (TDM) CPE" sequence="9650" value="Customer Premise Equipment - Voice (TDM) CPE"/>
+                <element inactive_on_update="false" label="Managed LAN - Non-US Billed" sequence="11150" value="Managed LAN - Non-US Billed"/>
+                <element inactive_on_update="false" label="IP Flexible Reach - Non-US Billed" sequence="15850" value="IP Flexible Reach - Non-US Billed"/>
+                <element inactive_on_update="false" label="N/a" sequence="5250" value="N/a"/>
+                <element inactive_on_update="false" label="Managed Voice Services NI - CPE" sequence="9250" value="Managed Voice Services NI - CPE"/>
+                <element inactive_on_update="false" label="Networx Enterprise Private Line Service" sequence="2750" value="Networx Enterprise Private Line Service"/>
+                <element inactive_on_update="false" label="ANIRA NI" sequence="45" value="ANIRA NI"/>
+                <element inactive_on_update="false" label="Software Defined WAN (SD-WAN) NI - OTHER" sequence="14950" value="Software Defined WAN (SD-WAN) NI - OTHER"/>
+                <element inactive_on_update="false" label="AT&amp;T Business DSL Internet Services - ADSL-SDSL" sequence="4500" value="AT&amp;T Business DSL Internet Services - ADSL-SDSL"/>
+                <element inactive_on_update="false" label="AT&amp;T Connect - Non-US Billed" sequence="4600" value="AT&amp;T Connect - Non-US Billed"/>
+                <element inactive_on_update="false" label="Toll Free Advanced Features for IPTF" sequence="10350" value="Toll Free Advanced Features for IPTF"/>
+                <element inactive_on_update="false" label="Hosted Voice over IP Solutions (FL)" sequence="11750" value="Hosted Voice over IP Solutions (FL)"/>
+                <element inactive_on_update="false" label="Beltway Managed Application Services" sequence="7500" value="Beltway Managed Application Services"/>
+                <element inactive_on_update="false" label="DecaMan - State - W MW SW E" sequence="10800" value="DecaMan - State - W MW SW E"/>
+                <element inactive_on_update="false" label="OPT-E-WAN" sequence="12100" value="OPT-E-WAN"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Primary Ticketing System (source of truth for SLAs)" max_length="40" name="primary_ticketing_system" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SalesForce" sequence="300" value="SalesForce"/>
+                <element inactive_on_update="false" label="Add new item" sequence="10000" value="Add new item"/>
+                <element inactive_on_update="false" label="AOTS" sequence="100" value="AOTS"/>
+                <element inactive_on_update="false" label="BMP" sequence="200" value="BMP"/>
+                <element inactive_on_update="false" label="Service Now" sequence="400" value="Service Now"/>
+                <element inactive_on_update="false" label="WFA" sequence="500" value="WFA"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="custom_request"/>
+        </index>
+    </element>
+</database>

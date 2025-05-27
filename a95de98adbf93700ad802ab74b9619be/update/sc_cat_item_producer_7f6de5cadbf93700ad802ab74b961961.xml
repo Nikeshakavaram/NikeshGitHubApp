@@ -2,7 +2,6 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type/>
         <active>true</active>
-        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -10,7 +9,6 @@
         <category/>
         <checked_out/>
         <cost>0</cost>
-        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
@@ -27,6 +25,7 @@
         <image/>
         <list_price>0</list_price>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -43,6 +42,7 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>

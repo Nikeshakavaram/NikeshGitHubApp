@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>kt784c@att.com</sys_created_by>
             <sys_created_on>2019-06-14 10:57:25</sys_created_on>
-            <sys_id>b6b0fadddbc6b3845067e33648961948</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Is this an RFP request that needs to be reviewed or are redlines are required?</sys_name>
             <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>

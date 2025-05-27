@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tag" table="x_attm_mysla_reporting_tools" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tag</element>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:23:46</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tag</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_reporting_tools_tag</sys_update_name>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:23:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ASE</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:23:46</sys_updated_on>
+            <value>ASE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integrated offers</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:23:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:23:56</sys_updated_on>
+            <value>Integrated offers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outsourcing</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:24:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:24:08</sys_updated_on>
+            <value>Outsourcing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WebEx IP Audio Conferencing</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:24:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:24:21</sys_updated_on>
+            <value>WebEx IP Audio Conferencing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MLAN</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:24:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:24:49</sys_updated_on>
+            <value>MLAN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VPN Managed</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:25:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:25:01</sys_updated_on>
+            <value>VPN Managed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VPN Transport</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:25:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:25:17</sys_updated_on>
+            <value>VPN Transport</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transport with MRS</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:25:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:25:31</sys_updated_on>
+            <value>Transport with MRS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADI</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:25:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:25:42</sys_updated_on>
+            <value>ADI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OPT-E-WAN</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:26:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:26:03</sys_updated_on>
+            <value>OPT_E_WAN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web and Audio Conferencing</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:26:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:26:36</sys_updated_on>
+            <value>Web_and_Audio_Conferencing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCS</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:26:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:26:51</sys_updated_on>
+            <value>PCS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Threshold Notification</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:27:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:27:06</sys_updated_on>
+            <value>Threshold_Notification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Threshold Alarming</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:27:20</sys_updated_on>
+            <value>Threshold_Alarming</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCS - Exception &amp; Forecast Analysis</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:27:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:27:47</sys_updated_on>
+            <value>pcs_forecase_analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCS - Traffic Analysis</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:28:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:28:08</sys_updated_on>
+            <value>pcs_traf_anal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCS - Performance SLAs</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:28:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:28:27</sys_updated_on>
+            <value>pcs_perfo_sla</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tag</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operational Reports</label>
+            <language>en</language>
+            <name>x_attm_mysla_reporting_tools</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>na571t@att.com</sys_created_by>
+            <sys_created_on>2019-09-27 09:28:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>na571t@att.com</sys_updated_by>
+            <sys_updated_on>2019-09-27 09:28:47</sys_updated_on>
+            <value>Operational_Reports</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

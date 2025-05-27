@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2f45d84bdb827300779c62eb8a961930" extends="task" label="Custom Request" max_length="40" name="x_attm_mysla_sla_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contract term" mandatory="true" max_length="40" name="contract_term" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="None" label="Type of labor restrictions" mandatory="true" max_length="40" name="type_of_labor_restrictions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AP(Asia Pacific)" sequence="0" value="AP"/>
+                <element inactive_on_update="false" label="CALA(Caribbean and Latin America)" sequence="1" value="CALA"/>
+                <element inactive_on_update="false" label="Canada" sequence="2" value="Canada"/>
+                <element inactive_on_update="false" label="EMEA(Europe, Middle East, Africa)" sequence="3" value="EMEA"/>
+                <element inactive_on_update="false" label="Japan" sequence="4" value="Japan"/>
+                <element inactive_on_update="false" label="USA" sequence="5" value="USA"/>
+                <element inactive_on_update="false" label="None" sequence="6" value="None"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Operational Architecture for" max_length="32" name="operational_architecture_for" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" choice="3" default="None" label="Independently submitted CSOPs affecting this solution" mandatory="true" max_length="4000" name="independently_submitted_csops_affecting_this_solution" type="glide_list">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ROME status" mandatory="true" max_length="40" name="rome_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending assignment" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Design documents started" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="Pending acceptance" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Price In Progress" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Waiting for approval" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Post sales support" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="Design documents completed" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Closed" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="Under review" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Contract in progress" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Final solution ready" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="Need more information" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Draft" sequence="11" value="12"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total opportunity value" mandatory="true" max_length="20" name="total_opportunity_value" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Accepted Date/Time" max_length="40" name="u_glide_accepted_date_time" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Customer for Proposed Services" mandatory="true" max_length="40" name="customer_for_indicated_services_is" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Existing" sequence="1" value="Existing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Products" max_length="1024" name="product_names" reference="u_product_type" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Transition Start Date" max_length="40" name="transition_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Transition Months" max_length="40" name="transition_months" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Contract Considerations" mandatory="true" max_length="100" name="contract_considerations" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Predefined Solution Operations Plan(s) (PSOPs) Do Not Apply" sequence="20" value="Operations_plan"/>
+                <element inactive_on_update="false" label="PSOPs Do Apply and those T&amp;Cs are not repeated here: please obtain from PSOP" sequence="10" value="T&amp;Cs_are_not_repeated_here"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Monthly Recurring Charges $" max_length="20" name="monthly_recurring_charges" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" dependent="reporting_assignment_group" dependent_on_field="reporting_assignment_group" label="Reporting Assigned To" max_length="32" name="reporting_assigned_to" reference="sys_user" reference_floats="true" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Signed Date" max_length="40" name="contract_signed_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="At Risk Amount" max_length="20" name="at_risk_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service status by product" mandatory="true" max_length="40" name="service_status_by_product" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Customer currently has this service; add new" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Customer new to service" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Change to existing service" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Contract renewal only" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Deal" max_length="32" name="deal" read_only="true" reference="x_attm_mydesign_engagement" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="GeCEP ID(Global electronic Customer Engagement Process)" max_length="40" name="gecep_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cycle Time" max_length="40" name="u_cycle_time" type="integer"/>
+        <element label="Other CSOP Details" max_length="100" name="other_csop_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sales channel" mandatory="true" max_length="40" name="sales_channel" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Outsourcing" sequence="3" value="Outsourcing"/>
+                <element inactive_on_update="false" label="Retail" sequence="0" value="Retail"/>
+                <element inactive_on_update="false" label="IBM" sequence="2" value="IBM"/>
+                <element inactive_on_update="false" label="DXC" sequence="1" value="DXC"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Probability of sale" mandatory="true" max_length="20" name="probability_of_sale" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Product 1-offs" max_length="1024" name="product_1_offs" reference="x_attm_mysla_customizations" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Costs" mandatory="true" max_length="40" name="costs" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PSOPs Do Apply and those costs are not captured below:  please obtain from PSOP" sequence="10" value="costs_are_not_captured_below"/>
+                <element inactive_on_update="false" label="Predefined Solution Operations Plan(s) (PSOPs) Do Not Apply" sequence="20" value="Operations_Plan_Do_Not_Apply"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="On Hold Reason" max_length="40" name="on_hold_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Deal ID" max_length="40" name="deal_id" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Migration Start Date" max_length="40" name="migration_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract End Date" max_length="40" name="contract_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Notes" max_length="4000" name="contract_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reporting Assignment Group" max_length="32" name="reporting_assignment_group" reference="sys_user_group" reference_qual="typeLIKE838f5dc2dbba3380c2da62eb8a9619a5^EQ" reference_qual_condition="typeLIKE838f5dc2dbba3380c2da62eb8a9619a5^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="GSI Partner" max_length="40" name="gsi_partner" type="string"/>
+        <element active="false" attributes="edge_encryption_enabled=true" label="Customizations" max_length="1024" name="customizations" reference="x_attm_mysla_customizations" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Complexity" max_length="32" name="complexity" read_only="true" reference="x_attm_mysla_complexity_form" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Affected Sites" mandatory="true" max_length="40" name="affected_sites_are" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="Existing" sequence="1" value="Existing"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="Both"/>
+            </choice>
+        </element>
+        <element label="Brief Summary of the custom requirements" max_length="1000" name="summary" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Negotiated Date" max_length="40" name="negotiated_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="MDS form" max_length="32" name="mds_form" read_only="true" reference="x_attm_mysla_mds_form" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer" mandatory="true" max_length="32" name="customer" read_only="true" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="SRID(Service Request)/WRID(Work Request)" mandatory="true" max_length="40" name="srid_wrid" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Due to Sales Date" max_length="40" name="due_to_sales_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Products" mandatory="true" max_length="1024" name="products" reference="u_product" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer alias" max_length="40" name="customer_alias" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="Total contract value (if different than ROME)" max_length="20" name="total_contract_value_if_different_than_rome" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments regarding BET number" max_length="120" name="additional_comments_regarding_bet_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SLAs" mandatory="true" max_length="40" name="slas" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No SLAs are to be provided" sequence="2" value="no_slas_provided"/>
+                <element inactive_on_update="false" label="SLA Exceptions (See associated related list)" sequence="4" value="sla_exceptions"/>
+                <element inactive_on_update="false" label="Custom SLA applies" sequence="3" value="custom_sla_applies"/>
+                <element inactive_on_update="false" label="No change or impact to existing SLAs" value="no_changes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Offers" max_length="1024" name="offers" reference="x_attm_mysla_offers" reference_qual="related_list=Offers^EQ" reference_qual_condition="related_list=Offers^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="At Risk Percentage" max_length="15" name="at_risk_percentage" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Start Date" max_length="40" name="contract_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Migration Months" max_length="40" name="migration_months" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Board Engagement Tool (BET #)" max_length="40" name="board_engagement_tool_bet" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity ID" mandatory="true" max_length="40" name="opportunity_id" read_only="true" type="string"/>
+        <element label="Region Details(temporary store)" max_length="1000" name="region_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is an SLA CSOP review call to be  hosted by the OAM required?" mandatory="true" max_length="40" name="is_an_sla_csop_review_call_to_be_hosted_by_the_oam_required" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Target Date" max_length="40" name="target_date" type="glide_date_time"/>
+        <element active="false" attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Reports" max_length="1024" name="reports" reference="x_attm_mysla_reports" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Owner ID" mandatory="true" max_length="40" name="opportunity_owner_id" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transition End Date" max_length="40" name="transition_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Migration End Date" max_length="40" name="migration_end_date" type="glide_date"/>
+        <element label="Additional Row(temporary details)" max_length="1000" name="additional_row_scoped_products" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Allocation Pool" max_length="15" name="allocation_pool" type="percent_complete"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true" label="EST SLA Contingency $" max_length="20" name="est_sla_contingency" type="currency"/>
+    </element>
+</database>

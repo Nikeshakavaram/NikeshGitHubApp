@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>additional_row_scoped_products</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>akmurugesan@kpmg.com</sys_created_by>
@@ -18,6 +20,9 @@
         <sys_updated_on>2019-10-01 11:47:51</sys_updated_on>
         <table>x_attm_mysla_sla_request</table>
         <ui_policy display_value="SLA - Hide fields onLoad">a13a640fdb067300779c62eb8a9619df</ui_policy>
+        <value/>
+        <value_action/>
         <visible>false</visible>
     </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc6aa610dbf63b40c2da62eb8a96192a"/>
 </record_update>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_attm_mysla_my_sla_cost_model_base" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_attm_mysla_my_sla_cost_model_base</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 13:49:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySLA">a95de98adbf93700ad802ab74b9619be</sys_scope>
+            <sys_update_name>sys_choice_x_attm_mysla_my_sla_cost_model_base_type</sys_update_name>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 13:49:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work Volume Benchmarks</label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model_base</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 13:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 13:50:10</sys_updated_on>
+            <value>work_volume_benchmarks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plug-in (Manual) Weighting</label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model_base</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 13:50:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-28 13:50:04</sys_updated_on>
+            <value>plug_in_manual_weighting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reporting Frequency Weighting</label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model_base</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-08-28 13:50:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-29 10:09:10</sys_updated_on>
+            <value>select_sla_delivery_frequency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Measurement Tools Weighting</label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model_base</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-08-29 11:07:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-29 11:08:37</sys_updated_on>
+            <value>select_complexity_of_mesurement_tools</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credit Management Weighting</label>
+            <language>en</language>
+            <name>x_attm_mysla_my_sla_cost_model_base</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>rr141k@att.com</sys_created_by>
+            <sys_created_on>2019-08-29 11:24:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>rr141k@att.com</sys_updated_by>
+            <sys_updated_on>2019-08-29 11:24:55</sys_updated_on>
+            <value>select_biller_s_for_credit_management</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

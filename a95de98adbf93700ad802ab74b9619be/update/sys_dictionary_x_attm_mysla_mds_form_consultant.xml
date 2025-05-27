@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>na571t@att.com</sys_created_by>
         <sys_created_on>2019-09-24 13:05:29</sys_created_on>
-        <sys_id>1c00ac5a1b88c0906aceb9d1cd4bcbda</sys_id>
         <sys_name>Consultant</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>

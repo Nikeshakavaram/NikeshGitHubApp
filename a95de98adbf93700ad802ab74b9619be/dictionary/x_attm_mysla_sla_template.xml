@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f67e9f7f1b7f37406aceb9d1cd4bcb79" extends="sys_template" label="SLA Template" max_length="40" name="x_attm_mysla_sla_template" type="collection">
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Parent" max_length="4000" name="u_parent" reference="x_attm_mysla_sla_template" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_condition_table" dependent_on_field="u_condition_table" label="Condition" max_length="4000" name="u_condition" type="conditions" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Predecessor" max_length="4000" name="u_predecessor" type="glide_list"/>
+        <element attributes="base_start=true,edge_encryption_enabled=true" default="x_attm_mysla_sla_request" label="Condition Table" max_length="80" name="u_condition_table" read_only="true" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Order" max_length="40" name="u_order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SLA" sequence="100" value="SLA"/>
+                <element inactive_on_update="false" label="Report" sequence="200" value="Report"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Mandatory" max_length="40" name="u_mandatory" type="boolean"/>
+    </element>
+</database>

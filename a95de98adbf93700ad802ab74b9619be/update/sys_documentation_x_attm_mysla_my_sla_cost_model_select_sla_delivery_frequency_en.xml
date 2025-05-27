@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>akavaramnikesh@kpmg.com</sys_created_by>
             <sys_created_on>2019-08-07 08:46:41</sys_created_on>
-            <sys_id>3da89cbedb837bc0c2da62eb8a9619b2</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Select SLA Delivery Frequency </sys_name>
             <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>

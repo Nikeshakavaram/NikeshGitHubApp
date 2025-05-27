@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad40f4ecdbca3b445067e336489619c7" label="SLA Documents" max_length="40" name="x_attm_mysla_sla_documents" type="collection">
+        <element attributes="edge_encryption_enabled=true,isOrder = true" label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Output Document(s) needed to satisfy this request" max_length="100" name="output_document_s_needed_to_satisfy_this_request" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Type" max_length="40" name="request_type" type="string"/>
+    </element>
+</database>

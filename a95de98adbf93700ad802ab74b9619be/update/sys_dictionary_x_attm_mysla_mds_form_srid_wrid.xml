@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kt784c@att.com</sys_created_by>
         <sys_created_on>2019-06-18 12:01:02</sys_created_on>
-        <sys_id>1da5e7ee1b4e77004b8685507e4bcb78</sys_id>
         <sys_name>SRID(Service Request)/WRID(Work Request)</sys_name>
         <sys_package display_value="MySLA" source="x_attm_mysla">a95de98adbf93700ad802ab74b9619be</sys_package>
         <sys_policy/>
